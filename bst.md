@@ -1,14 +1,18 @@
 ---
 layout: page
 title: Tree Deck
-description: When building a website it's helpful to see what the focus of your site is. This page is an example of how to show a website's focus.
+description:
 sitemap:
     priority: 1.0
     lastmod: 2017-11-02
     changefreq: weekly
 ---
-# Activities
+# Here's some information about the deck:
+![bst deck]({{site.baseurl}}/images/bst_deck.png)
 
+The sorted deck will consist of 69 cards, numbered with integers from 01-69. Our current design for these cards, as shown above in Figure 1, incorporates visual cues to reinforce proper sorting through a progression from green to red leaves as the numbers increase. Additionally, these cards can be overlapped on the corners to demonstrate insertion and removal algorithms for binary trees or heaps. We have begun development of a game where players are squirrels and must build a binary search tree while collecting acorns.
+
+# Activities
 * Sorting
   * Bubble Sort
   * Quicksort
@@ -21,4 +25,4 @@ sitemap:
 * Heaps
   * Insertion
   * Remove
-* [Before the Birds](/btb/)
+* [Before the Birds]({{site.baseurl}}/btb/)
