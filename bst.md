@@ -7,3 +7,18 @@ sitemap:
     lastmod: 2017-11-02
     changefreq: weekly
 ---
+# Activities
+
+* Sorting
+  * Bubble Sort
+  * Quicksort
+  * Insertion Sort
+* Modeling Binary Search Trees
+  * Insertion
+  * Remove
+  * Traversals
+  * Lookup
+* Heaps
+  * Insertion
+  * Remove
+* [Before the Birds](/btb/)
