@@ -2,6 +2,9 @@
   <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Theme Home</a></li>
   <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">About</a></li>
   <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">Blog</a></li>
+  <li class="{% if page.url contains '/bst/' %} active {% endif %}"><a href="{{ "/Tree Deck/" | absolute_url }}">Tree Deck</a></li>
+  <li class="{% if page.url contains '/hash/' %} active {% endif %}"><a href="{{ "/Hash Deck/" | absolute_url }}">Hash Deck</a></li>
+
 </ul>
 
 <ul class="icons">
