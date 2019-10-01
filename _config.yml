@@ -3,7 +3,7 @@ title:              CS2 MULCH
 bio:                'Physical Manipulates and Games for CS2 Data Structure Classrooms'
 description:        "Physical Manipulates and Games for CS2 Data Structure Classrooms"
 locale:             en_US
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/cs2mulch" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Comments
