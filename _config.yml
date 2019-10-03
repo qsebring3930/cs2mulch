@@ -1,7 +1,7 @@
 # Site
 title:              CS2 MULCH
-bio:                'Physical Manipulates and Games for CS2 Data Structure Classrooms'
-description:        "Physical Manipulates and Games for CS2 Data Structure Classrooms"
+bio:                'Physical Manipulatives and Games for CS2 Data Structure Classrooms'
+description:        "Physical Manipulatives and Games for CS2 Data Structure Classrooms"
 locale:             en_US
 baseurl: "/cs2mulch" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -17,12 +17,12 @@ instagram:          default
 github:             "mgoadric/cs2mulch"
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com # change this to your email to receive free emails for your contact submissions via Slapform.com
+location:           Conway, AR
+phone:              501-450-1367
+email:              goadrich@hendrix.edu # change this to your email to receive free emails for your contact submissions via Slapform.com
 
 # Other
-background_image:   /images/bg.jpg
+background_image:   /cs2mulch/images/bg.jpg
 # Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
 slapform_thankyou_page: /thank-you
 
