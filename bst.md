@@ -22,7 +22,7 @@ The sorted deck consists of 69 cards, numbered with integers from 01-69. Our cur
 
 * Sorting
   * Bubble Sort
-  * Quicksort
+  * [Quicksort]({{site.baseurl}}/bst/quicksort)
   * Insertion Sort
 * Modeling Binary Search Trees
   * Insertion

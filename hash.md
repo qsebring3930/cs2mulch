@@ -28,9 +28,12 @@ using a Bloom filter [16].
 * Tabletopia
 
 ## Activities:
-* Linear Hash Table
-* Linked Hash Table
-* Cuckoo Hash Table
+* Separate Chaining
+* Linear Probing
+* Quadratic Probing
+* Double Hashing
+* Perfect Hashing
+* Cuckoo Hashing
 * Bloom Filter
 * [Hash Game]({{site.baseurl}}/hashgame/)
 
