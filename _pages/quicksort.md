@@ -5,8 +5,6 @@ permalink: /tree/quicksort/
 
 ## Goals
 
-{% include figure image_path="/assets/images/unsplash-image-10.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}
-
 Students will understand elements of the quicksort algorithm, which uses a pivot element to recursively sort a deck of cards quickly.
 
 ## Materials

@@ -1,8 +1,10 @@
 ---
 layout: splash
-author_profile: true
 header:
-  - image: /assets/images/bg.png
+  overlay_color: "#000"
+  overlay_filter: "0.3"
+  overlay_image: /assets/images/bg.png
+excerpt: "A collection of physical manipulates and games to support teaching advanced data structure concepts in computer science."
 ---
 
 This project will develop engaging manipulatives specifically

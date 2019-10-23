@@ -20,7 +20,7 @@ title                    : "CS2 Mulch"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Mark Goadrich"
-description              : "An amazing website."
+description              : "Physical Manipulates and Games for CS2 Data Structure Classrooms"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/cs2mulch" # the subpath of your site, e.g. "/blog"
 repository               : "mgoadric/cs2mulch" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "CS2 Mulch"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Physical Manipulates and Games for CS2 Data Structure Classrooms"
   location         : "Hendrix College"
   email            :
   links:
