@@ -1,5 +1,9 @@
 # main links
 main:
+  - title: "Trees"
+    url: /tree/
+  - title: "Hash Tables"
+    url: /hash/
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"

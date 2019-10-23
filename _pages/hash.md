@@ -2,10 +2,8 @@
 title: Hash Deck
 permalink: /hash/
 ---
-<figure>
-  <img src="/cs2mulch/assets/images/hash_deck.png" alt="this is a placeholder image">
-  <figcaption>This is a figure caption.</figcaption>
-</figure>
+
+{% include figure image_path="/assets/images/hash_deck.png" alt="this is a placeholder image" caption="Sample cards from the hash deck." %}
 
 The hashed deck consists of 72 cards. 64 of these cards will display a name of
 an animal, along with two integers that are the result of passing this name
