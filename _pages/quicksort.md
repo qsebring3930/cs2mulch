@@ -1,6 +1,9 @@
 ---
 title: Quicksort Algorithm
 permalink: /tree/quicksort/
+toc: true
+sidebar:
+  nav: "tree"
 ---
 
 ## Goals
