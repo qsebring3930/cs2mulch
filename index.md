@@ -7,7 +7,7 @@ header:
 excerpt: "A collection of physical manipulates and games to support teaching advanced data structure concepts in computer science."
 ---
 
-This project is crating engaging manipulatives specifically
+This project is creating engaging manipulatives specifically
 developed for physically demonstrating concepts in advanced data
 structures. Instructors can use these tools to support
 lessons on sorting algorithms, binary search trees, heaps, sets,
