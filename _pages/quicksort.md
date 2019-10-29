@@ -12,8 +12,7 @@ Students will understand elements of the quicksort algorithm, which uses a pivot
 
 ## Materials
 
-1 Before the Birds deck consisting of 69 cards, each with a
-unique number from 01 to 69.
+One deck of [Before the Birds]({{site.baseurl}}/tree) cards.
 
 ## Setup
 

@@ -72,7 +72,7 @@ tree:
   - title: Binary Search Trees
     children:
       - title: "Insert"
-        url: /docs/posts/
+        url: /tree/insertion/
       - title: "Remove"
         url: /docs/pages/
       - title: "Lookup"
