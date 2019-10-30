@@ -74,11 +74,11 @@ tree:
       - title: "Insert"
         url: /tree/insertion/
       - title: "Remove"
-        url: /docs/pages/
+        url: /tree/remove/
       - title: "Lookup"
-        url: /docs/collections/
+        url: /tree/lookup/
       - title: "Traversals"
-        url: /docs/helpers/
+        url: /tree/traversal/
 
   - title: Heaps
     children:
