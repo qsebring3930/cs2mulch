@@ -25,7 +25,7 @@ form the initial **Ground**. Sort these Ground cards, *from lowest to highest*, 
 
 The remaining cards are discarded from the game.
 
-{% include figure image_path="/assets/images/ground.png" alt="this is a placeholder image" caption="Ground in 4-player game." %}
+{% include figure image_path="/assets/images/ground.png" alt="this is a placeholder image" caption="Sample initial Ground in 4-player game." %}
 
 ## Rules
 
@@ -39,7 +39,9 @@ The player who bid the *lowest* card collects the *lowest* Ground card, and must
 
 {% include figure image_path="/assets/images/turns.png" alt="this is a placeholder image" caption="Figure showing what player collects which card." %}
 
-After all Ground cards have been collected, take all the **bid cards** and sort them *from lowest to highest*. Place them in a row in the middle of the table to become the Ground for the *next round*.
+As a player collects a Ground card, they should replace it in the Ground with their **bid card**. In this way, the bid cards become the Ground for the *next round*.
+
+{% include figure image_path="/assets/images/newground.png" alt="this is a placeholder image" caption="New Ground for second round in 4-player game." %}
 
 ### Storage
 
