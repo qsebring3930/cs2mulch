@@ -29,24 +29,24 @@ hash:
   - title: "Hash Table Implementations"
     children:
       - title: "Separate Chaining"
-        url: /docs/quick-start-guide/
+        url: /hash/separate/
       - title: "Linear Probing"
-        url: /docs/quick-start-guide/
+        url: /hash/linear/
       - title: "Quadratic Probing"
-        url: /docs/quick-start-guide/
+        url: /hash/quadratic/
       - title: "Double Hashing"
-        url: /docs/quick-start-guide/
+        url: /hash/double/
       - title: "Perfect Hashing"
-        url: /docs/quick-start-guide/
+        url: /hash/perfect/
       - title: "Cuckoo Hashing"
-        url: /docs/quick-start-guide/
+        url: /hash/cuckoo/
       - title: "Bloom Filter"
-        url: /docs/quick-start-guide/
+        url: /hash/bloom/
 
   - title: "Games"
     children:
       - title: "Menagerie"
-        url: /docs/quick-start-guide/
+        url: /hash/menagerie/
 
 tree:
   - title: Tree Deck Resources
@@ -60,14 +60,16 @@ tree:
 
   - title: Sorting
     children:
+      - title: "Gnome Sort"
+        url: /tree/bubblesort/
       - title: "Bubble Sort"
-        url: /docs/configuration/
+        url: /tree/bubblesort/
       - title: "Insertion Sort"
-        url: /docs/navigation/
+        url: /tree/insertionsort/
       - title: "Quicksort"
         url: /tree/quicksort/
       - title: "Mergesort"
-        url: /docs/authors/
+        url: /tree/mergesort/
 
   - title: Binary Search Trees
     children:
@@ -83,9 +85,9 @@ tree:
   - title: Heaps
     children:
       - title: "Insertion"
-        url: /docs/stylesheets/
+        url: /tree/hinsertion/
       - title: "Remove"
-        url: /docs/javascript/
+        url: /tree/hremove/
 
   - title: Games
     children:

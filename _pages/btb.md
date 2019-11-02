@@ -108,7 +108,7 @@ The way acorns are stored in this game is called a [binary search tree](https://
 
 ## Acknowlegements
 
-Thanks to Laura Goadrich, Ryan Goadrich, the Little Rock Game Designers for graphic design advice, and to CSC234 students for early playtesting.
+Thanks to Laura Goadrich, Ryan Goadrich, Gabe Ferrer, the Little Rock Game Designers for graphic design advice, and to CSC 234 and CSCI 151 students for early playtesting.
 
 All images in this game were modified from models found at SVGRepo, licensed for use under CC BY 4.0.
 
