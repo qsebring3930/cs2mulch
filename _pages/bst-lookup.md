@@ -1,6 +1,6 @@
 ---
-title: Binary Search Tree Insertion Algorithm
-permalink: /tree/insertion/
+title: Binary Search Tree Lookup Algorithm
+permalink: /tree/lookup/
 toc: true
 sidebar:
   nav: "tree"
@@ -8,7 +8,7 @@ sidebar:
 
 ## Goals
 
-Students will understand elements of the insertion algorithm
+Students will understand elements of the lookup algorithm
 for binary search trees.
 
 ## Materials
@@ -47,7 +47,7 @@ below to find where to place it in the tree.
 
 ### Can I Place
 
-1. If a card is *found* where you are looking, **repeat the *Where
+1. If another card is *found* where you are looking, **repeat the *Where
   To Look* step again** with the *found* card becoming the *current*
   card next time around.
 
@@ -75,7 +75,7 @@ at the **upper-left** corner.
 There is no card in this corner, so we can **place the card**
 on this corner.
 
-{% include figure image_path="/assets/images/fulltree.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/bg.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 
 
 

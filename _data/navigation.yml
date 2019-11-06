@@ -77,8 +77,8 @@ tree:
         url: /tree/insertion/
       - title: "Remove"
         url: /tree/remove/
-      - title: "Lookup"
-        url: /tree/lookup/
+      - title: "Rotation"
+        url: /tree/rotation/
       - title: "Traversals"
         url: /tree/traversal/
 
