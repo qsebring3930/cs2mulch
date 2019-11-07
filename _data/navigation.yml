@@ -1,9 +1,11 @@
 # main links
 main:
-  - title: "Trees"
+  - title: "Acorns"
     url: /tree/
-  - title: "Hash Tables"
+  - title: "Menagerie"
     url: /hash/
+  - title: "About Us"
+    url: /about/
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
@@ -61,7 +63,7 @@ tree:
   - title: Sorting
     children:
       - title: "Gnome Sort"
-        url: /tree/bubblesort/
+        url: /tree/gnomesort/
       - title: "Bubble Sort"
         url: /tree/bubblesort/
       - title: "Insertion Sort"
@@ -77,14 +79,14 @@ tree:
         url: /tree/insertion/
       - title: "Remove"
         url: /tree/remove/
-      - title: "Rotation"
+      - title: "Rotations"
         url: /tree/rotation/
       - title: "Traversals"
         url: /tree/traversal/
 
   - title: Heaps
     children:
-      - title: "Insertion"
+      - title: "Insert"
         url: /tree/hinsertion/
       - title: "Remove"
         url: /tree/hremove/

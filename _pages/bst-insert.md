@@ -13,9 +13,9 @@ for binary search trees.
 
 ## Materials
 
-One deck of [Before the Birds]({{site.baseurl}}/tree) cards.
+One deck of [Acorn]({{site.baseurl}}/tree) cards.
 
-{% include figure image_path="/assets/images/bg.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+{% include figure image_path="/assets/images/bg.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
 
 ## Setup
 
