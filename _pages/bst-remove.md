@@ -70,25 +70,55 @@ both of which involve simple fixes to the tree.
 
 ## Example
 
-Remove 4
+### Remove 04
 
-{% include figure image_path="/assets/images/fulltree.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+Our first card to remove from the tree is 04. This card is highlighted in the
+image below.
 
-{% include figure image_path="/assets/images/fulltree.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/before4.png" alt="this is a placeholder image" caption="The 04 card
+is highlighted in red." %}
 
-Remove 57
+The 04 card is a **leaf** in our tree, so it can simply be removed without
+consequences, as shown below.
 
-{% include figure image_path="/assets/images/fulltree.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/removed4.png" alt="this is a placeholder image" caption="Tree
+after removal of the 04 card." %}
 
-{% include figure image_path="/assets/images/fulltree.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+### Remove 57
 
-Remove 25
+Next, we will remove the 57 card from the tree, highlighted below.
 
-{% include figure image_path="/assets/images/fulltree.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/before57.png" alt="this is a placeholder image" caption="The
+57 card is highlighted in red." %}
 
-{% include figure image_path="/assets/images/fulltree.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+The 57 card is in the middle of the tree with **one corner** covered. This
+means we can remove the card, and then shift the following cards back to take
+its place, as shown below.
+
+{% include figure image_path="/assets/images/removed57.png" alt="this is a placeholder image" caption="Tree
+after removal of the 57 card." %}
+
+### Remove 25
+
+Finally, we remove the 25 card, which is the root of the tree. This card
+is highlighted below.
+
+{% include figure image_path="/assets/images/before25.png" alt="this is a placeholder image" caption="The
+25 card is highlighted in red." %}
+
+Since this card is in the middle of the tree with **two corners** covered, we need to find the
+*next-highest card* in the tree. This is the 26 card, highlighted below in green. We find the
+26 by first looking at the *upper-right* corner of the 25 card, then repeatedly looking in the
+*upper-left* corner of each subsequent card until this corner is empty.
+
+{% include figure image_path="/assets/images/found26.png" alt="this is a placeholder image" caption="The
+next-highest card, 26, is highlighted in green." %}
+
+To complete the removal, we replace the 25 card with the 26 card, then resolve the
+removal of the 26. Since the 26 card had only **one corner** covered, we can shift
+the following cards back to take its place, as shown below.
+
+{% include figure image_path="/assets/images/removed25.png" alt="this is a placeholder image" caption="Tree
+after removal of the 25 card at the root." %}
 
 ## Exercises
-
-
-## Evaluation
