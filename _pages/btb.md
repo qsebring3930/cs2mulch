@@ -10,6 +10,9 @@ sidebar:
 
 In *Before The Birds*, players are squirrels collecting acorns for the winter. Players compete to collect acorns from the ground, looking for acorns that can be **efficiently stored** and will **ripen together**. The player with the best collection wins the game!
 
+* 3-8 Players
+* 10 Minutes
+
 ## Components
 
 69 acorn cards
@@ -110,6 +113,6 @@ The way acorns are stored in this game is called a [binary search tree](https://
 
 Thanks to Laura Goadrich, Ryan Goadrich, Gabe Ferrer, the Little Rock Game Designers for graphic design advice, and to CSC 234 and CSCI 151 students for early playtesting.
 
-All images in this game were modified from models found at SVGRepo, licensed for use under CC BY 4.0.
-
-https://creativecommons.org/licenses/by/4.0/
+All images in this game were modified from models found at
+[SVGRepo](https://www.svgrepo.com/), licensed for use under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
