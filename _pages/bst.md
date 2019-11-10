@@ -15,6 +15,9 @@ proper sorting through a progression from green to red as the numbers increase.
 Additionally, these cards can be overlapped on the corners to demonstrate
 insertion and removal algorithms for binary trees or heaps.
 
+{% include figure image_path="/assets/images/fulltree.png" alt="this is a placeholder image" caption="Demonstration
+of binary search tree." %}
+
 ## Licenses and Attributions
 
 Add information here
