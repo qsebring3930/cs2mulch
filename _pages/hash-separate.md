@@ -1,6 +1,6 @@
 ---
 title: Separate Chaining Insertion and Removal
-permalink: /hash/separate
+permalink: /hash/separate/
 toc: true
 sidebar:
   nav: "hash"
