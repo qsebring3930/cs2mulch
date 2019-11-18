@@ -24,7 +24,7 @@ hash:
       - title: "The Game Crafter"
         url: /docs/quick-start-guide/
       - title: "PNP"
-        url: /assets/pnp/pnp-BTB.pdf
+        url: /assets/pnp/pnp_Menagerie.pdf
       - title: "Tabletopia"
         url: /docs/installation/
 
@@ -56,7 +56,7 @@ tree:
       - title: "The Game Crafter"
         url: /docs/quick-start-guide/
       - title: "PNP"
-        url: /docs/structure/
+        url: /assets/pnp/pnp_BTB.pdf
       - title: "Tabletopia"
         url: /docs/installation/
 
