@@ -59,24 +59,127 @@ Continue until all cards have been placed.
 
 ## Example
 
-We start with the 9 cards shuffled and placed face-down to the left.
-
-{% include figure image_path="/assets/images/bg.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-The first card flipped up is the 25. Place this in front of you
+The first card flipped up is the **25**. Place this in front of you
 to become the *root*.
 
-{% include figure image_path="/assets/images/bg.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+{% include figure image_path="/assets/images/insert1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 
-The next card flipped up is the 18. We compare it to the *root*
-and determine that it is **less than** the root, so we look
+The next card flipped up is the **18**. We compare it to the *root*
+and determine that it is **less than** the *root*, so we look
 at the **upper-left** corner.
 
 There is no card in this corner, so we can **place the card**
 on this corner.
 
-{% include figure image_path="/assets/images/fulltree.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/insert2.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
 
+The next card flipped up is the **12**. We compare it to the *root*
+and determine that it is **less than** the *root*, so we look
+at the **upper-left** corner.
+
+We find the **18** in this corner, and this becomes our *current* card.
+We compare our original **12** to the *current* card
+and determine that it is **less than** the *current* card, so we look
+at the **upper-left** corner.
+
+There is no card in this corner, so we can **place the card**
+on this corner.
+
+{% include figure image_path="/assets/images/insert3.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+
+The next card flipped up is the **44**. We compare it to the *root*
+and determine that it is **greater than** the *root*, so we look
+at the **upper-right** corner.
+
+There is no card in this corner, so we can **place the card**
+on this corner.
+
+{% include figure image_path="/assets/images/insert4.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+
+The next card flipped up is the **26**. We compare it to the *root*
+and determine that it is **greater than** the *root*, so we look
+at the **upper-right** corner.
+
+We find the **44** in this corner, and this becomes our *current* card.
+We compare our original **26** to the *current* card
+and determine that it is **less than** the *current* card, so we look
+at the **upper-left** corner.
+
+There is no card in this corner, so we can **place the card**
+on this corner.
+
+{% include figure image_path="/assets/images/insert5.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+
+The next card flipped up is the **04**. We compare it to the *root*
+and determine that it is **less than** the *root*, so we look
+at the **upper-left** corner.
+
+We find the **18** in this corner, and this becomes our *current* card.
+We compare our original **04** to the *current* card
+and determine that it is **less than** the *current* card, so we look
+at the **upper-left** corner.
+
+We find the **12** in this corner, and this becomes our *current* card.
+We compare our original **04** to the *current* card
+and determine that it is **less than** the *current* card, so we look
+at the **upper-left** corner.
+
+There is no card in this corner, so we can **place the card**
+on this corner.
+
+{% include figure image_path="/assets/images/insert6.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+
+The next card flipped up is the **33**. We compare it to the *root*
+and determine that it is **greater than** the *root*, so we look
+at the **upper-right** corner.
+
+We find the **44** in this corner, and this becomes our *current* card.
+We compare our original **33** to the *current* card
+and determine that it is **less than** the *current* card, so we look
+at the **upper-left** corner.
+
+We find the **26** in this corner, and this becomes our *current* card.
+We compare our original **33** to the *current* card
+and determine that it is **greater than** the *current* card, so we look
+at the **upper-right** corner.
+
+There is no card in this corner, so we can **place the card**
+on this corner.
+
+{% include figure image_path="/assets/images/insert7.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+
+The next card flipped up is the **57**. We compare it to the *root*
+and determine that it is **greater than** the *root*, so we look
+at the **upper-right** corner.
+
+We find the **44** in this corner, and this becomes our *current* card.
+We compare our original **57** to the *current* card
+and determine that it is **greater than** the *current* card, so we look
+at the **upper-right** corner.
+
+There is no card in this corner, so we can **place the card**
+on this corner.
+
+{% include figure image_path="/assets/images/insert8.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+
+The next card flipped up is the **47**. We compare it to the *root*
+and determine that it is **greater than** the *root*, so we look
+at the **upper-right** corner.
+
+We find the **44** in this corner, and this becomes our *current* card.
+We compare our original **47** to the *current* card
+and determine that it is **greater than** the *current* card, so we look
+at the **upper-right** corner.
+
+We find the **57** in this corner, and this becomes our *current* card.
+We compare our original **47** to the *current* card
+and determine that it is **less than** the *current* card, so we look
+at the **upper-left** corner.
+
+There is no card in this corner, so we can **place the card**
+on this corner.
+
+{% include figure image_path="/assets/images/insert9.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
 
 
 ## Exercises
