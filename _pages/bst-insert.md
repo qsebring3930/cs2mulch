@@ -87,29 +87,6 @@ on this corner.
 
 {% include figure image_path="/assets/images/insert3.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
 
-The next card flipped up is the **44**. We compare it to the *root*
-and determine that it is **greater than** the *root*, so we look
-at the **upper-right** corner.
-
-There is no card in this corner, so we can **place the card**
-on this corner.
-
-{% include figure image_path="/assets/images/insert4.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
-
-The next card flipped up is the **26**. We compare it to the *root*
-and determine that it is **greater than** the *root*, so we look
-at the **upper-right** corner.
-
-We find the **44** in this corner, and this becomes our *current* card.
-We compare our original **26** to the *current* card
-and determine that it is **less than** the *current* card, so we look
-at the **upper-left** corner.
-
-There is no card in this corner, so we can **place the card**
-on this corner.
-
-{% include figure image_path="/assets/images/insert5.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
-
 The next card flipped up is the **04**. We compare it to the *root*
 and determine that it is **less than** the *root*, so we look
 at the **upper-left** corner.
@@ -127,7 +104,44 @@ at the **upper-left** corner.
 There is no card in this corner, so we can **place the card**
 on this corner.
 
+{% include figure image_path="/assets/images/insert4.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+
+The next card flipped up is the **44**. We compare it to the *root*
+and determine that it is **greater than** the *root*, so we look
+at the **upper-right** corner.
+
+There is no card in this corner, so we can **place the card**
+on this corner.
+
+{% include figure image_path="/assets/images/insert5.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+
+The next card flipped up is the **26**. We compare it to the *root*
+and determine that it is **greater than** the *root*, so we look
+at the **upper-right** corner.
+
+We find the **44** in this corner, and this becomes our *current* card.
+We compare our original **26** to the *current* card
+and determine that it is **less than** the *current* card, so we look
+at the **upper-left** corner.
+
+There is no card in this corner, so we can **place the card**
+on this corner.
+
 {% include figure image_path="/assets/images/insert6.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+
+The next card flipped up is the **57**. We compare it to the *root*
+and determine that it is **greater than** the *root*, so we look
+at the **upper-right** corner.
+
+We find the **44** in this corner, and this becomes our *current* card.
+We compare our original **57** to the *current* card
+and determine that it is **greater than** the *current* card, so we look
+at the **upper-right** corner.
+
+There is no card in this corner, so we can **place the card**
+on this corner.
+
+{% include figure image_path="/assets/images/insert7.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
 
 The next card flipped up is the **33**. We compare it to the *root*
 and determine that it is **greater than** the *root*, so we look
@@ -140,20 +154,6 @@ at the **upper-left** corner.
 
 We find the **26** in this corner, and this becomes our *current* card.
 We compare our original **33** to the *current* card
-and determine that it is **greater than** the *current* card, so we look
-at the **upper-right** corner.
-
-There is no card in this corner, so we can **place the card**
-on this corner.
-
-{% include figure image_path="/assets/images/insert7.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
-
-The next card flipped up is the **57**. We compare it to the *root*
-and determine that it is **greater than** the *root*, so we look
-at the **upper-right** corner.
-
-We find the **44** in this corner, and this becomes our *current* card.
-We compare our original **57** to the *current* card
 and determine that it is **greater than** the *current* card, so we look
 at the **upper-right** corner.
 

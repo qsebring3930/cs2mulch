@@ -21,56 +21,56 @@ main:
 hash:
   - title: "Hash Deck Resources"
     children:
-      - title: "The Game Crafter"
+      - title: "<s>The Game Crafter</s>"
         url: /docs/quick-start-guide/
       - title: "PNP"
         url: /assets/pnp/pnp_Menagerie.pdf
-      - title: "Tabletopia"
+      - title: "<s>Tabletopia</s>"
         url: /docs/installation/
 
   - title: "Hash Table Implementations"
     children:
       - title: "Separate Chaining"
         url: /hash/separate/
-      - title: "Linear Probing"
+      - title: "<s>Linear Probing</s>"
         url: /hash/linear/
-      - title: "Quadratic Probing"
+      - title: "<s>Quadratic Probing</s>"
         url: /hash/quadratic/
-      - title: "Double Hashing"
+      - title: "<s>Double Hashing</s>"
         url: /hash/double/
-      - title: "Perfect Hashing"
+      - title: "<s>Perfect Hashing</s>"
         url: /hash/perfect/
-      - title: "Cuckoo Hashing"
+      - title: "<s>Cuckoo Hashing</s>"
         url: /hash/cuckoo/
-      - title: "Bloom Filter"
+      - title: "<s>Bloom Filter</s>"
         url: /hash/bloom/
 
   - title: "Games"
     children:
-      - title: "Menagerie"
+      - title: "<s>Menagerie</s>"
         url: /hash/menagerie/
 
 tree:
   - title: Tree Deck Resources
     children:
-      - title: "The Game Crafter"
+      - title: "<s>The Game Crafter</s>"
         url: /docs/quick-start-guide/
       - title: "PNP"
         url: /assets/pnp/pnp_BTB.pdf
-      - title: "Tabletopia"
+      - title: "<s>Tabletopia</s>"
         url: /docs/installation/
 
   - title: Sorting
     children:
-      - title: "Gnome Sort"
+      - title: "<s>Gnome Sort</s>"
         url: /tree/gnomesort/
-      - title: "Bubble Sort"
+      - title: "<s>Bubble Sort</s>"
         url: /tree/bubblesort/
-      - title: "Insertion Sort"
+      - title: "<s>Insertion Sort</s>"
         url: /tree/insertionsort/
-      - title: "Quicksort"
+      - title: "<s>Quicksort</s>"
         url: /tree/quicksort/
-      - title: "Mergesort"
+      - title: "<s>Mergesort</s>"
         url: /tree/mergesort/
 
   - title: Binary Search Trees
@@ -79,16 +79,16 @@ tree:
         url: /tree/insertion/
       - title: "Remove"
         url: /tree/remove/
-      - title: "Rotations"
+      - title: "<s>Rotations</s>"
         url: /tree/rotation/
-      - title: "Traversals"
+      - title: "<s>Traversals</s>"
         url: /tree/traversal/
 
   - title: Heaps
     children:
-      - title: "Insert"
+      - title: "<s>Insert</s>"
         url: /tree/hinsertion/
-      - title: "Remove"
+      - title: "<s>Remove</s>"
         url: /tree/hremove/
 
   - title: Games

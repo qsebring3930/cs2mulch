@@ -10,9 +10,9 @@ sidebar:
 
 Students will understand elements of the quicksort algorithm, which uses a pivot element to recursively sort a deck of cards quickly.
 
-## Materials
+One deck of [Acorn]({{site.baseurl}}/tree) cards.
 
-One deck of [Before the Birds]({{site.baseurl}}/tree) cards.
+{% include figure image_path="/assets/images/bg.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
 
 ## Setup
 
