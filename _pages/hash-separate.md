@@ -31,6 +31,8 @@ in a face-down pile to their left.
 
 ## Algorithm
 
+Repeat these steps for each card in the face-down pile.
+
 Flip over a card from your face-down pile, to become the *face-up* card.
 To determined where
 the *face-up* card should be placed, look at the first number in gold background.

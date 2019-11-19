@@ -28,18 +28,23 @@ hash:
       - title: "<s>Tabletopia</s>"
         url: /docs/installation/
 
-  - title: "Hash Table Implementations"
+  - title: "Hash Table Insertion"
     children:
       - title: "Separate Chaining"
         url: /hash/separate/
-      - title: "<s>Linear Probing</s>"
+      - title: "Linear Probing"
         url: /hash/linear/
-      - title: "<s>Quadratic Probing</s>"
-        url: /hash/quadratic/
-      - title: "<s>Double Hashing</s>"
-        url: /hash/double/
-      - title: "<s>Perfect Hashing</s>"
-        url: /hash/perfect/
+      - title: "<s>Cuckoo Hashing</s>"
+        url: /hash/cuckoo/
+      - title: "<s>Bloom Filter</s>"
+        url: /hash/bloom/
+
+  - title: "Hash Table Deletion"
+    children:
+      - title: "<s>Separate Chaining</s>"
+        url: /hash/separate-del/
+      - title: "<s>Linear Probing</s>"
+        url: /hash/linear-del/
       - title: "<s>Cuckoo Hashing</s>"
         url: /hash/cuckoo/
       - title: "<s>Bloom Filter</s>"
@@ -90,6 +95,8 @@ tree:
         url: /tree/hinsertion/
       - title: "<s>Remove</s>"
         url: /tree/hremove/
+      - title: "<s>Sort</s>"
+        url: /tree/hsort/
 
   - title: Games
     children:
