@@ -11,10 +11,14 @@ This project is creating engaging manipulatives specifically
 developed for physically demonstrating concepts in advanced data
 structures. Instructors can use these tools to support
 lessons on sorting algorithms, binary search trees, heaps, sets,
-and hash tables. Two original decks of cards have been designed,
+and hash tables.
+
+Two original decks of cards ([Acorns]({{site.baseurl}}/tree) and
+[Menagerie]({{site.baseurl}}/hash))  have been designed,
 tested, and refined that can form the basis for interactive
 classroom games and collaborative peer exercises in CS2.
 
-These decks, along with lesson plans and supporting materials, are freely available, either for download and modification
+These decks, along with lesson plans and supporting materials,
+will be made freely available, either for download and modification
 through a Creative Commons license, or virtually through
-the online board game sandbox software Tabletopia.
+the online board game sandbox software [Tabletopia](https://tabletopia.com/).

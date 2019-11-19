@@ -6,8 +6,8 @@ main:
     url: /hash/
   - title: "About Us"
     url: /about/
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  #- title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
