@@ -79,19 +79,19 @@ The first card flipped *face-up* is the **Capybara**. This card hashes to
 **0**, so it is placed below the **0 number card**.
 
 {% include figure image_path="/assets/images/linear1.png" alt="this is a placeholder image" caption="Demonstration
-of linear probing hash table algorithm." %}
+of cuckoo hash table algorithm." %}
 
 The next card flipped *face-up* is the **Tarsier**. This card hashes to
 **3**, so it is placed below the **3 number card**.
 
 {% include figure image_path="/assets/images/linear2.png" alt="this is a placeholder image" caption="Demonstration
-of linear probing hash table algorithm." %}
+of cuckoo hash table algorithm." %}
 
 The next card flipped *face-up* is the **Baboon**. This card hashes to
 **5**, so it is placed below the **5 number card**.
 
 {% include figure image_path="/assets/images/linear3.png" alt="this is a placeholder image" caption="Demonstration
-of linear probing hash table algorithm." %}
+of cuckoo hash table algorithm." %}
 
 The next card flipped *face-up* is the **Okapi**. This card hashes to
 **3**, but the **Tarsier** card is currently below this location.
@@ -103,59 +103,59 @@ The **Tarsier** now hashes to **6**. We find that the space **above** is
 empty, so we place the **Tarsier** in this location.
 
 {% include figure image_path="/assets/images/cuckoo4.png" alt="this is a placeholder image" caption="Demonstration
-of linear probing hash table algorithm." %}
+of cuckoo hash table algorithm." %}
 
 **Hummingbird**
 
 {% include figure image_path="/assets/images/cuckoo5.png" alt="this is a placeholder image" caption="Demonstration
-of linear probing hash table algorithm." %}
+of cuckoo hash table algorithm." %}
 
 **Lyrebird**
 
 {% include figure image_path="/assets/images/cuckoo6.png" alt="this is a placeholder image" caption="Demonstration
-of linear probing hash table algorithm." %}
+of cuckoo hash table algorithm." %}
 
 **Shrimp**
 
 {% include figure image_path="/assets/images/cuckoo7.png" alt="this is a placeholder image" caption="Demonstration
-of linear probing hash table algorithm." %}
+of cuckoo hash table algorithm." %}
 
 **Lemur**
 
 {% include figure image_path="/assets/images/cuckoo8.png" alt="this is a placeholder image" caption="Demonstration
-of linear probing hash table algorithm." %}
+of cuckoo hash table algorithm." %}
 
 **Bison**
 
 {% include figure image_path="/assets/images/cuckoo9.png" alt="this is a placeholder image" caption="Demonstration
-of linear probing hash table algorithm." %}
+of cuckoo hash table algorithm." %}
 
 **Squid**
 
 {% include figure image_path="/assets/images/cuckoo10.png" alt="this is a placeholder image" caption="Demonstration
-of linear probing hash table algorithm." %}
+of cuckoo hash table algorithm." %}
 
 **Siamang**
 
 {% include figure image_path="/assets/images/cuckoo11-1.png" alt="this is a placeholder image" caption="Demonstration
-of linear probing hash table algorithm." %}
+of cuckoo hash table algorithm." %}
 
 {% include figure image_path="/assets/images/cuckoo11-2.png" alt="this is a placeholder image" caption="Demonstration
-of linear probing hash table algorithm." %}
+of cuckoo hash table algorithm." %}
 
 {% include figure image_path="/assets/images/cuckoo11-3.png" alt="this is a placeholder image" caption="Demonstration
-of linear probing hash table algorithm." %}
+of cuckoo hash table algorithm." %}
 
 {% include figure image_path="/assets/images/cuckoo11-4.png" alt="this is a placeholder image" caption="Demonstration
-of linear probing hash table algorithm." %}
+of cuckoo hash table algorithm." %}
 
 {% include figure image_path="/assets/images/cuckoo11-5.png" alt="this is a placeholder image" caption="Demonstration
-of linear probing hash table algorithm." %}
+of cuckoo hash table algorithm." %}
 
 **Pangolin**
 
 {% include figure image_path="/assets/images/cuckoo12.png" alt="this is a placeholder image" caption="Demonstration
-of linear probing hash table algorithm." %}
+of cuckoo hash table algorithm." %}
 
 ## Exercises
 
