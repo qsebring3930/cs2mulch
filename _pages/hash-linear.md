@@ -56,19 +56,19 @@ The first card flipped *face-up* is the **Capybara**. This card hashes to
 **0**, so it is placed under the **0 number card**.
 
 {% include figure image_path="/assets/images/linear1.png" alt="this is a placeholder image" caption="Demonstration
-of separate chaining hash table algorithm." %}
+of linear probing hash table algorithm." %}
 
 The next card flipped *face-up* is the **Tarsier**. This card hashes to
 **3**, so it is placed under the **3 number card**.
 
 {% include figure image_path="/assets/images/linear2.png" alt="this is a placeholder image" caption="Demonstration
-of separate chaining hash table algorithm." %}
+of linear probing hash table algorithm." %}
 
 The next card flipped *face-up* is the **Baboon**. This card hashes to
 **5**, so it is placed under the **5 number card**.
 
 {% include figure image_path="/assets/images/linear3.png" alt="this is a placeholder image" caption="Demonstration
-of separate chaining hash table algorithm." %}
+of linear probing hash table algorithm." %}
 
 The next card flipped *face-up* is the **Okapi**. This card hashes to
 **3**, but the **Capybara** card is currently in this location.
@@ -77,19 +77,19 @@ We look one to the *right* at the **4 number card**. We find that the space unde
 empty, so we place the **Okapi** in this location.
 
 {% include figure image_path="/assets/images/linear4.png" alt="this is a placeholder image" caption="Demonstration
-of separate chaining hash table algorithm." %}
+of linear probing hash table algorithm." %}
 
 The next card flipped *face-up* is the **Hummingbird**. This card hashes to
 **7**, so it is placed under the **7 number card**.
 
 {% include figure image_path="/assets/images/linear5.png" alt="this is a placeholder image" caption="Demonstration
-of separate chaining hash table algorithm." %}
+of linear probing hash table algorithm." %}
 
 The next card flipped *face-up* is the **Lyrebird**. This card hashes to
 **1**, so it is placed under the **1 number card**.
 
 {% include figure image_path="/assets/images/linear6.png" alt="this is a placeholder image" caption="Demonstration
-of separate chaining hash table algorithm." %}
+of linear probing hash table algorithm." %}
 
 The next card flipped *face-up* is the **Shrimp**. This card hashes to
 **7**, but the **Hummingbird** card is currently in this location.
@@ -103,7 +103,7 @@ We look one more to the *right*, at the **2 number card**. We find that the spac
 empty, so we place the **Shrimp** in this location.
 
 {% include figure image_path="/assets/images/linear7.png" alt="this is a placeholder image" caption="Demonstration
-of separate chaining hash table algorithm." %}
+of linear probing hash table algorithm." %}
 
 The next card flipped *face-up* is the **Lemur**. This card hashes to
 **2**, but the **Shrimp** card is currently in this location.
@@ -118,13 +118,13 @@ We look one more to the *right*, at the **6 number card**. We find that the spac
 empty, so we place the **Lemur** in this location.
 
 {% include figure image_path="/assets/images/linear8.png" alt="this is a placeholder image" caption="Demonstration
-of separate chaining hash table algorithm." %}
+of linear probing hash table algorithm." %}
 
 The last card flipped *face-up* is the **Bison**. At this point, there are no more open
 locations, so the **Bison** cannot be added to the hash table.
 
 {% include figure image_path="/assets/images/linear9.png" alt="this is a placeholder image" caption="Demonstration
-of separate chaining hash table algorithm." %}
+of linear probing hash table algorithm." %}
 
 ## Exercises
 

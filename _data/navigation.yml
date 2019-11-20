@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "Acorns"
+  - title: "Acorn"
     url: /tree/
   - title: "Menagerie"
     url: /hash/
@@ -19,32 +19,33 @@ main:
 
 
 hash:
-  - title: "Hash Deck Resources"
+  - title: "Menagerie Resources"
     children:
       - title: "<s>The Game Crafter</s>"
         url: /docs/quick-start-guide/
-      - title: "PNP"
-        url: /assets/pnp/pnp_Menagerie.pdf
       - title: "<s>Tabletopia</s>"
         url: /docs/installation/
+      - title: "PNP"
+        url: /assets/pnp/pnp_Menagerie.pdf
+      - title: "<s>Zip</s>"
+        url: /assets/pnp/Menagerie.zip
 
-  - title: "Hash Table Insertion"
+  - title: "Separate Chaining"
     children:
-      - title: "Separate Chaining"
+      - title: "Insertion"
         url: /hash/separate/
-      - title: "Linear Probing"
-        url: /hash/linear/
-      - title: "<s>Cuckoo Hashing</s>"
-        url: /hash/cuckoo/
-      - title: "<s>Bloom Filter</s>"
-        url: /hash/bloom/
-
-  - title: "Hash Table Deletion"
-    children:
-      - title: "<s>Separate Chaining</s>"
+      - title: "<s>Deletion</s>"
         url: /hash/separate-del/
-      - title: "<s>Linear Probing</s>"
+
+  - title: "Linear Probing"
+    children:
+      - title: "Insertion"
+        url: /hash/linear/
+      - title: "<s>Deletion</s>"
         url: /hash/linear-del/
+
+  - title: "Additional Hashing"
+    children:
       - title: "<s>Cuckoo Hashing</s>"
         url: /hash/cuckoo/
       - title: "<s>Bloom Filter</s>"
@@ -56,14 +57,16 @@ hash:
         url: /hash/menagerie/
 
 tree:
-  - title: Tree Deck Resources
+  - title: Acorn Resources
     children:
       - title: "<s>The Game Crafter</s>"
         url: /docs/quick-start-guide/
-      - title: "PNP"
-        url: /assets/pnp/pnp_BTB.pdf
       - title: "<s>Tabletopia</s>"
         url: /docs/installation/
+      - title: "PNP"
+        url: /assets/pnp/pnp_BTB.pdf
+      - title: "<s>Zip</s>"
+        url: /assets/pnp/Acorns.zip
 
   - title: Sorting
     children:
