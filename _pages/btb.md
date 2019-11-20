@@ -8,7 +8,10 @@ sidebar:
 
 ## Overview
 
-In *Before The Birds*, players are squirrels collecting acorns for the winter. Players compete to collect acorns from the ground, looking for acorns that can be **efficiently stored** and will **ripen together**. The player with the best collection wins the game!
+In *Before The Birds*, players are squirrels collecting acorns for
+the winter. Players compete to collect acorns from the ground, looking
+for acorns that can be **efficiently stored** and will **ripen together**.
+The player with the best collection wins the game!
 
 * 3-7 Players
 * 10 Minutes
@@ -21,10 +24,13 @@ One deck of [Acorn]({{site.baseurl}}/tree) cards.
 
 ## Initial Setup
 
-Shuffle the full deck of cards and **deal 9 cards** face-down to each player. These cards will be the player's **Hand**. Players may look at the cards in their Hand.
+Shuffle the full deck of cards and **deal 9 cards** face-down to
+each player. These cards will be the player's **Hand**. Players may
+look at the cards in their Hand.
 
 Turn **one card per player** face-up to
-form the initial **Ground**. Sort these Ground cards, *from lowest to highest*, and place them in a row in the middle of the table.
+form the initial **Ground**. Sort these Ground cards, *from lowest
+to highest*, and place them in a row in the middle of the table.
 
 The remaining cards are discarded from the game.
 

@@ -34,7 +34,7 @@ in a face-down pile to their left.
 Repeat these steps for each card in the face-down pile.
 
 Flip over a card from your face-down pile, to become the *face-up* card.
-To determined where
+To determine where
 the *face-up* card should be placed, look at the first number in gold background.
 This number is the result of passing the animal name through the
 [Murmur3](https://github.com/aappleby/smhasher) hash function, and
@@ -44,7 +44,7 @@ Now find the matching number card in the row. If the space below
 this number card is empty, then place the *face-up* card in this
 space below.
 
-However, if is already a card in the space below, place the *face-up*
+However, if there is already a card in the space below, place the *face-up*
 card directly below the *next available* number card, starting with
 the number to the *right* of the initial attempt. When you reach the end
 of the row of number cards, at the 7 card, start over again with
@@ -71,7 +71,7 @@ The next card flipped *face-up* is the **Baboon**. This card hashes to
 of linear probing hash table algorithm." %}
 
 The next card flipped *face-up* is the **Okapi**. This card hashes to
-**3**, but the **Capybara** card is currently in this location.
+**3**, but the **Tarsier** card is currently in this location.
 
 We look one to the *right* at the **4 number card**. We find that the space under is
 empty, so we place the **Okapi** in this location.

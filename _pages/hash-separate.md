@@ -34,7 +34,7 @@ in a face-down pile to their left.
 Repeat these steps for each card in the face-down pile.
 
 Flip over a card from your face-down pile, to become the *face-up* card.
-To determined where
+To determine where
 the *face-up* card should be placed, look at the first number in gold background.
 This number is the result of passing the animal name through the
 [Murmur3](https://github.com/aappleby/smhasher) hash function, and
@@ -66,7 +66,7 @@ The next card flipped *face-up* is the **Baboon**. This card hashes to
 of separate chaining hash table algorithm." %}
 
 The next card flipped *face-up* is the **Okapi**. This card *also* hashes to
-**3**, so it is placed under the **Capybara** card.
+**3**, so it is placed under the **Tarsier** card.
 
 {% include figure image_path="/assets/images/separate4.png" alt="this is a placeholder image" caption="Demonstration
 of separate chaining hash table algorithm." %}
