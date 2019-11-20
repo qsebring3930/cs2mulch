@@ -46,7 +46,7 @@ hash:
 
   - title: "Additional Hashing"
     children:
-      - title: "<s>Cuckoo Hashing</s>"
+      - title: "Cuckoo Hashing"
         url: /hash/cuckoo/
       - title: "<s>Bloom Filter</s>"
         url: /hash/bloom/
