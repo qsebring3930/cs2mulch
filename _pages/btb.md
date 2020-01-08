@@ -5,6 +5,7 @@ toc: true
 sidebar:
   nav: "tree"
 ---
+{% include figure image_path="/assets/images/BeforeTheBirdsLogo.png" alt="this is a placeholder image" %}
 
 ## Overview
 
