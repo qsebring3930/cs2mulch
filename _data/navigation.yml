@@ -74,7 +74,7 @@ tree:
         url: /tree/gnomesort/
       - title: "<s>Bubble Sort</s>"
         url: /tree/bubblesort/
-      - title: "<s>Insertion Sort</s>"
+      - title: "Insertion Sort"
         url: /tree/insertionsort/
       - title: "<s>Quicksort</s>"
         url: /tree/quicksort/
