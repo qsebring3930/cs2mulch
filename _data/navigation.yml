@@ -27,7 +27,7 @@ hash:
         url: /docs/installation/
       - title: "PNP"
         url: /assets/pnp/pnp_Menagerie.pdf
-      - title: "<s>Zip</s>"
+      - title: "<s>Image Zip</s>"
         url: /assets/pnp/Menagerie.zip
 
   - title: "Separate Chaining"
@@ -65,8 +65,8 @@ tree:
         url: /docs/installation/
       - title: "PNP"
         url: /assets/pnp/pnp_BTB.pdf
-      - title: "<s>Zip</s>"
-        url: /assets/pnp/Acorns.zip
+      - title: "Image Zip"
+        url: /assets/pnp/AcornDeck.zip
 
   - title: Sorting
     children:
