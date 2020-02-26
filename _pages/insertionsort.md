@@ -1,5 +1,5 @@
 ---
-title: Algorithm
+title: Insertion Sort Algorithm
 permalink: /tree/insertionsort/
 toc: true
 sidebar:
@@ -17,9 +17,9 @@ One deck of [Acorn]({{site.baseurl}}/tree) cards.
 
 ## Setup
 
-Shuffle the deck and deal each student 9 cards.
+Shuffle the deck and deal each student 8 cards.
 
-Each student will shuffle their 9 cards, and place them
+Each student will shuffle their 8 cards, and place them
 in a face-down *pile* in front of you.
 
 ## Algorithm
@@ -33,17 +33,19 @@ according to the following 3 steps.
 face-up to the right of the right-most card in the collection.
 
 2. If the two face-up cards are **in order**, such that the number of the left face-up
-card is less than the number in the right face-up card, then **flip both face-up cards face-down**. Return
-to step 1 if the are cards left in the *pile*.
+card is less than the number in the right face-up card, then **flip both face-up cards face-down**.
+If the are cards left in the *pile*, return
+to step 1, otherwise, you are done.
 
 3. However, if the two face-up cards are **out of order**, such that the number of the left face-up
 card is greater than the number in the right face-up card, then **swap** the two cards.
 
     1. If there is a face-down card to the left of the two face-up cards, then flip this card face-up,
-      flip the right face-up card face-down, and repeat Step 2.
+      flip the right face-up card face-down, and repeat step 2.
 
     2. Otherwise, **flip both cards face-down**.
-      Return to step 1 if the are cards left in the *pile*.
+    If the are cards left in the *pile*, return
+    to step 1, otherwise, you are done.
 
 When all the cards have been added to the *collection*, flip them all face-up. The cards
 should be in sorted order, with the smallest cards on the left and largest on the right.
@@ -56,35 +58,66 @@ should be in sorted order, with the smallest cards on the left and largest on th
 
 06
 
-{% include figure image_path="/assets/images/isort2.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+{% include figure image_path="/assets/images/isort2-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
 
-{% include figure image_path="/assets/images/isort3.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+{% include figure image_path="/assets/images/isort3-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
 
 47
 
-{% include figure image_path="/assets/images/isort4.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+{% include figure image_path="/assets/images/isort4-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
 
 54
 
-{% include figure image_path="/assets/images/isort5.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+{% include figure image_path="/assets/images/isort5-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
 
 29
 
-{% include figure image_path="/assets/images/isort6.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+{% include figure image_path="/assets/images/isort6-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
 
-{% include figure image_path="/assets/images/isort7.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+{% include figure image_path="/assets/images/isort7-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
 
-{% include figure image_path="/assets/images/isort8.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+{% include figure image_path="/assets/images/isort8-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
 
-{% include figure image_path="/assets/images/isort9.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+{% include figure image_path="/assets/images/isort9-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+
+{% include figure image_path="/assets/images/isort10-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
 
 35
 
+{% include figure image_path="/assets/images/isort11-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+
+{% include figure image_path="/assets/images/isort12-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+
+{% include figure image_path="/assets/images/isort13-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+
+{% include figure image_path="/assets/images/isort14-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+
+{% include figure image_path="/assets/images/isort15-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+
+
 67
+
+{% include figure image_path="/assets/images/isort16-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+
 
 41
 
-15
+{% include figure image_path="/assets/images/isort17-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+
+{% include figure image_path="/assets/images/isort18-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+
+{% include figure image_path="/assets/images/isort19-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+
+{% include figure image_path="/assets/images/isort20-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+
+{% include figure image_path="/assets/images/isort21-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+
+{% include figure image_path="/assets/images/isort22-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+
+{% include figure image_path="/assets/images/isort23-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+
+{% include figure image_path="/assets/images/isortfinal-0.png" alt="Sample cards from the Acorn deck." caption="First card, 25 face down." %}
+
 
 ## Exercises
 
