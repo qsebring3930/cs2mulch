@@ -1,0 +1,64 @@
+---
+title: Heap Insertion Algorithm
+permalink: /tree/hinsertion/
+toc: true
+sidebar:
+  nav: "tree"
+---
+
+## Goals
+
+Students will understand elements of the insertion algorithm
+for heaps.
+
+## Materials
+
+One deck of [Acorn]({{site.baseurl}}/tree) cards.
+
+{% include figure image_path="/assets/images/bg.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+## Setup
+
+Shuffle the deck and deal each student 9 cards.
+
+Each student will shuffle their 9 cards, and place them
+in a face-down pile to their left.
+
+## Algorithm
+
+Flip the top card face-up, and place this card directly
+in front of you. This card will be known as the *root* card.
+
+For the remaining cards, flip each one face-up in turn,
+calling it the *flipped* card. You will now insert this
+card into your heap at the next available spot for a *leaf*.
+
+### Where To Place
+
+The *flipped* card should be placed as close to the *root* as possible.
+
+Each card can only hold two *leaf* cards, one on the upper-left corner,
+and one on the upper-right corner. The upper-left corner is filled
+before the upper-right corner.
+
+Once the *flipped* card has been placed, repeat the step
+below until you have found where to place it in the tree.
+
+### Swap If Lower
+
+1. If the *flipped* card is **less than** the card below it in
+  the tree, **swap the two cards**.  repeat this check.
+
+Continue until all cards have been placed.
+
+## Example
+
+The first card flipped up is the **25**. Place this in front of you
+to become the *root*.
+
+{% include figure image_path="/assets/images/insert1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+## Exercises
+
+
+## Evaluation

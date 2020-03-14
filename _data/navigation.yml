@@ -23,8 +23,8 @@ hash:
     children:
       - title: "<s>The Game Crafter</s>"
         url: /docs/quick-start-guide/
-      - title: "<s>Tabletopia</s>"
-        url: /docs/installation/
+      - title: "Tabletopia"
+        url: "https://tabletopia.com/workshop/widget/cs2-mulch-4ppb1e/"
       - title: "PNP"
         url: /assets/pnp/pnp_Menagerie.pdf
       - title: "<s>Image Zip</s>"
@@ -61,8 +61,8 @@ tree:
     children:
       - title: "<s>The Game Crafter</s>"
         url: /docs/quick-start-guide/
-      - title: "<s>Tabletopia</s>"
-        url: /docs/installation/
+      - title: "Tabletopia"
+        url: "https://tabletopia.com/workshop/widget/cs2-mulch-4ppb1e/"
       - title: "PNP"
         url: /assets/pnp/pnp_BTB.pdf
       - title: "Image Zip"
