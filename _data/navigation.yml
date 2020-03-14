@@ -24,7 +24,7 @@ hash:
       - title: "<s>The Game Crafter</s>"
         url: /docs/quick-start-guide/
       - title: "Tabletopia"
-        url: "https://tabletopia.com/workshop/widget/cs2-mulch-4ppb1e/"
+        url: "https://tabletopia.com/playground/cs2-mulch-4ppb1e/play-now"
       - title: "PNP"
         url: /assets/pnp/pnp_Menagerie.pdf
       - title: "<s>Image Zip</s>"
@@ -62,7 +62,7 @@ tree:
       - title: "<s>The Game Crafter</s>"
         url: /docs/quick-start-guide/
       - title: "Tabletopia"
-        url: "https://tabletopia.com/workshop/widget/cs2-mulch-4ppb1e/"
+        url: "https://tabletopia.com/playground/cs2-mulch-4ppb1e/play-now"
       - title: "PNP"
         url: /assets/pnp/pnp_BTB.pdf
       - title: "Image Zip"
