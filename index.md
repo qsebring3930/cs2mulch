@@ -22,3 +22,5 @@ These decks, along with lesson plans and supporting materials,
 will be made freely available, either for download and modification
 through a Creative Commons license, or virtually through
 the online board game sandbox software [Tabletopia](https://tabletopia.com/).
+
+<iframe width="680" height="340" frameborder="0" allowtransparency="true" scrolling="no" src="https://tabletopia.com/workshop/widget/cs2-mulch-4ppb1e/680x340"></iframe>
