@@ -47,7 +47,7 @@ below until you have found where to place it in the tree.
 ### Swap If Lower
 
 1. If the *flipped* card is **less than** the card below it in
-  the tree, **swap the two cards**.  repeat this check.
+  the tree, **swap the two cards** and repeat this check.
 
 Continue until all cards have been placed.
 
