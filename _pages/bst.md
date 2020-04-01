@@ -21,6 +21,7 @@ of binary search tree." %}
 ## Licenses and Attributions
 
 The Acorn deck uses the [Acme](https://fonts.google.com/specimen/Acme) font.
+Layout and graphic design were done in [Component Studio](https://component.studio/).
 All images for this deck were adapted from images found at
 [SVGRepo](https://www.svgrepo.com/) and are licensed under
 [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/).
