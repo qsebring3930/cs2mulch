@@ -25,10 +25,10 @@ hash:
         url: /docs/quick-start-guide/
       - title: "Tabletopia"
         url: "https://tabletopia.com/playground/cs2-mulch-fq1guf/play-now"
-      - title: "PNP"
+      - title: "Print-N-Play"
         url: /assets/pnp/pnp_Menagerie.pdf
-      - title: "<s>Image Zip</s>"
-        url: /assets/pnp/Menagerie.zip
+      - title: "Image Zip"
+        url: /assets/pnp/MenagerieDeck.zip
 
   - title: "Separate Chaining"
     children:
@@ -63,8 +63,8 @@ tree:
         url: /docs/quick-start-guide/
       - title: "Tabletopia"
         url: "https://tabletopia.com/playground/cs2-mulch-fq1guf/play-now"
-      - title: "PNP"
-        url: /assets/pnp/pnp_BTB.pdf
+      - title: "Print-N-Play"
+        url: /assets/pnp/pnp_Acorn.pdf
       - title: "Image Zip"
         url: /assets/pnp/AcornDeck.zip
 
