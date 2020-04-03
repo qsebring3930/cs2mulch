@@ -94,7 +94,7 @@ tree:
 
   - title: Heaps
     children:
-      - title: "<s>Insert</s>"
+      - title: "Insert"
         url: /tree/hinsertion/
       - title: "<s>Remove</s>"
         url: /tree/hremove/
