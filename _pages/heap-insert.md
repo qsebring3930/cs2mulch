@@ -56,7 +56,23 @@ Continue until all cards have been placed.
 The first card flipped up is the **25**. Place this in front of you
 to become the *root*.
 
-{% include figure image_path="/assets/images/insert1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+{% include figure image_path="/assets/images/heap1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+{% include figure image_path="/assets/images/heap2.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+{% include figure image_path="/assets/images/heap3.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+{% include figure image_path="/assets/images/heap3-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+{% include figure image_path="/assets/images/heap4.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+{% include figure image_path="/assets/images/heap4-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+{% include figure image_path="/assets/images/heap5.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+{% include figure image_path="/assets/images/heap5-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+{% include figure image_path="/assets/images/heap5-2.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 
 ## Exercises
 

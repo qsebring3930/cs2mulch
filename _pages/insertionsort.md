@@ -50,7 +50,8 @@ card is greater than the number in the right face-up card, then **swap** the two
 When all the cards have been added to the *collection*, flip them all face-up. The cards
 should be in sorted order, with the smallest cards on the left and largest on the right.
 
-The cards in the *collection* are kept face-down as much as possible, and only two cards
+The cards in the *collection* are kept
+[face-down as much as possible](https://dl.acm.org/doi/10.1145/3287324.3293797), and only two cards
 are face-up at a time. This emphasizes the way computers need to use indices to walk
 through an array and compare the data at neighboring memory locations.
 
