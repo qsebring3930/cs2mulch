@@ -74,6 +74,24 @@ to become the *root*.
 
 {% include figure image_path="/assets/images/heap5-2.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 
+{% include figure image_path="/assets/images/heap6.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+{% include figure image_path="/assets/images/heap7.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+{% include figure image_path="/assets/images/heap7-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+{% include figure image_path="/assets/images/heap7-2.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+{% include figure image_path="/assets/images/heap8.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+{% include figure image_path="/assets/images/heap8-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+{% include figure image_path="/assets/images/heap9.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+{% include figure image_path="/assets/images/heap9-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+{% include figure image_path="/assets/images/heap9-2.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
 ## Exercises
 
 
