@@ -11,15 +11,15 @@ sidebar:
 Students will understand elements of the insertion algorithm
 for binary search trees.
 
+## Video
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//_VJ9a3sYsws' frameborder='0' allowfullscreen></iframe></div>
+
 ## Materials
 
 One deck of [Acorn]({{site.baseurl}}/tree) cards.
 
 {% include figure image_path="/assets/images/bg.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
-
-## Video
-
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//_VJ9a3sYsws' frameborder='0' allowfullscreen></iframe></div>
 
 ## Setup
 
