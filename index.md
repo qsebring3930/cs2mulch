@@ -23,4 +23,5 @@ will be made freely available, either for download and modification
 through a Creative Commons license, or virtually through
 the online board game sandbox software [Tabletopia](https://tabletopia.com/).
 
-<iframe width="680" height="340" frameborder="0" allowtransparency="true" scrolling="no" src="https://tabletopia.com/workshop/widget/cs2-mulch-fq1guf/680x340"></iframe>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'>
+<iframe frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" src="https://tabletopia.com/workshop/widget/cs2-mulch-fq1guf/680x340"></iframe></div>
