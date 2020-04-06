@@ -21,4 +21,5 @@ of separate chaining hash table algorithm." %}
 
 ## Licenses and Attributions
 
-Add Info Here
+Image attributions and licensing information for the 64 animal illustrations
+can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1IZpL3TmYkfJrRBt6q9KcWcKFp6knAR0JMdZYWejxzvo/edit?usp=sharing).
