@@ -21,5 +21,10 @@ of separate chaining hash table algorithm." %}
 
 ## Licenses and Attributions
 
-Image attributions and licensing information for the 64 animal illustrations
-can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1IZpL3TmYkfJrRBt6q9KcWcKFp6knAR0JMdZYWejxzvo/edit?usp=sharing).
+The Menagerie deck uses the [Hepta Slab](https://fonts.google.com/specimen/Hepta+Slab)
+and [Droid Sans](https://en.wikipedia.org/wiki/Droid_fonts) fonts.
+Layout and graphic design were done in [Adobe Illustrator](https://www.adobe.com/products/illustrator.html).
+
+This spreadsheet details the
+[image attributions and licensing information](https://docs.google.com/spreadsheets/d/1IZpL3TmYkfJrRBt6q9KcWcKFp6knAR0JMdZYWejxzvo/edit?usp=sharing)
+for the 64 animal illustrations.
