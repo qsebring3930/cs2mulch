@@ -35,16 +35,20 @@ card into your heap at the next available spot for a *leaf*.
 
 ### Where To Place
 
-The *flipped* card should be placed as close to the *root* as possible.
-
 Each card can only hold two *leaf* cards, one on the upper-left corner,
-and one on the upper-right corner. The upper-left corner is filled
+and one on the upper-right corner.
+
+The *flipped* card should be placed as as a leaf as close to the *root* as possible.
+When there are multiple possible cards with open corners for a leaf that
+are the same distance from the root, choose the *left-most* card.
+
+If a card has both corners empty, the upper-left corner is filled
 before the upper-right corner.
+
+### Swap If Lower
 
 Once the *flipped* card has been placed, repeat the step
 below until you have found where to place it in the tree.
-
-### Swap If Lower
 
 1. If the *flipped* card is **less than** the card below it in
   the tree, **swap the two cards** and repeat this check.
@@ -53,7 +57,7 @@ Continue until all cards have been placed.
 
 ## Example
 
-The first card flipped up is the **25**. Place this in front of you
+The first card flipped up is the **31**. Place this in front of you
 to become the *root*.
 
 {% include figure image_path="/assets/images/heap1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
