@@ -38,20 +38,22 @@ card into your heap at the next available spot for a *leaf*.
 Each card can only hold two *leaf* cards, one on the upper-left corner,
 and one on the upper-right corner.
 
-The *flipped* card should be placed as as a leaf as close to the *root* as possible.
-When there are multiple possible cards with open corners for a leaf that
-are the same distance from the root, choose the *left-most* card.
+The *flipped* card should be placed as a leaf as close to the *root* as possible.
+The card where it is placed will be called the *parent* card.
+When there are multiple possible parent cards with open corners for a leaf that
+are the same distance from the root, choose the *left-most* parent card.
 
-If a card has both corners empty, the upper-left corner is filled
+If the parent card has both corners empty, the *upper-left* corner is filled
 before the upper-right corner.
 
 ### Swap If Lower
 
-Once the *flipped* card has been placed, repeat the step
-below until you have found where to place it in the tree.
+Once the *flipped* card has been placed on a parent card, repeat the step
+below until you have found the final location in the tree.
 
-1. If the *flipped* card is **less than** the card below it in
-  the tree, **swap the two cards** and repeat this check.
+1. If the *flipped* card is the *root*, then stop.
+2. If the *flipped* card is **less than** the parent card below it in
+  the tree, **swap the two cards** and repeat the **Swap If Lower** steps.
 
 Continue until all cards have been placed.
 
@@ -62,11 +64,29 @@ to become the *root*.
 
 {% include figure image_path="/assets/images/heap1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 
+The next card flipped up is the **66**. This is placed on the only
+available parent **31**, and placed in the *upper-left* corner.
+
+**66** is
+greater than **31**, so there is no need to swap.
+
 {% include figure image_path="/assets/images/heap2.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+The next card flipped up is the **25**. This is placed on the closest
+card to the root, which is the root, making the parent **31**,
+and placed in the *upper-right* corner.
 
 {% include figure image_path="/assets/images/heap3.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 
+**25** is
+*less* than **31**, so there we need to swap. After the swap, **25** is the root, so
+we stop swapping.
+
 {% include figure image_path="/assets/images/heap3-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+The next card flipped up is the **48**. There are two
+available parents, **66** and **31**. **66** is the left-most and is
+chosen as the parent. **48** is placed in the *upper-left* corner.
 
 {% include figure image_path="/assets/images/heap4.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 
