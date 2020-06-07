@@ -1,6 +1,6 @@
 ---
-title: Heap Insertion Algorithm
-permalink: /tree/hinsertion/
+title: Heap Removal Algorithm
+permalink: /tree/hremove/
 toc: true
 sidebar:
   nav: "tree"
@@ -8,7 +8,7 @@ sidebar:
 
 ## Goals
 
-Students will understand elements of the insertion algorithm
+Students will understand elements of the removal algorithm
 for heaps.
 
 ## Materials
@@ -21,8 +21,11 @@ One deck of [Acorn]({{site.baseurl}}/tree) cards.
 
 Shuffle the deck and deal each student 9 cards.
 
-Each student will shuffle their 9 cards, and place them
-in a face-down pile to their left.
+Each student will shuffle their 9 cards, and then create a
+heap as demonstrated on the
+[insertion algorithm]({{site.baseurl}}/tree/hinsertion) page.
+
+{% include figure image_path="/assets/images/heap9-2.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 
 ## Algorithm
 
@@ -31,16 +34,16 @@ in front of you. This card will be known as the *root* card.
 
 For the remaining cards, flip each one face-up in turn,
 calling it the *flipped* card. You will now insert this
-card into your heap at the next available spot for a *child*.
+card into your heap at the next available spot for a *leaf*.
 
 ### Where To Place
 
-Each card can only hold two *children* cards, one on the upper-left corner,
+Each card can only hold two *leaf* cards, one on the upper-left corner,
 and one on the upper-right corner.
 
-The *flipped* card should be placed as a child as close to the *root* as possible.
+The *flipped* card should be placed as a leaf as close to the *root* as possible.
 The card where it is placed will be called the *parent* card.
-When there are multiple possible parent cards with open corners for a child that
+When there are multiple possible parent cards with open corners for a leaf that
 are the same distance from the root, choose the *left-most* parent card.
 
 If the parent card has both corners empty, the *upper-left* corner is filled

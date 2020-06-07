@@ -67,6 +67,8 @@ tree:
         url: /assets/pnp/pnp_Acorn.pdf
       - title: "Image Zip"
         url: /assets/pnp/AcornDeck.zip
+      - title: "Tree Lexicon"
+        url: /tree/lexicon/
 
   - title: Sorting
     children:
