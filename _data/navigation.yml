@@ -98,7 +98,7 @@ tree:
     children:
       - title: "Insert"
         url: /tree/hinsertion/
-      - title: "<s>Remove</s>"
+      - title: "Remove"
         url: /tree/hremove/
       - title: "<s>Sort</s>"
         url: /tree/hsort/

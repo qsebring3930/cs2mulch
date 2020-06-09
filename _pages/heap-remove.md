@@ -25,99 +25,38 @@ Each student will shuffle their 9 cards, and then create a
 heap as demonstrated on the
 [insertion algorithm]({{site.baseurl}}/tree/hinsertion) page.
 
-{% include figure image_path="/assets/images/heap9-2.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+{% include figure image_path="/assets/images/heap9-2.png" alt="this is a placeholder image" caption="Sample heap
+created by heap insertion algorithm." %}
 
 ## Algorithm
 
-Flip the top card face-up, and place this card directly
-in front of you. This card will be known as the *root* card.
+This algorithm will remove smallest card in the heap, which is at the *root*, while
+maintaining the heap property that every *parent* is smaller than its *children*.
 
-For the remaining cards, flip each one face-up in turn,
-calling it the *flipped* card. You will now insert this
-card into your heap at the next available spot for a *leaf*.
+A card is a *leaf* if it has no *children* in the upper-left or upper-right corners.
 
-### Where To Place
+Find the cards with *level* equal to the *height* of the tree. These will be
+the furthest away from the *root* of the tree. Find the right-most of these cards,
+which we will call the *selected* card.
 
-Each card can only hold two *leaf* cards, one on the upper-left corner,
-and one on the upper-right corner.
+Swap the *selected* with the *root* card.
 
-The *flipped* card should be placed as a leaf as close to the *root* as possible.
-The card where it is placed will be called the *parent* card.
-When there are multiple possible parent cards with open corners for a leaf that
-are the same distance from the root, choose the *left-most* parent card.
+Now, repeat the **Swap If Higher** section below for as long as needed to find the
+correct location for the *selected* card in the heap.
 
-If the parent card has both corners empty, the *upper-left* corner is filled
-before the upper-right corner.
+Once this is complete, you can remove the card which used to be the root.
 
-### Swap If Lower
+### Swap If Higher
 
-Once the *flipped* card has been placed on a parent card, repeat the step
-below until you have found the final location in the tree.
+Once the *selected* card has swapped with the *root* card, repeat the step
+below until you have found the final location of the *selected* card in the tree.
 
-1. If the *flipped* card is the *root*, then stop.
-2. If the *flipped* card is **less than** the parent card below it in
-  the tree, **swap the two cards** and repeat the **Swap If Lower** steps.
-
-Continue until all cards have been placed.
+1. If the *selected* card is a *leaf*, then stop.
+2. If the *selected* card is **greater than** any of its *child* cards,
+swap the *selected* card with the *largest* child card and repeat the **Swap If Higher** steps.
 
 ## Example
 
-The first card flipped up is the **31**. Place this in front of you
-to become the *root*.
-
-{% include figure image_path="/assets/images/heap1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-The next card flipped up is the **66**. This is placed on the only
-available parent **31**, and placed in the *upper-left* corner.
-
-**66** is
-greater than **31**, so there is no need to swap.
-
-{% include figure image_path="/assets/images/heap2.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-The next card flipped up is the **25**. This is placed on the closest
-card to the root, which is the root, making the parent **31**,
-and placed in the *upper-right* corner.
-
-{% include figure image_path="/assets/images/heap3.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-**25** is
-*less* than **31**, so there we need to swap. After the swap, **25** is the root, so
-we stop swapping.
-
-{% include figure image_path="/assets/images/heap3-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-The next card flipped up is the **48**. There are two
-available parents, **66** and **31**. **66** is the left-most and is
-chosen as the parent. **48** is placed in the *upper-left* corner.
-
-{% include figure image_path="/assets/images/heap4.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-{% include figure image_path="/assets/images/heap4-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-{% include figure image_path="/assets/images/heap5.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-{% include figure image_path="/assets/images/heap5-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-{% include figure image_path="/assets/images/heap5-2.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-{% include figure image_path="/assets/images/heap6.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-{% include figure image_path="/assets/images/heap7.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-{% include figure image_path="/assets/images/heap7-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-{% include figure image_path="/assets/images/heap7-2.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-{% include figure image_path="/assets/images/heap8.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-{% include figure image_path="/assets/images/heap8-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-{% include figure image_path="/assets/images/heap9.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-{% include figure image_path="/assets/images/heap9-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
-
-{% include figure image_path="/assets/images/heap9-2.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 
 ## Exercises
 
