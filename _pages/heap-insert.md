@@ -11,6 +11,8 @@ sidebar:
 Students will understand elements of the insertion algorithm
 for heaps.
 
+## Video
+
 ## Materials
 
 One deck of [Acorn]({{site.baseurl}}/tree) cards.
@@ -41,7 +43,7 @@ and one on the upper-right corner.
 The *flipped* card should be placed as a child as close to the *root* as possible.
 The card where it is placed will be called the *parent* card.
 When there are multiple possible parent cards with open corners for a child that
-are the same distance from the root, choose the *left-most* parent card.
+at the same *level*, choose the *left-most* parent card.
 
 If the parent card has both corners empty, the *upper-left* corner is filled
 before the upper-right corner.

@@ -11,6 +11,8 @@ sidebar:
 Students will understand elements of the removal algorithm
 for heaps.
 
+## Video
+
 ## Materials
 
 One deck of [Acorn]({{site.baseurl}}/tree) cards.
@@ -32,8 +34,6 @@ created by heap insertion algorithm." %}
 
 This algorithm will remove smallest card in the heap, which is at the *root*, while
 maintaining the heap property that every *parent* is smaller than its *children*.
-
-A card is a *leaf* if it has no *children* in the upper-left or upper-right corners.
 
 Find the cards with *level* equal to the *height* of the tree. These will be
 the furthest away from the *root* of the tree. Find the right-most of these cards,
