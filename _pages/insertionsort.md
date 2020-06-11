@@ -6,6 +6,8 @@ sidebar:
   nav: "tree"
 ---
 
+## Goals
+
 Students will understand elements of the insertion sort algorithm, which incrementally
 adds cards and swaps them into sorted order.
 

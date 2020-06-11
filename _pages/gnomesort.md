@@ -1,14 +1,12 @@
 ---
-title: Bubble Sort Algorithm
-permalink: /tree/bubblesort/
+title: Gnome Sort Algorithm
+permalink: /tree/gnomesort/
 toc: true
 sidebar:
   nav: "tree"
 ---
 
-## Goals
-
-Students will understand elements of the bubble sort algorithm, which incrementally
+Students will understand elements of the gnome sort algorithm, which incrementally
 swaps cards into sorted order.
 
 ## Video
@@ -33,14 +31,14 @@ Flip the two left-most cards in the
 
 1. If the two face-up cards are **out of order**, such that the number of the left face-up
 card is greater than the number in the right face-up card, then **swap** the two cards.
+If there is a face-down card to the left of the two face-up cards, then flip this card face-up,
+flip the right face-up card face-down, and repeat this step.
 
-2. If there is a face-down card to the right of the two face-up cards, then flip this card face-up,
-  flip the left face-up card face-down, and repeat the previous step.
+2. Otherwise, if you did not swap, check to see if there is a face-down card to the
+right of the two face-up cards. If so, then flip this card face-up,
+flip the left face-up card face-down, and repeat the previous step.
 
-When you reach the right side of the collection, if any swaps occurred as you
-were moving from left to right, start the algorithm over.
-
-When you are finished, flip all cards in the *collection* face-up. The cards
+When you reach the right side of the collection, flip all cards in the *collection* face-up. The cards
 should be in sorted order, with the smallest cards on the left and largest on the right.
 
 The cards in the *collection* are kept

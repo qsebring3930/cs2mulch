@@ -18,6 +18,9 @@ sidebar:
 ## Algorithm
 
 
+## Example
+
+
 ## Exercises
 
 

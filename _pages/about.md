@@ -8,7 +8,7 @@ toc: false
 
 ## Dr. Mark Goadrich
 
-[Mark](http://mark.goadrich.com) is an Associate Professor of
+[Mark](http://mark.goadrich.com) is a Professor of
 Computer Science at [Hendrix College](http://hendrix.edu) in Conway, AR.
 
 ## Levi West
