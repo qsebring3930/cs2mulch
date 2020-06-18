@@ -1,6 +1,6 @@
 ---
 title: Quicksort Algorithm
-permalink: /tree/quicksort/
+permalink: /tree/quicksort-linked/
 toc: true
 sidebar:
   nav: "tree"
