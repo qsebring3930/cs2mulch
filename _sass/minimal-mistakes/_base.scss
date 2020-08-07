@@ -355,3 +355,8 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+.site-title, .masthead__menu-item, .nav__sub-title {
+  font-family: $header-font-family;
+  font-weight: bold;
+}

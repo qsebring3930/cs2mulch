@@ -6,6 +6,8 @@ sidebar:
   nav: "tree"
 ---
 
+## Goals
+
 Students will understand elements of the gnome sort algorithm, which incrementally
 swaps cards into sorted order.
 
