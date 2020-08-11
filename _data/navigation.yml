@@ -21,8 +21,8 @@ main:
 hash:
   - title: "Menagerie Resources"
     children:
-      - title: "<s>The Game Crafter</s>"
-        url: /docs/quick-start-guide/
+      - title: "The Game Crafter"
+        url: "https://www.thegamecrafter.com/games/cs2mulch"
       - title: "Tabletopia"
         url: "https://tabletopia.com/playground/cs2-mulch-fq1guf/play-now"
       - title: "Print-N-Play"
@@ -59,8 +59,8 @@ hash:
 tree:
   - title: Acorn Resources
     children:
-      - title: "<s>The Game Crafter</s>"
-        url: /docs/quick-start-guide/
+      - title: "The Game Crafter"
+        url: "https://www.thegamecrafter.com/games/cs2mulch"
       - title: "Tabletopia"
         url: "https://tabletopia.com/playground/cs2-mulch-fq1guf/play-now"
       - title: "Print-N-Play"
