@@ -40,7 +40,7 @@ card per tree.
 
 ## Level
 
-A card is at a certain *level* in a tree. The level is determined by the number of card
+A card is at a certain *level* in a tree. The level is determined by the number of cards
 between this card and the *root* of the tree, using the path from the card to the *root*
 through its *parent*.
 
