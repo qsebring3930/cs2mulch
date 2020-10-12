@@ -74,13 +74,13 @@ tree:
     children:
       - title: "<s>Gnome Sort</s>"
         url: /tree/gnomesort/
-      - title: "<s>Bubble Sort</s>"
+      - title: "Bubble Sort"
         url: /tree/bubblesort/
       - title: "Insertion Sort"
         url: /tree/insertionsort/
-      - title: "<s>Quicksort</s>"
+      - title: "Quicksort"
         url: /tree/quicksort/
-      - title: "<s>Mergesort</s>"
+      - title: "Mergesort"
         url: /tree/mergesort/
 
   - title: Binary Search Trees
