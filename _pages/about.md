@@ -13,8 +13,13 @@ Computer Science at [Hendrix College](http://hendrix.edu) in Conway, AR.
 
 ## Levi West
 
-Levi is an undergraduate Computer Science major at
+Levi graduated with a Bachelor's degree in Computer Science from
 [Hendrix College](http://hendrix.edu) in Conway, AR.
+
+## Thomas Sebring
+Thomas is an undergraduate Computer Science major at
+[Hendrix College](http://hendrix.edu) in Conway, AR.
+
 
 ## Prof. Jessica Hawkins
 
