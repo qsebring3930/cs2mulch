@@ -28,17 +28,11 @@ in a row face-down to form a *collection* in front of you.
 
 ## Algorithm
 
-Flip the two left-most cards in the
-*collection* face-up.
+1. Flip the two left-most cards in the *collection* face-up.
 
-1. If the two face-up cards are **out of order**, such that the number of the left face-up
-card is greater than the number in the right face-up card, then **swap** the two cards.
-If there is a face-down card to the left of the two face-up cards, then flip this card face-up,
-flip the right face-up card face-down, and repeat this step.
+2. If the two face-up cards are **out of order**, such that the number of the left face-up card is greater than the number in the right face-up card, then **swap** the two cards. If there is a face-down card to the left of the two face-up cards, then flip this card face-up, flip the right face-up card face-down, and repeat this step.
 
-2. Otherwise, if you did not swap, check to see if there is a face-down card to the
-right of the two face-up cards. If so, then flip this card face-up,
-flip the left face-up card face-down, and repeat the previous step.
+3. Check to see if there is a face-down card to the right of the two face-up cards. If so, then flip this card face-up, flip the left face-up card face-down, and repeat the step 2.
 
 When you reach the right side of the collection, flip all cards in the *collection* face-up. The cards
 should be in sorted order, with the smallest cards on the left and largest on the right.
