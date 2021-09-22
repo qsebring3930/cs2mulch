@@ -32,7 +32,7 @@ in a row face-down to form a *collection* in front of you.
 
 2. If the two face-up cards are **out of order**, such that the number of the left face-up card is greater than the number in the right face-up card, then **swap** the two cards. If there is a face-down card to the left of the two face-up cards, then flip this card face-up, flip the right face-up card face-down, and repeat this step.
 
-3. Check to see if there is a face-down card to the right of the two face-up cards. If so, then flip this card face-up, flip the left face-up card face-down, and repeat the step 2.
+3. Check to see if there is a face-down card to the right of the two face-up cards. If so, then flip this card face-up, flip the left face-up card face-down, and repeat step 2.
 
 When you reach the right side of the collection, flip all cards in the *collection* face-up. The cards
 should be in sorted order, with the smallest cards on the left and largest on the right.
@@ -48,13 +48,55 @@ Here is an example of this algorithm applied to the cards 25, 06, 47, 54, 29, 35
 
 ### First Pass
 
-{% include figure image_path="/assets/images/isort23-0.png" alt="Sample cards from the Acorn deck." caption="Flip up 35, flip down 47. Stop because in order." %}
+{% include figure image_path="/assets/images/gsort0.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort1.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort2.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort3.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort4.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort5.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort6.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort7.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort8.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort9.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort10.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort11.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort12.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort13.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort14.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort15.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort16.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort17.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort18.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort19.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort20.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/gsort21.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
 
 ### Finished
 
 We did not have any swaps this pass, so now we can flip up all the cards and confirm they are in sorted order.
 
-{% include figure image_path="/assets/images/isortfinal-0.png" alt="Sample cards from the Acorn deck." caption="Flip all cards up, they are now in order." %}
+{% include figure image_path="/assets/images/gsort22.png" alt="Sample cards from the Acorn deck." caption="Flip all cards up, they are now in order." %}
 
 ## Exercises
 
