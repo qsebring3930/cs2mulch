@@ -69,8 +69,7 @@ to become the *root*.
 The next card flipped up is the **66**. This is placed on the only
 available parent **31**, and placed in the *upper-left* corner.
 
-**66** is
-greater than **31**, so there is no need to swap.
+**66** is *greater than* **31**, so there is no need to swap.
 
 {% include figure image_path="/assets/images/heap2.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 
@@ -92,29 +91,58 @@ chosen as the parent. **48** is placed in the *upper-left* corner.
 
 {% include figure image_path="/assets/images/heap4.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 
+**48** is *less than* **66**, so there needs to be a swap. After the swap, **48** is *greater than* **25**, so we stop.
+
 {% include figure image_path="/assets/images/heap4-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+The next card flipped up is the **15**. There are two available parents, **48** and **31**. **48** is the left-most and is
+chosen as the parent. **15** is placed in the *upper-right* corner.
 
 {% include figure image_path="/assets/images/heap5.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 
+**15** is *less than* **48**, so there needs to be a swap. After the swap, **15** is *less than* **25**, so we must continue.
+
 {% include figure image_path="/assets/images/heap5-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+**15** is *less than* **25**, so we must swap. After the swap, **15** is the root, so we stop swapping.
 
 {% include figure image_path="/assets/images/heap5-2.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 
+The next card flipped up is the **36**. There is one available parent, **31**, and is chosen as the parent. **36** is placed in the *upper-left* corner.
+
+**36** is *greater than* **31**, so there is no need to swap.
+
 {% include figure image_path="/assets/images/heap6.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+The next card flipped up is the **03**. There is one available parent, **31**, and is chosen as the parent. **03** is placed in the *upper-right* corner.
 
 {% include figure image_path="/assets/images/heap7.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 
+**03** is *less than* **31**, so there needs to be a swap. After the swap, **03** is *less than* **15**, so we must continue.
+
 {% include figure image_path="/assets/images/heap7-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+**03** is *less than* **15**, so we must swap. After the swap, **03** is the root, so we stop swapping.
 
 {% include figure image_path="/assets/images/heap7-2.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 
+The next card flipped up is the **56**. There four available parents, **66**, **48**, **36**, and **31**. **66** is the left-most and is chosen as the parent. **56** is placed in the *upper-left* corner.
+
 {% include figure image_path="/assets/images/heap8.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+**56** is *less than* **66**, so there needs to be a swap. After the swap, **56** is *greater than* **25**, so we stop.
 
 {% include figure image_path="/assets/images/heap8-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 
+The next card flipped up is the **16**. There four available parents, **56**, **48**, **36**, and **31**. **56** is the left-most and is chosen as the parent. **56** is placed in the *upper-right* corner.
+
 {% include figure image_path="/assets/images/heap9.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 
+**16** is *less than* **56**, so there needs to be a swap. After the swap, **16** is *less than* **25**, so we must continue.
+
 {% include figure image_path="/assets/images/heap9-1.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
+
+**16** is *less than* **25**, so there needs to be a swap. After the swap, **16** is *greater than* **03**, so we stop.
 
 {% include figure image_path="/assets/images/heap9-2.png" alt="this is a placeholder image" caption="Sample cards from the tree deck." %}
 

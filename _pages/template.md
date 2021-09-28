@@ -9,6 +9,9 @@ sidebar:
 ## Goals
 
 
+## Video
+
+
 ## Materials
 
 
