@@ -57,13 +57,21 @@ swap the *selected* card with the *smallest* child card and repeat the **Swap If
 
 ## Example
 
-{% include figure image_path="/assets/images/heap10.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+**56** is the right-most card of the highest level of the tree, so it will be our *selected card*. It is swapped with the root card of the tree **03**.
 
-{% include figure image_path="/assets/images/heap11" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+{% include figure image_path="/assets/images/heap10.png" alt="03 swapping positions with 56." caption="03 swapping positions with 56." %}
 
-{% include figure image_path="/assets/images/heap12" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+**56** is *greater than* both of its children, so we must swap. **15** is the *smallest* child of **56** so we swap that one.
 
-{% include figure image_path="/assets/images/heap13" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+{% include figure image_path="/assets/images/heap11.png" alt="56 swapping positions with 15." caption="56 swapping positions with 15." %}
+
+**56** is *greater than* both of its children, so we must swap. **31** is the *smallest* child of **56** so we swap that one.
+
+{% include figure image_path="/assets/images/heap12.png" alt="56 swapping positions with 31." caption="56 swapping positions with 31." %}
+
+**56** is now a leaf, so we stop. **03** used to be our root, so now it can be removed.
+
+{% include figure image_path="/assets/images/heap13.png" alt="03 removed from tree." caption="03 removed from tree." %}
 
 ## Exercises
 
