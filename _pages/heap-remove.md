@@ -57,6 +57,13 @@ swap the *selected* card with the *smallest* child card and repeat the **Swap If
 
 ## Example
 
+{% include figure image_path="/assets/images/heap10.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/heap11" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/heap12" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/heap13" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
 
 ## Exercises
 
