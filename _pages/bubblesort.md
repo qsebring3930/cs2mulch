@@ -52,17 +52,55 @@ through an array and compare the data at neighboring memory locations.
 
 ## Example
 
-Here is an example of this algorithm applied to the cards 25, 06, 47, 54, 29, 35, 67, and 41.
+Here is an example of this algorithm applied to the cards 25, 06, 47, 54, 29, and 35.
 
 ### First Pass
 
-{% include figure image_path="/assets/images/isort23-0.png" alt="Sample cards from the Acorn deck." caption="Flip up 35, flip down 47. Stop because in order." %}
+{% include figure image_path="/assets/images/bsort0.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort1.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort2.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort3.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort4.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort5.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort6.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort7.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort8.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort9.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort10.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort11.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort12.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort13.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort14.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort15.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort16.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort17.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort18.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/bsort19.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
 
 ### Finished
 
 We did not have any swaps this pass, so now we can flip up all the cards and confirm they are in sorted order.
 
-{% include figure image_path="/assets/images/isortfinal-0.png" alt="Sample cards from the Acorn deck." caption="Flip all cards up, they are now in order." %}
+{% include figure image_path="/assets/images/bsort20.png" alt="Sample cards from the Acorn deck." caption="Sample cards from the Acorn deck." %}
 
 ## Exercises
 
