@@ -59,6 +59,66 @@ If there are no shifted-up cards, swap it with the left-most card in the collect
 
 ## Example
 
+Here is an example of this algorithm applied to the cards 25, 06, 47, 54, 29, 35, 67, and 41.
+
+{% include figure image_path="/assets/images/qsort0.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort1.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort2.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort3.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort4.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort5.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort6.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort7.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort8.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort9.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort10.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort11.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort12.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort13.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort14.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort15.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort16.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort17.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort18.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort19.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort20.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort21.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort22.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort23.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort24.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort25.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort26.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort27.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
+{% include figure image_path="/assets/images/qsort28.png" alt="this is a placeholder image" caption="Sample cards from the Acorn deck." %}
+
 ## Exercises
 
 ## Evaluation
