@@ -29,7 +29,7 @@ Each student will shuffle their 9 cards, and then create a
 binary tree as demonstrated on the
 [insertion algorithm]({{site.baseurl}}/tree/insertion) page.
 
-{% include figure image_path="/assets/images/insert9.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/insert9.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm." %}
 
 ## Algorithm
 
