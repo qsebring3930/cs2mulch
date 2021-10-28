@@ -32,8 +32,28 @@ binary tree as demonstrated on the
 
 ## Algorithm
 
+The card chosen to be rotated is our *root* card. The child of the *root* card on the *opposite side of rotation* is the *pivot* card, ex. the left child for a right rotation.
+
+1. Replace the *side of rotation* child of the *pivot* card with the *root* card. Keep all of the *root* card children on the *side of rotation* intact. Set aside the *side of rotation* child and keep all of the children intact.
+
+2. Place the *side of rotation* child of the *pivot* card that was replaced in step 1 as the *opposite side of rotation* child of the *root* card.
+
 
 ## Example
+
+This is an example of a right-side rotation of the root **35** of our tree.
+
+Since this is a *right*-side rotation, the *left* child of our root, **25** is the *pivot* card.
+
+{% include figure image_path="/assets/images/bst-rotation0.png" alt="Sample tree created by insertion algorithm." caption="Sample tree created by insertion algorithm." %}
+
+The *side of rotation* child **29** of the *pivot* card **25** is replaced by the *root* card **35**, with all of the *root* card's children intact. **29** has no children so only itself is set aside.
+
+{% include figure image_path="/assets/images/bst-rotation1.png" alt="29 set aside, 35 and its children take its place." caption="29 set aside, 35 and its children take its place." %}
+
+The *side of rotation* child **29** is placed as the *opposite side of rotation* child of the *root* card.
+
+{% include figure image_path="/assets/images/bst-rotation2.png" alt="29 placed as the opposite side of rotation child of 35." caption="29 placed as the opposite side of rotation child of 35." %}
 
 
 ## Exercises
