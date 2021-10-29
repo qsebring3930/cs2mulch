@@ -34,14 +34,14 @@ hash:
     children:
       - title: "Insertion"
         url: /hash/separate/
-      - title: "<s>Deletion</s>"
+      - title: "Deletion"
         url: /hash/separate-del/
 
   - title: "Linear Probing"
     children:
       - title: "Insertion"
         url: /hash/linear/
-      - title: "<s>Deletion</s>"
+      - title: "Deletion"
         url: /hash/linear-del/
 
   - title: "Additional Hashing"
