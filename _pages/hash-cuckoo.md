@@ -110,54 +110,102 @@ empty, so we place the **Tarsier** in this location.
 {% include figure image_path="/assets/images/cuckoo4.png" alt="this is a placeholder image" caption="Demonstration
 of cuckoo hash table algorithm." %}
 
-**Hummingbird**
+The next card flipped *face-up* is the **Hummingbird**. This card hashes to
+**7**, so it is placed below the **7 number card**.
 
 {% include figure image_path="/assets/images/cuckoo5.png" alt="this is a placeholder image" caption="Demonstration
 of cuckoo hash table algorithm." %}
 
-**Lyrebird**
+The next card flipped *face-up* is the **Lyrebird**. This card hashes to
+**1**, so it is placed below the **1 number card**.
 
 {% include figure image_path="/assets/images/cuckoo6.png" alt="this is a placeholder image" caption="Demonstration
 of cuckoo hash table algorithm." %}
 
-**Shrimp**
+The next card flipped *face-up* is the **Shrimp**. This card hashes to
+**7**, but the **Hummingbird** card is currently below this location.
+
+The **Shrimp** card replaces the **Hummingbird** card. We now need to place the
+**Hummingbird** card according to the **White Insertion** rules.
+
+The **Hummingbird** now hashes to **0**. We find that the space **above** is
+empty, so we place the **Hummingbird** in this location.
 
 {% include figure image_path="/assets/images/cuckoo7.png" alt="this is a placeholder image" caption="Demonstration
 of cuckoo hash table algorithm." %}
 
-**Lemur**
+The next card flipped *face-up* is the **Lemur**. This card hashes to
+**2**, so it is placed below the **2 number card**.
 
 {% include figure image_path="/assets/images/cuckoo8.png" alt="this is a placeholder image" caption="Demonstration
 of cuckoo hash table algorithm." %}
 
-**Bison**
+The next card flipped *face-up* is the **Bison**. This card hashes to
+**6**, so it is placed below the **6 number card**.
 
 {% include figure image_path="/assets/images/cuckoo9.png" alt="this is a placeholder image" caption="Demonstration
 of cuckoo hash table algorithm." %}
 
 **Squid**
 
+The next card flipped *face-up* is the **Squid**. This card hashes to
+**0**, but the **Capybara** card is currently below this location.
+
+The **Squid** card replaces the **Capybara** card. We now need to place the
+**Capybara** card according to the **White Insertion** rules.
+
+The **Capybara** now hashes to **1**. We find that the space **above** is
+empty, so we place the **Capybara** in this location.
+
 {% include figure image_path="/assets/images/cuckoo10.png" alt="this is a placeholder image" caption="Demonstration
 of cuckoo hash table algorithm." %}
 
-**Siamang**
+The next card flipped *face-up* is the **Siamang**. This card hashes to
+**2**, but the **Lemur** card is currently below this location.
+
+The **Siamang** card replaces the **Lemur** card. We now need to place the
+**Lemur** card according to the **White Insertion** rules.
+
+The **Lemur** now hashes to **1**, but the **Capybara** card is currently above this location.
+
+The **Lemur** card replaces the **Capybara** card. We now need to place the
+**Capybara** card according to the **Gold Insertion** rules.
 
 {% include figure image_path="/assets/images/cuckoo11-1.png" alt="this is a placeholder image" caption="Demonstration
 of cuckoo hash table algorithm." %}
 
+The **Capybara** now hashes to **0**, but the **Squid** card is currently below this location.
+
+The **Capybara** card replaces the **Squid** card. We now need to place the
+**Squid** card according to the **White Insertion** rules.
+
 {% include figure image_path="/assets/images/cuckoo11-2.png" alt="this is a placeholder image" caption="Demonstration
 of cuckoo hash table algorithm." %}
+
+The **Squid** now hashes to **6**, but the **Tarsier** card is currently above this location.
+
+The **Squid** card replaces the **Tarsier** card. We now need to place the
+**Tarsier** card according to the **Gold Insertion** rules.
 
 {% include figure image_path="/assets/images/cuckoo11-3.png" alt="this is a placeholder image" caption="Demonstration
 of cuckoo hash table algorithm." %}
 
+The **Tarsier** now hashes to **3**, but the **Okapi** card is currently above this location.
+
+The **Tarsier** card replaces the **Okapi** card. We now need to place the
+**Okapi** card according to the **White Insertion** rules.
+
 {% include figure image_path="/assets/images/cuckoo11-4.png" alt="this is a placeholder image" caption="Demonstration
 of cuckoo hash table algorithm." %}
+
+The **Okapi** now hashes to **4**. We find that the space **above** is
+empty, so we place the **Okapi** in this location.
 
 {% include figure image_path="/assets/images/cuckoo11-5.png" alt="this is a placeholder image" caption="Demonstration
 of cuckoo hash table algorithm." %}
 
-**Pangolin**
+The next card flipped *face-up* is the **Pangolin**. This card hashes to
+**4**, so it is placed below the **4 number card**.
 
 {% include figure image_path="/assets/images/cuckoo12.png" alt="this is a placeholder image" caption="Demonstration
 of cuckoo hash table algorithm." %}
