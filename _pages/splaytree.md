@@ -1,6 +1,6 @@
 ---
-title: 2-3 Tree Traversal Algorithm
-permalink: /tree/23traversal/
+title: Splay Tree Algorithm
+permalink: /tree/splay/
 toc: true
 sidebar:
   nav: "tree"

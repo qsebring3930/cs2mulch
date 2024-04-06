@@ -94,11 +94,6 @@ tree:
       - title: "Mergesort"
         url: /tree/mergesort/
 
-  - title: Encoding
-    children:
-      - title: "<s>Huffman Encoding</s>"
-        url: /tree/huffman/
-
   - title: Binary Search Trees
     children:
       - title: "Insert"
@@ -109,28 +104,17 @@ tree:
         url: /tree/rotation/
       - title: "Traversals"
         url: /tree/traversal/
-      - title: "Splays"
-        url: /tree/splay/
 
-  - title: Red-Black Trees
+  - title: Balanced Trees
     children:
-      - title: "<s>Insert</s>"
-        url: /tree/rbinsertion/
-      - title: "<s>Remove</s>"
-        url: /tree/rbremove/
-      - title: "<s>Rotations</s>"
-        url: /tree/rbrotation/
-      - title: "Traversals"
-        url: /tree/traversal/
-
-  - title: 2-3 Trees
-    children:
-      - title: "<s>Insert</s>"
+      - title: "<s>2-3 Trees</s>"
         url: /tree/23insertion/
-      - title: "<s>Remove</s>"
-        url: /tree/23remove/
-      - title: "Traversals"
-        url: /tree/23traversal/
+        title: "<s>Red-Black Trees</s>"
+        url: /tree/rbinsertion/
+      - title: "<s>Splay Trees</s>"
+        url: /tree/splay/
+      - title: "<s>Huffman Encoding</s>"
+        url: /tree/huffman/
 
   - title: Heaps
     children:
@@ -147,10 +131,6 @@ tree:
         url: /tree/slinsertion/
       - title: "<s>Remove</s>"
         url: /tree/slremove/
-      - title: "<s>Traversals</s>"
-        url: /tree/sltraversal/
-
-  - title:
 
   - title: Games
     children:
