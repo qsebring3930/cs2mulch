@@ -6,6 +6,8 @@ main:
     url: /hash/
   - title: "About Us"
     url: /about/
+  - title: "Github"
+    url: https://github.com/mgoadric/cs2mulch
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
