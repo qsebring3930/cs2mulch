@@ -1,1 +1,6 @@
-&5&{}/cs2mulch/assets/images/gsort22.png{}What is the meaning of life?{}lemurs&{}/cs2mulch/assets/images/gsort18.png{}What is the best juice?{}grape juice&{}/cs2mulch/assets/images/gsort14.png{}What is the best color?{}green&{}/cs2mulch/assets/images/gsort8.png{}What sound does a car make?{}vroom vroom&{}/cs2mulch/assets/images/gsort1.png{}how tall is the empire state building?{}at least 6 feet&
+&5
+&{}/cs2mulch/assets/images/gsort22.png{}What is the meaning of life?{}lemurs
+&{}/cs2mulch/assets/images/gsort18.png{}What is the best juice?{}grape juice
+&{}/cs2mulch/assets/images/gsort14.png{}What is the best color?{}green
+&{}/cs2mulch/assets/images/gsort8.png{}What sound does a car make?{}vroom vroom
+&{}/cs2mulch/assets/images/gsort1.png{}how tall is the empire state building?{}at least 6 feet&
