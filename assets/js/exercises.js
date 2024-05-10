@@ -292,7 +292,7 @@ function print_questions() { //sends a token of what page's evaluation needs to 
   var name = "test"
   var myData = [ name, num_q ];
   localStorage.setItem( 'token', myData);
-  window.location = "/cs2mulch/assets/Worksheet.html";
+  window.location = "/cs2mulch/worksheet/";
 }
 
 window.onload = populate();

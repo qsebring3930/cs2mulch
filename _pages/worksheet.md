@@ -1,9 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<body></body>
-<script type="text/javascript">
+---
+title: Worksheet
+permalink: /worksheet
+sidebar:
+  nav: "tree"
+---
 
-  document.body.style.width = '200px';
+## Name:
+
+### Date:
+
+<script type="text/javascript">
 
   var myData = localStorage['token'];
   localStorage.removeItem( 'token' ); // Clear the localStorage
@@ -13,12 +19,6 @@
   var q_num = 2;
 
   function makeworksheet() {
-    worksheet_bumper = document.createElement("DIV");
-    worksheet_bumper.setAttribute("id", "worksheet");
-    if (worksheet_bumper == null) {
-      alert("poopoo");
-    }
-    document.body.appendChild(worksheet_bumper);
     for (var i = 0; i < secondData; i++) {
       populateQuestion(i);
     }
@@ -26,9 +26,10 @@
 
   function populateQuestion(id_num) {
 
-      worksheet = document.getElementById('worksheet');
+      worksheet = document.getElementById('date');
       evaluation_bumper = document.createElement("DIV");
       evaluation_bumper.setAttribute("class", "bumper");
+      evaluation_bumper.setAttribute("id", "evaluation_bumper" + id_num);
 
       evaluation_title_bumper = document.createElement("DIV");
       evaluation_title_bumper.setAttribute("class", "bumper");
@@ -79,7 +80,17 @@
         checkbox_form.appendChild(temp_bumper);
       }
       evaluation_question_bumper.after(checkbox_form);
-      worksheet.appendChild(evaluation_bumper);
+
+      if (id_num == 0) {
+        worksheet.after(evaluation_bumper);
+      }else {
+        temp = id_num - 1;
+        previous_bumper = document.getElementById("evaluation_bumper" + temp);
+        if (previous_bumper == null){
+          alert("8==D");
+        }
+        previous_bumper.after(evaluation_bumper);
+      }
       newEvaluation(id_num);
 
   }
@@ -114,4 +125,3 @@
 
 
 </script>
-</html>
