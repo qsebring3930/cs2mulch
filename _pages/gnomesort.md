@@ -167,32 +167,3 @@ We can flip up all the cards and confirm they are in sorted order.
 
 
 ## Evaluation
-
-<button onclick="newEvaluation()">New Evaluation</button>
-
-<text id="evaluation_num" value="1">Evaluation #1</text> <text id="score" value="0">Score: 0/5</text>
-
-<img id="evaluation_image" src="/cs2mulch/assets/images/gsort10.png" alt="test image">
-
-<text id="evaluation_question">Hello! I'm the question</text>
-
-
-<input type="checkbox" id="choice_1" class="choice" value="Choice 1"> <label for="choice_1" class = "choice_label">Choice 1</label> <br>
-<input type="checkbox" id="choice_2" class="choice" value="Choice 2"> <label for="choice_2" class = "choice_label">Choice 2</label> <br>
-<input type="checkbox" id="choice_3" class="choice" value="Choice 3"> <label for="choice_3" class = "choice_label">Choice 3</label> <br>
-<input type="checkbox" id="choice_4" class="choice" value="Choice 4"> <label for="choice_4" class = "choice_label">Choice 4</label> <br>
-
-
-<div class="bumper"><button onclick="Submit()">Submit answer</button></div>
-
-<div class="bumper"><text id=notification></text></div>
-
-<label for="numbers">Print a worksheet with how many questions?:</label>
-<select name="numbers" id="numbers">
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4">4</option>
-    <option value="5">5</option>
-</select>
-<button onclick="print_questions()" value="Submit"> Print </button>

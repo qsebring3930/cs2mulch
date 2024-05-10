@@ -5,7 +5,7 @@
   var textArray = myData.split(',');
   var firstData = textArray[0];
   var secondData = textArray[1];
-  var q_num = 1;
+  var q_num = 2;
 
   function makeworksheet() {
     for (var i = 0; i < secondData; i++) {
@@ -20,7 +20,8 @@
       var textArray = text.split('&');
       var question = textArray[q_num];
       var questionArray = question.split('{}');
-      document.getElementById("worksheet").innerHTML += `<text>Evaluation #` + q_num +`</text>`;
+      var temp_q_num = q_num - 1;
+      document.getElementById("worksheet").innerHTML += `<text>Evaluation #` + temp_q_num +`</text>`;
       document.getElementById("worksheet").innerHTML += `<img src="` + questionArray[1] + `" alt="test image"></img>`;
       document.getElementById("worksheet").innerHTML += `<div class="bumper"><text id="evaluation_question">` + questionArray[2] + `</text></div>`;
       for (var j = 0; j < 4; j++) {

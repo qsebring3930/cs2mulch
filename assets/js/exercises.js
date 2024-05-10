@@ -124,6 +124,9 @@ function populate() { // Appending the necessary elements for the exercises and 
   print_label.innerHTML = "Print a worksheet with how many questions?";
   notif_bumper.after(print_label);
 
+}
+
+function populatePrint() {
   print_dropdown = document.createElement("SELECT");
   print_dropdown.setAttribute("name", "numbers");
   print_dropdown.setAttribute("id","numbers");
@@ -136,7 +139,7 @@ function populate() { // Appending the necessary elements for the exercises and 
   print_label.after(print_dropdown);
 
   print_button = document.createElement("BUTTON");
-  print_button.setAttribute("onclick","print_questions");
+  print_button.setAttribute("onclick","print_questions()");
   print_button.innerHTML = "Print";
   print_dropdown.after(print_button);
 
@@ -173,6 +176,7 @@ function newEvaluation(){ //pulls a new evaluation from the corresponding page's
       current_q = current_q + 1;
       var textArray = text.split('&');
       avail_questions = parseInt(textArray[1]);
+      populatePrint();
       question = textArray[current_q+1];
       questionArray = question.split('{}');
       document.getElementById("evaluation_num").value = current_q;
@@ -250,6 +254,7 @@ function Submit() { //checks the answer given with the correct answer from the e
 }
 
 function print_questions() { //sends a token of what page's evaluation needs to be printed and how many questions to a separate printable html file
+  alert(":3");
   num_q = document.getElementById("numbers").value;
   var name = "test"
   var myData = [ name, num_q ];
