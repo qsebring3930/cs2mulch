@@ -46,7 +46,7 @@ below to find where to place it in the tree.
 1. If the *flipped* card is **less than** the *current* card,
   look at the **upper-left** corner of the *current* card.
 
-1. Otherwise the *flipped* card must be **greater than** the *current*
+2. Otherwise the *flipped* card must be **greater than** the *current*
   card, so look at the **upper-right** corner of the *current* card.
 
 ### Can I Place
@@ -55,7 +55,7 @@ below to find where to place it in the tree.
   To Look* step again** with the *found* card becoming the *current*
   card next time around.
 
-1. Otherwise, if there is *no card* where you are looking, **place
+2. Otherwise, if there is *no card* where you are looking, **place
   the *flipped* card on this corner**, tilted roughly 45 degrees
   from the current card.
 
