@@ -6,3 +6,18 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.answer {
+   color: transparent;
+   text-shadow: 0 0 15px rgba(1,1,1,1);
+}
+
+.bumper {
+  margin: 0 auto 5px auto;
+  vertical-align: middle;
+}
+
+label,input{
+    display: inline-block;
+    vertical-align: middle;
+}

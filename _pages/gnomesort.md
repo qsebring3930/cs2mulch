@@ -32,7 +32,7 @@ in a row face-down to form a *collection* in front of you.
 
 1. Flip the two left-most cards in the *collection* face-up.
 
-2. If the two face-up cards are **out of order**, such that the number of the left face-up card is greater than the number in the right face-up card, then **swap** the two cards. If there is a face-down card to the left of the two face-up cards, then flip this card face-up, flip the right face-up card face-down, and repeat this step.
+2. If the two face-up cards are **in order**, continue to step 3. If the two face-up cards are **out of order**, such that the number of the left face-up card is greater than the number in the right face-up card, then **swap** the two cards. If there is a face-down card to the left of the two face-up cards, then flip this card face-up, flip the right face-up card face-down, and repeat this step.
 
 3. Check to see if there is a face-down card to the right of the two face-up cards. If so, then flip this card face-up, flip the left face-up card face-down, and repeat step 2.
 
@@ -163,5 +163,7 @@ We can flip up all the cards and confirm they are in sorted order.
 {% include figure image_path="/assets/images/gsort22.png" alt="The collection being displayed face-up." caption="The collection being displayed face-up." %}
 
 ## Exercises
+
+
 
 ## Evaluation

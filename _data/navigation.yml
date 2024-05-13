@@ -109,9 +109,9 @@ tree:
 
   - title: Balanced Trees
     children:
-      - title: "<s>2-3 Trees</s>"
+      - title: "2-3 Trees"
         url: /tree/23insertion/
-        title: "<s>Red-Black Trees</s>"
+      - title: "<s>Red-Black Trees</s>"
         url: /tree/rbinsertion/
       - title: "<s>Splay Trees</s>"
         url: /tree/splay/
