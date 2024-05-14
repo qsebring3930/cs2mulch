@@ -8,4 +8,4 @@
 &{}/cs2mulch/assets/images/elexicon2.png{}What is the height of this tree?{}4.{}11.{}5.{}6.{}4.
 &{}/cs2mulch/assets/images/elexicon2.png{}What is the pibling of 14?{}21.{}27.{}9.{}3.{}3.
 &{}/cs2mulch/assets/images/elexicon2.png{}How many leaves does this tree have?{}4.{}5.{}1.{}2.{}5.
-&{}/cs2mulch/assets/images/noimage.png{}What is the maximum amount of leaves for a level 3 tree?{}4.{}16.{}8.{}6.{}8.
+&{}/cs2mulch/assets/images/noimage.png{}What is the maximum amount of leaves for a tree of height 3?{}4.{}16.{}8.{}6.{}8.
