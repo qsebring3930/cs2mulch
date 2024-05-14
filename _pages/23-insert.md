@@ -70,8 +70,6 @@ below to find where to place it in the tree.
     1. If the *left-node* card is **greater than** the one card in the *parent* node it will be the **upper-center** child of the *parent* node, and the *right-node* card will be the **upper-right** child of the *parent* node.
     2. If the *left-node* card is **less than** the card in the *parent* node it will be the **upper-left** child of the *parent* node, and the *right-node* card will be the **upper-center** child of the *parent* node.
 
-Go to the insert portion and use the *center-node* card as a *flipped* card and the *parent* node is now the *current* node.
-
 5. If the *parent* node has **two** cards, the *parent* node will temporarily have four child nodes, we will call them the **upper-left**, **upper-left-center**, **upper-right-center**, and **upper-right** child nodes.
     1. If the *current* node is the **upper-left** child of the *parent* node. The **upper-center** child of the *parent* node will be the **upper-right-center** child of the *parent* node. The **upper-right** child of the *parent* node will stay the **upper-right** child of the *parent* node. The *left-node* card will be the **upper-left** child of the *parent* node and the *right-node* card will be the **upper-left-center** child of the *parent* node.
     2. If the *current* node is the **upper-right** child of the *parent* node. The **upper-center** child of the *parent* node will be the **upper-left-center** child of the *parent* node. The **upper-left** child of the *parent* node will stay the **upper-left** child of the *parent* node. The *left-node* card will be the **upper-right-center** child of the *parent* node and the *right-node* card will be the **upper-right** child of the *parent* node.
@@ -79,7 +77,7 @@ Go to the insert portion and use the *center-node* card as a *flipped* card and 
 
 6. If the *current* node had 4 children before the split, the **old-upper-left** node will be the **upper-left** child of the **upper-left** child of the *parent* node. The **old-upper-left-center** node will be the **upper-right** child of the **upper-left** child of the *parent* node. The **old-upper-right-center** node will be the **upper-left** child of the **upper-right** child of the *parent* node. the **old-upper-right** node will be the **upper-right** child of the **upper-right** child of the *parent* node.
 
-Go to the promote portion and use the *center-node* card as a *flipped* card and the *parent* node is now the *current* node.
+7. Go to the insert portion and use the *center-node* card as a *flipped* card and the *parent* node is now the *current* node.
 
 ## Example
 
