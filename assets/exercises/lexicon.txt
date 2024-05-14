@@ -1,0 +1,42 @@
+&41
+&{}/cs2mulch/assets/images/xlexicon1.png{}What is the height of this tree?{}Height 3.
+&{}/cs2mulch/assets/images/xlexicon1.png{}What is the pibling of 20?{}4.
+&{}/cs2mulch/assets/images/xlexicon1.png{}What is the sibling of 49?{}9.
+&{}/cs2mulch/assets/images/xlexicon1.png{}What is the root of this tree?{}40.
+&{}/cs2mulch/assets/images/xlexicon2.png{}What level is 44?{}Level 1.
+&{}/cs2mulch/assets/images/xlexicon2.png{}What is the pibling of 49?{}4.
+&{}/cs2mulch/assets/images/xlexicon2.png{}How many leaves does this tree have??{}3 leaves.
+&{}/cs2mulch/assets/images/xlexicon3.png{}What is the left child of the 13?{}3.
+&{}/cs2mulch/assets/images/xlexicon3.png{}What is the height of the tree?{}Height 1.
+&{}/cs2mulch/assets/images/xlexicon3.png{}How many leaves does this tree have?{}2 leaves.
+&{}/cs2mulch/assets/images/xlexicon3.png{}What level is 13?{}Level 0.
+&{}/cs2mulch/assets/images/xlexicon3.png{}What is the root of this tree?{}13.
+&{}/cs2mulch/assets/images/xlexicon4.png{}What is the parent of 21?{} 21 has no parent.
+&{}/cs2mulch/assets/images/xlexicon4.png{}What is the parent of 39?{}40.
+&{}/cs2mulch/assets/images/xlexicon4.png{}What is the pibling of 69?{}9.
+&{}/cs2mulch/assets/images/xlexicon4.png{}What level is 0?{}Level 2.
+&{}/cs2mulch/assets/images/xlexicon4.png{}What is the height of this tree?{}Height 2.
+&{}/cs2mulch/assets/images/xlexicon5.png{}How many leaves does this tree have?{}4 leaves.
+&{}/cs2mulch/assets/images/xlexicon5.png{}What level is 69?{}Level 1.
+&{}/cs2mulch/assets/images/xlexicon5.png{}What is the parent of 21?{}9.
+&{}/cs2mulch/assets/images/xlexicon5.png{}What is the right child of 21?{}39.
+&{}/cs2mulch/assets/images/xlexicon6.png{}What is the root of this tree?{}38.
+&{}/cs2mulch/assets/images/xlexicon6.png{}What is the left child of 22?{}04.
+&{}/cs2mulch/assets/images/xlexicon6.png{}What is the right child of 57?{}65.
+&{}/cs2mulch/assets/images/xlexicon6.png{}How many leaves does this tree have?{}4 leaves.
+&{}/cs2mulch/assets/images/xlexicon7.png{}What is the parent of 22?{}38.
+&{}/cs2mulch/assets/images/xlexicon7.png{}What is the root of this tree?{}48.
+&{}/cs2mulch/assets/images/xlexicon7.png{}What is the pibling of 28?{}28 has no pibling.
+&{}/cs2mulch/assets/images/xlexicon7.png{}What is the sibling of 04?{}28.
+&{}/cs2mulch/assets/images/xlexicon8.png{}What is the height of this tree?{}Height 2.
+&{}/cs2mulch/assets/images/xlexicon8.png{}What is the root of this tree?{}33.
+&{}/cs2mulch/assets/images/xlexicon8.png{}What is the sibling of 32?{}6.
+&{}/cs2mulch/assets/images/xlexicon8.png{}What is the pibling of 45?{}22.
+&{}/cs2mulch/assets/images/xlexicon9.png{}What is the height of this tree?{}Height 4.
+&{}/cs2mulch/assets/images/xlexicon9.png{}What is the parent of 33?{}45.
+&{}/cs2mulch/assets/images/xlexicon9.png{}What is the right child of 45?{}47.
+&{}/cs2mulch/assets/images/xlexicon9.png{}What is the sibling of 45?{}6.
+&{}/cs2mulch/assets/images/xlexicon9.png{}What level is 32?{}Level 4.
+&{}/cs2mulch/assets/images/xlexicon10.png{}What is the left child of 61?{}61 has no children.
+&{}/cs2mulch/assets/images/xlexicon10.png{}How many leaves does this tree have?{}1 leaf.
+&{}/cs2mulch/assets/images/xlexicon10.png{}What is the sibling of 61?{}61 has no sibling.

@@ -27,14 +27,14 @@ function populate() { // Appending the necessary elements for the exercises, eva
   .then((res) => res.text())
   .then((text) => {
     if (exer_file_exist) {
-      var textArray = text.split('&');
-      avail_questions = parseInt(textArray[1]);
+
       exercises_header = document.getElementById("exercises");
 
       exercise_image = document.createElement("IMG");
       exercise_image.setAttribute("id", "exercise_image")
       exercise_image.setAttribute("src", "/cs2mulch/assets/images/gsort10.png");
-      exercise_image.setAttribute("alt", "test image");
+      exercise_image.setAttribute("alt", "exercise image");
+      exercise_image.setAttribute("style", "max-height: 400px");
       exercises_header.after(exercise_image);
 
 
@@ -73,6 +73,9 @@ function populate() { // Appending the necessary elements for the exercises, eva
       newExercise();
     }
     if (eval_file_exist) {
+      var textArray = text.split('&');
+      avail_questions = parseInt(textArray[1]);
+
       evaluation_header = document.getElementById("evaluation");
 
       evaluation_title_bumper = document.createElement("DIV");
@@ -88,7 +91,7 @@ function populate() { // Appending the necessary elements for the exercises, eva
       score.setAttribute("id","score");
       score.setAttribute("value","0");
       score.setAttribute("style","float: right; font-family:Fredoka One");
-      score.innerHTML = "Score: 0/5";
+      score.innerHTML = "Score: 0/" + avail_questions;
       evaluation_title_bumper.appendChild(score);
       evaluation_header.after(evaluation_title_bumper);
 
@@ -97,7 +100,8 @@ function populate() { // Appending the necessary elements for the exercises, eva
       evaluation_image = document.createElement("IMG");
       evaluation_image.setAttribute("id", "evaluation_image");
       evaluation_image.setAttribute("src", "/cs2mulch/assets/images/gsort10.png");
-      evaluation_image.setAttribute("alt", "test image");
+      evaluation_image.setAttribute("alt", "evaluation image");
+      evaluation_image.setAttribute("style", "max-height: 400px");
       evaluation_image_bumper.appendChild(evaluation_image);
       evaluation_title_bumper.after(evaluation_image_bumper);
 
@@ -193,7 +197,7 @@ function onlyOne(id) { //unchecks all other checkbox inputs when user checks one
   }
 }
 
-function newExercise() { //pulls a new exercise from the corresponding page's exercise file and updates the corresponding elements
+function newExercise() {  //pulls a new exercise from the corresponding page's exercise file and updates the corresponding elements
   fetch("/cs2mulch/assets/exercises/" + page[5] + ".txt")
   .then((res) => res.text())
   .then((text) => {
@@ -214,7 +218,7 @@ function revealAnswer() {
   document.getElementById("exercise_answer").className = "";
 }
 
-function newEvaluation(){ //pulls a new evaluation from the corresponding page's evaluation file and updates the corresponding elements
+function newEvaluation() { //pulls a new evaluation from the corresponding page's evaluation file and updates the corresponding elements
   submit_bool = false;
   var correct= ""
   if ((current_q<avail_questions || current_q == 0) && (can_next_eval == true)){
@@ -243,7 +247,6 @@ function newEvaluation(){ //pulls a new evaluation from the corresponding page's
       }
       document.getElementById("notification").innerHTML = "";
       can_next_eval = false;
-
     })
     .catch((e) => console.error(e));
   } else {
@@ -252,7 +255,6 @@ function newEvaluation(){ //pulls a new evaluation from the corresponding page's
     } else if (can_next_eval == false){
       document.getElementById("notification").innerHTML = "Please submit your answer before going to the next evaluation.";
     }
-
   }
 }
 
@@ -260,7 +262,7 @@ function Submit() { //compares the answer submitted with the correct answer from
   var notif = document.getElementById("notification");
   if (!submit_bool){
     var correct = "";
-    fetch("/cs2mulch/assets/evaluations/testevaluation.txt")
+    fetch("/cs2mulch/assets/evaluations/" + page[5] + ".txt")
     .then((res) => res.text())
     .then((text) => {
       var textArray = text.split('&');
@@ -289,7 +291,7 @@ function Submit() { //compares the answer submitted with the correct answer from
         notif.innerHTML = "Please select an answer.";
       } else if ( val === correct ) {
         choice_labels[user_choice].style.color = "green";
-        notif.innerHTML = "Correct! Click New Evaluation and keep going!";
+        notif.innerHTML = "Correct! Click Next Evaluation and keep going!";
         num_score = num_score + 1;
         score.innerHTML = "Score: " + num_score + "/" + avail_questions;
         submit_bool = true;
@@ -310,8 +312,7 @@ function Submit() { //compares the answer submitted with the correct answer from
 
 function print_questions() { //sends a token of what page's evaluation needs to be printed and how many questions to a separate printable md file
   num_q = document.getElementById("numbers").value;
-  var name = "test"
-  var myData = [ name, num_q ];
+  var myData = [ page[5], num_q ];
   localStorage.setItem( 'token', myData);
   window.location = "/cs2mulch/worksheet/";
 }

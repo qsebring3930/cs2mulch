@@ -1,0 +1,11 @@
+&10
+&{}/cs2mulch/assets/images/elexicon1.png{}What is the highest level right child in this tree?{}20.{}34.{}58.{}64.{}34.
+&{}/cs2mulch/assets/images/elexicon1.png{}How many parents are in this tree?{}1.{}3.{}4.{}6.{}4.
+&{}/cs2mulch/assets/images/elexicon1.png{}What is the sibling of 34?{}47.{}64.{}21.{}20.{}20.
+&{}/cs2mulch/assets/images/elexicon1.png{}What is the root of this tree?{}47.{}20.{}4.{}58.{}4.
+&{}/cs2mulch/assets/images/noimage.png{}What is the height of a tree?{}The largest level found in a tree.{}The number of leaves in a tree.{}The number at the root of a tree.{}The largest number found in a tree.{}The largest level found in a tree.
+&{}/cs2mulch/assets/images/elexicon2.png{}What numbers are at level 3?{}14, 27, and 48.{}3, 14, 27, 48, and 57.{}3, 21, 36, and 57.{}38.{}14, 27, and 48.
+&{}/cs2mulch/assets/images/elexicon2.png{}What is the height of this tree?{}4.{}11.{}5.{}6.{}4.
+&{}/cs2mulch/assets/images/elexicon2.png{}What is the pibling of 14?{}21.{}27.{}9.{}3.{}3.
+&{}/cs2mulch/assets/images/elexicon2.png{}How many leaves does this tree have?{}4.{}5.{}1.{}2.{}5.
+&{}/cs2mulch/assets/images/noimage.png{}What is the maximum amount of leaves for a level 3 tree?{}4.{}16.{}8.{}6.{}8.

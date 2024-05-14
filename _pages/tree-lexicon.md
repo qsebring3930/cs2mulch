@@ -24,10 +24,22 @@ underneath is called the *parent* of the card on top.
 
 {% include figure image_path="/assets/images/tree_parent.png" alt="Cards from the Acorn deck displaying how the parent is positioned." caption="Cards from the Acorn deck displaying how the parent is positioned." %}
 
+## Sibling
+
+When there are two children cards overlapping a parent card, the *sibling* of one child is the opposite child of the parent card underneath both children.
+
+{% include figure image_path="/assets/images/tree_sibling.png" alt="Cards from the Acorn deck displaying how siblings are positioned." caption="Cards from the Acorn deck displaying how siblings are positioned." %}
+
+## Pibling
+
+When the parent of a child card has a sibling, the *pibling* of the child card is sibling of the parent card.
+
+{% include figure image_path="/assets/images/tree_pibling.png" alt="Cards from the Acorn deck displaying how piblings are positioned." caption="Cards from the Acorn deck displaying how piblings are positioned." %}
+
 ## Leaf
 
 A card is a *leaf* when it has no children overlapping on the upper-left or
-upper-right corners.
+upper-right corners. The maximum number of leaves in a tree directly corresponds to the height of a tree: max. leaves = 2 ^ (height).
 
 {% include figure image_path="/assets/images/tree_leaf.png" alt="Cards from the Acorn deck displaying how leaves are positioned." caption="Cards from the Acorn deck displaying how leaves are positioned." %}
 
@@ -51,3 +63,7 @@ through its *parent*.
 The *height* of a tree is equal to the highest *level* on any card in the tree.
 
 {% include figure image_path="/assets/images/tree_height.png" alt="Cards from the Acorn deck displaying the height of a tree." caption="Cards from the Acorn deck displaying the height of a tree." %}
+
+## Exercises
+
+## Evaluation
