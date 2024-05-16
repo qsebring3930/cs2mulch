@@ -48,6 +48,7 @@ sidebar:
       evaluation_image.setAttribute("id", "evaluation_image" + id_num);
       evaluation_image.setAttribute("src", "/cs2mulch/assets/images/gsort10.png");
       evaluation_image.setAttribute("alt", "test image");
+      evaluation_image.setAttribute("style", "max-height: 350px");
       evaluation_image_bumper.appendChild(evaluation_image);
       evaluation_title_bumper.after(evaluation_image_bumper);
 
@@ -96,7 +97,7 @@ sidebar:
   }
 
   function newEvaluation(id_num) {
-    fetch("/cs2mulch/assets/evaluations/testevaluation.txt")
+    fetch("/cs2mulch/assets/evaluations/"+ firstData + ".txt")
     .then((res) => res.text())
     .then((text) => {
       var textArray = text.split('&');
@@ -118,7 +119,6 @@ sidebar:
     })
     .catch((e) => console.error(e));
   }
-
 
 
   window.onload = makeworksheet();
