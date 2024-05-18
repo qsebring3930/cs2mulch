@@ -111,7 +111,7 @@ tree:
         url: /tree/23insertion/
       - title: "<s>Red-Black Trees</s>"
         url: /tree/rbinsertion/
-      - title: "<s>Splay Trees</s>"
+      - title: "Splay Trees"
         url: /tree/splay/
       - title: "<s>Huffman Encoding</s>"
         url: /tree/huffman/
