@@ -1,9 +1,21 @@
-&7
+&20
 &{}/cs2mulch/assets/images/xgsort1.png{}If these two cards are flipped up to compare, what is the next step?{}Flip 53 down, flip up the face down card to the right of 68.
+&{}/cs2mulch/assets/images/xgsort1.png{}If these two cards were swapped, what is the next step?{}Flip 68 down, flip up the face down card to the left of 53.
+&{}/cs2mulch/assets/images/xgsort1.png{}Are the two face up cards in order or out of order?{}In order.
 &{}/cs2mulch/assets/images/xgsort2.png{}If these two cards are flipped up to compare, what is the next step?{}Flip up the entire collection.
+&{}/cs2mulch/assets/images/xgsort2.png{}If these two cards were swapped, what is the next step?{}Flip 47 down, flip up the face down card to the left of 39.
+&{}/cs2mulch/assets/images/xgsort2.png{}Are the two face up cards in order or out of order?{}In order.
 &{}/cs2mulch/assets/images/xgsort3.png{}If these two cards are flipped up to compare, what is the next step?{}Swap 69 and 10.
+&{}/cs2mulch/assets/images/xgsort3.png{}Are the two face up cards in order or out of order?{}Out of order.
 &{}/cs2mulch/assets/images/xgsort4.png{}If these two cards were swapped, what is the next step?{}Flip 56 down, flip up the face down card to the left of 22.
+&{}/cs2mulch/assets/images/xgsort4.png{}Are the two face up cards in order or out of order?{}In order.
+&{}/cs2mulch/assets/images/xgsort4.png{}If these two cards are flipped up to compare, what is the next step?{}Flip 22 down, flip up the face down card to the right of 56.
 &{}/cs2mulch/assets/images/xgsort5.png{}If these two cards were swapped, what is the next step?{}Flip 9 down, flip up the face down card to the right of 40.
+&{}/cs2mulch/assets/images/xgsort5.png{}If these two cards are flipped up to compare, what is the next step?{}Flip 9 down, flip up the face down card to the right of 40.
+&{}/cs2mulch/assets/images/xgsort5.png{}Are the two face up cards in order or out of order?{}In order.
 &{}/cs2mulch/assets/images/xgsort6.png{}Are the two face up cards in order or out of order?{}Out of order.
+&{}/cs2mulch/assets/images/xgsort6.png{}If these two cards are flipped up to compare, what is the next step?{}Swap 60 and 52.
 &{}/cs2mulch/assets/images/xgsort7.png{}Is this a valid comparison in the Gnomesort algorithm?{}No, only two cards should ever be face up when comparing cards.
-&
+&{}/cs2mulch/assets/images/xgsort8.png{}What is the first step in sorting this collection?{}Flip up the two left-most cards in the collection.
+&{}/cs2mulch/assets/images/noimage.png{}When do you flip up the face-down card to the left of the two face-up cards?{}After the two face-up cards have been swapped.
+&{}/cs2mulch/assets/images/noimage.png{}When do you flip up the face-down card to the right of the two face-up cards?{}When the two face-up cards are in order and haven't been swapped.
