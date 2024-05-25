@@ -8,6 +8,9 @@ sidebar:
 
 ## Goals
 
+Students will understand elements of the insertion algorithm
+for splay trees.
+
 ## Video
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/OnBKXvCx8Xk?si=EMyokunfs0cfO9UW' frameborder='0' allowfullscreen></iframe></div>
@@ -227,7 +230,7 @@ Since the *flipped* card **25** is a child of the *root* card we will perform a 
 
 The *rotate* card will replace the left child of the *current* card. The *current* card's left child that was replaced will be the right child of the *rotate* card. The *flipped* card **25** is now the root of the tree and we do not need to Splay again.
 
-{% include figure image_path="/assets/images/splay14.png" alt="Tree splayed with Zig operation." caption="Tree splayed with Zig operation." %}
+{% include figure image_path="/assets/images/splay15.png" alt="Tree splayed with Zig operation." caption="Tree splayed with Zig operation." %}
 
 ## Exercises
 
