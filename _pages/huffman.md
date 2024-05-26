@@ -84,9 +84,11 @@ We will remove the two **least-valued** cards, our face-down card with a value o
 
 ### Assigning a Binary Value
 
-#### Assign 23
+#### Assign O
 
-We start at the *root* card of the tree as our *current* card. The next card in the path to **23** is the *right* child of the *current* card, so the next binary number is 1. The *right* child is the new *current* card. Our current binary value for **23** is 1.
+We start at the *root* card of the tree as our *current* card. The leaf corresponding to the chit O is **23**.
+
+The next card in the path to **23** is the *right* child of the *current* card, so the next binary number is 1. The *right* child is the new *current* card. Our current binary value for **23** is 1.
 
 The next card in the path to **23** is the *right* child of the *current* card, so the next binary number is 1. The *right* child is the new *current* card. Our current binary value for **23** is 11.
 
@@ -94,7 +96,7 @@ The next card in the path to **23** is the *left* child of the *current* card, s
 
 The next card in the path to **23** is the *left* child of the *current* card, so the next binary number is 0. The *left* child is the new *current* card. Our current binary value for **23** is 1100.
 
-The **current** card is **23** which is the leaf we are looking to assign, so we are finished. The binary value for **23** is 1100.
+The **current** card is **23** which is the leaf corresponding to the chit we are looking to assign, so we are finished. The binary value for **O** is 1100.
 
 ## Exercises
 
