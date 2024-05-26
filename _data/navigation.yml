@@ -113,7 +113,7 @@ tree:
         url: /tree/rbinsertion/
       - title: "Splay Trees"
         url: /tree/splay/
-      - title: "<s>Huffman Encoding</s>"
+      - title: "Huffman Coding"
         url: /tree/huffman/
 
   - title: Heaps
