@@ -12,6 +12,8 @@ Students will understand elements of the Huffman coding algorithm, which assigns
 
 ## Video
 
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/4wa4ikom9-I?si=2Ns4DHQGVlGSEI4P' frameborder='0' allowfullscreen></iframe></div>
+
 ## Materials
 
 One deck of [Acorn]({{site.baseurl}}/tree) cards.
@@ -22,13 +24,15 @@ One deck of [Acorn]({{site.baseurl}}/tree) cards.
 
 Shuffle the deck and deal each student 8 cards. Give each student 8 random chits.
 
-Each student will place their 8 cards in a row face-up to form a *collection* in front of you. Each student will place a chit on each face-up card.
+Each student will place their 8 cards in a row face-up to form a *collection* in front of you. Each student will place a chit on each face-up card and then sort the *collection*
+
+Whenever we sort the *collection*, you are free to use whichever sorting method you have previously learned.
 
 ## Algorithm
 
 ### Constructing the Tree
 
-1. Remove the two **least-valued** cards from the *collection*. Draw a card from the deck and place it face-down as the *root* card of a new subtree. Place the **least-value** of the two cards as the *left* child of the *root* card and the **greatest-value** as the *right* child. The face-down *root* card has the value of its children added together. Reinsert the *root* card into the *collection* and keep all of its children intact.
+1. Sort the *collection* and remove the two **least-valued** cards from the *collection*. Draw a card from the deck and place it face-down as the *root* card of a new subtree. Place the **least-value** of the two cards as the *left* child of the *root* card and the **greatest-value** as the *right* child. The face-down *root* card has the value of its children added together. Reinsert the *root* card into the *collection* keeping all of its children intact and sort the *collection*.
 
 2. If there is more than one card in the *collection*, repeat step 1.
 
@@ -44,37 +48,37 @@ For each leaf of the tree, a new binary value can be assigned to it based on the
 
 ## Example
 
-First we lay out our initial collection and place a chit on each card.
+First we lay out our initial *collection*, place a chit on each card, and then sort the *collection*.
 
 {% include figure image_path="/assets/images/huffman0.png" alt="Initial collection with chits." caption="Initial collection with chits." %}
 
 ### Constructing the Tree
 
-We will remove the two **least-valued** cards **10** and **17** from our collection. We will draw a card from the deck and place it face-down as the *root* of a new subtree. **10** is the **least-value** of the two cards we removed so it will be the *left* child of the *root* card. **17** is the **greatest-value** of the two cards we removed so it will be the *right* child of the *root* card. The value of the face-down card is **27**, and we will reinsert it into the collection with all of it's children intact. There are 7 cards in the collection, so we will have to repeat this step.
+We will remove the two **least-valued** cards **10** and **17** from our *collection*. We will draw a card from the deck and place it face-down as the *root* of a new subtree. **10** is the **least-value** of the two cards we removed so it will be the *left* child of the *root* card. **17** is the **greatest-value** of the two cards we removed so it will be the *right* child of the *root* card. The value of the face-down card is **27**, we will reinsert it into the *collection* with all of it's children intact and sort the *collection*. There are 7 cards in the *collection*, so we will have to repeat this step.
 
 {% include figure image_path="/assets/images/huffman1.png" alt="Initial collection with chits." caption="Initial collection with chits." %}
 
-We will remove the two **least-valued** cards **23** and our face-down card with a value of **27** from our collection. We will draw a card from the deck and place it face-down as the *root* of a new subtree. **23** is the **least-value** of the two cards we removed so it will be the *left* child of the *root* card. **27** is the **greatest-value** of the two cards we removed so it will be the *right* child of the *root* card. The value of the face-down card is **50**, and we will reinsert it into the collection with all of it's children intact. There are 6 cards in the collection, so we will have to repeat this step.
+ the two **least-valued** cards **23** and our face-down card with a value of **27** from our *collection*. We will draw a card from the deck and place it face-down as the *root* of a new subtree. **23** is the **least-value** of the two cards we removed so it will be the *left* child of the *root* card. **27** is the **greatest-value** of the two cards we removed so it will be the *right* child of the *root* card. The value of the face-down card is **50**, we will reinsert it into the *collection* with all of it's children intact and sort the *collection*. There are 6 cards in the *collection*, so we will have to repeat this step.
 
 {% include figure image_path="/assets/images/huffman2.png" alt="Initial collection with chits." caption="Initial collection with chits." %}
 
-We will remove the two **least-valued** cards **33** and **42** from our collection. We will draw a card from the deck and place it face-down as the *root* of a new subtree. **33** is the **least-value** of the two cards we removed so it will be the *left* child of the *root* card. **42** is the **greatest-value** of the two cards we removed so it will be the *right* child of the *root* card. The value of the face-down card is **72**, and we will reinsert it into the collection with all of it's children intact. There are 5 cards in the collection, so we will have to repeat this step.
+We will remove the two **least-valued** cards **33** and **42** from our *collection*. We will draw a card from the deck and place it face-down as the *root* of a new subtree. **33** is the **least-value** of the two cards we removed so it will be the *left* child of the *root* card. **42** is the **greatest-value** of the two cards we removed so it will be the *right* child of the *root* card. The value of the face-down card is **72**, we will reinsert it into the *collection* with all of it's children intact and sort the *collection*. There are 5 cards in the *collection*, so we will have to repeat this step.
 
 {% include figure image_path="/assets/images/huffman3.png" alt="Initial collection with chits." caption="Initial collection with chits." %}
 
-We will remove the two **least-valued** cards **54** and our face-down card with a value of **50** from our collection. We will draw a card from the deck and place it face-down as the *root* of a new subtree. **50** is the **least-value** of the two cards we removed so it will be the *left* child of the *root* card. **54** is the **greatest-value** of the two cards we removed so it will be the *right* child of the *root* card. The value of the face-down card is **104**, and we will reinsert it into the collection with all of it's children intact. There are 4 cards in the collection, so we will have to repeat this step.
+We will remove the two **least-valued** cards **54** and our face-down card with a value of **50** from our *collection*. We will draw a card from the deck and place it face-down as the *root* of a new subtree. **50** is the **least-value** of the two cards we removed so it will be the *left* child of the *root* card. **54** is the **greatest-value** of the two cards we removed so it will be the *right* child of the *root* card. The value of the face-down card is **104**, we will reinsert it into the *collection* with all of it's children intact and sort the *collection*. There are 4 cards in the *collection*, so we will have to repeat this step.
 
 {% include figure image_path="/assets/images/huffman4.png" alt="Initial collection with chits." caption="Initial collection with chits." %}
 
-We will remove the two **least-valued** cards **58** and **65** from our collection. We will draw a card from the deck and place it face-down as the *root* of a new subtree. **58** is the **least-value** of the two cards we removed so it will be the *left* child of the *root* card. **65** is the **greatest-value** of the two cards we removed so it will be the *right* child of the *root* card. The value of the face-down card is **123**, and we will reinsert it into the collection with all of it's children intact. There are 3 cards in the collection, so we will have to repeat this step.
+We will remove the two **least-valued** cards **58** and **65** from our *collection*. We will draw a card from the deck and place it face-down as the *root* of a new subtree. **58** is the **least-value** of the two cards we removed so it will be the *left* child of the *root* card. **65** is the **greatest-value** of the two cards we removed so it will be the *right* child of the *root* card. The value of the face-down card is **123**, we will reinsert it into the *collection* with all of it's children intact and sort the *collection*. There are 3 cards in the *collection*, so we will have to repeat this step.
 
 {% include figure image_path="/assets/images/huffman5.png" alt="Initial collection with chits." caption="Initial collection with chits." %}
 
-We will remove the two **least-valued** cards, our face-down card with a value of **72** and our face-down card with a value of **104**, from our collection. We will draw a card from the deck and place it face-down as the *root* of a new subtree. **72** is the **least-value** of the two cards we removed so it will be the *left* child of the *root* card. **104** is the **greatest-value** of the two cards we removed so it will be the *right* child of the *root* card. The value of the face-down card is **176**, and we will reinsert it into the collection with all of it's children intact. There are 2 cards in the collection, so we will have to repeat this step.
+We will remove the two **least-valued** cards, our face-down card with a value of **72** and our face-down card with a value of **104**, from our *collection*. We will draw a card from the deck and place it face-down as the *root* of a new subtree. **72** is the **least-value** of the two cards we removed so it will be the *left* child of the *root* card. **104** is the **greatest-value** of the two cards we removed so it will be the *right* child of the *root* card. The value of the face-down card is **176**, we will reinsert it into the *collection* with all of it's children intact and sort the *collection*. There are 2 cards in the *collection*, so we will have to repeat this step.
 
 {% include figure image_path="/assets/images/huffman6.png" alt="Initial collection with chits." caption="Initial collection with chits." %}
 
-We will remove the two **least-valued** cards, our face-down card with a value of **123** and our face-down card with a value of **176** from our collection. We will draw a card from the deck and place it face-down as the *root* of a new subtree. **123** is the **least-value** of the two cards we removed so it will be the *left* child of the *root* card. **176** is the **greatest-value** of the two cards we removed so it will be the *right* child of the *root* card. The value of the face-down card is **299**, and we will reinsert it into the collection with all of it's children intact. There is only 1 card in the collection, so we are finished.
+We will remove the two **least-valued** cards, our face-down card with a value of **123** and our face-down card with a value of **176** from our *collection*. We will draw a card from the deck and place it face-down as the *root* of a new subtree. **123** is the **least-value** of the two cards we removed so it will be the *left* child of the *root* card. **176** is the **greatest-value** of the two cards we removed so it will be the *right* child of the *root* card. The value of the face-down card is **299**, we will reinsert it into the *collection* with all of it's children intact and sort the *collection*. There is only 1 card in the *collection*, so we are finished.
 
 {% include figure image_path="/assets/images/huffman7.png" alt="Initial collection with chits." caption="Initial collection with chits." %}
 
