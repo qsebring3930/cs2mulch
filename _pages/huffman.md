@@ -58,7 +58,7 @@ We will remove the two **least-valued** cards **10** and **17** from our *collec
 
 {% include figure image_path="/assets/images/huffman1.png" alt="Initial collection with chits." caption="Initial collection with chits." %}
 
- the two **least-valued** cards **23** and our face-down card with a value of **27** from our *collection*. We will draw a card from the deck and place it face-down as the *root* of a new subtree. **23** is the **least-value** of the two cards we removed so it will be the *left* child of the *root* card. **27** is the **greatest-value** of the two cards we removed so it will be the *right* child of the *root* card. The value of the face-down card is **50**, we will reinsert it into the *collection* with all of it's children intact and sort the *collection*. There are 6 cards in the *collection*, so we will have to repeat this step.
+ We will remove the two **least-valued** cards **23** and our face-down card with a value of **27** from our *collection*. We will draw a card from the deck and place it face-down as the *root* of a new subtree. **23** is the **least-value** of the two cards we removed so it will be the *left* child of the *root* card. **27** is the **greatest-value** of the two cards we removed so it will be the *right* child of the *root* card. The value of the face-down card is **50**, we will reinsert it into the *collection* with all of it's children intact and sort the *collection*. There are 6 cards in the *collection*, so we will have to repeat this step.
 
 {% include figure image_path="/assets/images/huffman2.png" alt="Initial collection with chits." caption="Initial collection with chits." %}
 
