@@ -17,13 +17,18 @@
   vertical-align: middle;
 }
 
+.choice_bumper {
+  display: flex;
+  padding-bottom: 10px;
+}
+
 input{
     display: inline-flex;
     vertical-align: middle;
 }
+
 label{
-  margin: auto auto auto 10px;
-  padding-bottom: 1px;
+  margin: -5px auto auto 10px;
   display: inline-flex;
   vertical-align: middle;
 }

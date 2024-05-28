@@ -1,6 +1,6 @@
 ---
 title: Worksheet
-permalink: /worksheet
+permalink: /worksheet/
 sidebar:
   nav: "tree"
 ---

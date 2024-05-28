@@ -115,9 +115,10 @@ function populate() { // Appending the necessary elements for the exercises, eva
       evaluation_image_bumper.after(evaluation_question_bumper);
 
       checkbox_form = document.createElement("FORM");
+      checkbox_form.setAttribute("id", "evaluation_form");
       for (i = 1; i < 5; i++){
         temp_bumper = document.createElement("DIV");
-        temp_bumper.setAttribute("class", "bumper");
+        temp_bumper.setAttribute("class", "choice_bumper");
         temp_choice = document.createElement("INPUT")
         temp_choice.setAttribute("type", "checkbox");
         temp_choice.setAttribute("style", "width:20px;height:20px; accent-color: #277214");
