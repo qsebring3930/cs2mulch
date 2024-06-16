@@ -94,6 +94,172 @@ The parent of the *current* card is the *rotate* card.
 
 ## Example
 
+### Add 35
+
+The first card flipped up is the **35**. Place this in front of you
+to become the *root*. Place a black-sided chit on top of the *root* card.
+
+{% include figure image_path="/assets/images/rbtree0.png" alt="need caption" caption="need caption" %}
+
+### Add 21
+
+The next card flipped up is **21**. We compare it to the *root*
+and determine that it is **less than** the *root*, so we look
+at the **upper-left** corner.
+
+There is no card in this corner, so we can **place the card**
+on this corner. We will place a *red-sided* chit on top of the *flipped* card.
+
+{% include figure image_path="/assets/images/rbtree1.png" alt="need caption" caption="need caption" %}
+
+Since the *parent* of the *flipped* card has a *black-sided* chit, there are no violations and we can continue.
+
+### Add 42
+
+The next card flipped up is **42**. We compare it to the *root*
+and determine that it is **greater than** the *root*, so we look
+at the **upper-right** corner.
+
+There is no card in this corner, so we can **place the card**
+on this corner. We will place a *red-sided* chit on top of the *flipped* card.
+
+{% include figure image_path="/assets/images/rbtree2.png" alt="need caption" caption="need caption" %}
+
+Since the *parent* of the *flipped* card has a *black-sided* chit, there are no violations and we can continue.
+
+### Add 55
+
+The next card flipped up is the **55**. We compare it to the *root*
+and determine that it is **greater than** the *root*, so we look
+at the **upper-right** corner.
+
+We find the **42** in this corner, and this becomes our *current* card.
+We compare our original **55** to the *current* card
+and determine that it is **greater than** the *current* card, so we look
+at the **upper-right** corner.
+
+There is no card in this corner, so we can **place the card**
+on this corner. We will place a *red-sided* chit on top of the *flipped* card.
+
+{% include figure image_path="/assets/images/rbtree3.png" alt="need caption" caption="need caption" %}
+
+The *parent* of the *flipped* card does not have a **black-sided** chit, so we need to fix violations.
+
+The *pibling* of the *flipped* card, **21**, has a **red-sided** chit on it, so we **flip** the chit on the *pibling* card, **21**, to be **black-sided**, the *parent* card, **42**, to be **black-sided**, and the *grandparent* card, **35**, to be **red-sided**. We will repeat the fix violations step with the *grandparent* card as the new *flipped* card.
+
+The *flipped* card **35** is the root of the tree so we will **flip** the chit to be **black-sided**.
+
+{% include figure image_path="/assets/images/rbtree4.png" alt="need caption" caption="need caption" %}
+
+### Add 9
+
+The next card flipped up is the **9**. We compare it to the *root*
+and determine that it is **less than** the *root*, so we look
+at the **upper-left** corner.
+
+We find the **21** in this corner, and this becomes our *current* card.
+We compare our original **9** to the *current* card
+and determine that it is **less than** the *current* card, so we look
+at the **upper-left** corner.
+
+There is no card in this corner, so we can **place the card**
+on this corner. We will place a *red-sided* chit on top of the *flipped* card.
+
+{% include figure image_path="/assets/images/rbtree5.png" alt="need caption" caption="need caption" %}
+
+Since the *parent* of the *flipped* card has a *black-sided* chit, there are no violations and we can continue.
+
+### Add 17
+
+The next card flipped up is the **17**. We compare it to the *root*
+and determine that it is **less than** the *root*, so we look
+at the **upper-left** corner.
+
+We find the **21** in this corner, and this becomes our *current* card.
+We compare our original **17** to the *current* card
+and determine that it is **less than** the *current* card, so we look
+at the **upper-left** corner.
+
+We find the **9** in this corner, and this becomes our *current* card.
+We compare our original **17** to the *current* card
+and determine that it is **greater than** the *current* card, so we look
+at the **upper-right** corner.
+
+There is no card in this corner, so we can **place the card**
+on this corner. We will place a *red-sided* chit on top of the *flipped* card.
+
+{% include figure image_path="/assets/images/rbtree6.png" alt="need caption" caption="need caption" %}
+
+The *parent* of the *flipped* card does not have a **black-sided** chit, so we need to fix violations.
+
+There is no *pibling* of our *flipped* card and the *flipped* card and the parent of the *flipped* card are opposite children so we will perform a *Zig-Zag* operation.
+
+We **flip** the chit on the *flipped* card, **17**, to it's black side, and **flip** the chit on the *grandparent* of the *flipped* card, **21** to it's red side.
+
+Since the *flipped* card is a right child, we perform a left rotation with the *flipped* card as the *current* card, then perform a right rotation with the *flipped* card as the *current* card.
+
+{% include figure image_path="/assets/images/rbtree7.png" alt="need caption" caption="need caption" %}
+
+### Add 64
+
+The next card flipped up is the **64**. We compare it to the *root*
+and determine that it is **greater than** the *root*, so we look
+at the **upper-right** corner.
+
+We find the **42** in this corner, and this becomes our *current* card.
+We compare our original **64** to the *current* card
+and determine that it is **greater than** the *current* card, so we look
+at the **upper-right** corner.
+
+We find the **55** in this corner, and this becomes our *current* card.
+We compare our original **64** to the *current* card
+and determine that it is **greater than** the *current* card, so we look
+at the **upper-right** corner.
+
+There is no card in this corner, so we can **place the card**
+on this corner. We will place a *red-sided* chit on top of the *flipped* card.
+
+{% include figure image_path="/assets/images/rbtree8.png" alt="need caption" caption="need caption" %}
+
+The *parent* of the *flipped* card does not have a **black-sided** chit, so we need to fix violations.
+
+There is no *pibling* of our *flipped* card and the *flipped* card and the parent of the *flipped* card are both right children so we will perform a *Zig* operation.
+
+We **flip** the chit on the *flipped* card, **64**, to it's black side, and **flip** the chit on the *grandparent* of the *flipped* card, **42** to it's red side.
+
+Since the *flipped* card and the *parent* card of the *flipped* card are both right children, we will perform a left rotation with the *parent* card as the *current* card.
+
+{% include figure image_path="/assets/images/rbtree9.png" alt="need caption" caption="need caption" %}
+
+### Add 29
+
+The next card flipped up is the **29**. We compare it to the *root*
+and determine that it is **less than** the *root*, so we look
+at the **upper-left** corner.
+
+We find the **17** in this corner, and this becomes our *current* card.
+We compare our original **29** to the *current* card
+and determine that it is **greater than** the *current* card, so we look
+at the **upper-right** corner.
+
+We find the **21** in this corner, and this becomes our *current* card.
+We compare our original **29** to the *current* card
+and determine that it is **greater than** the *current* card, so we look
+at the **upper-right** corner.
+
+There is no card in this corner, so we can **place the card**
+on this corner. We will place a *red-sided* chit on top of the *flipped* card.
+
+{% include figure image_path="/assets/images/rbtree10.png" alt="need caption" caption="need caption" %}
+
+The *parent* of the *flipped* card does not have a **black-sided** chit, so we need to fix violations.
+
+The *pibling* of the *flipped* card, **9**, has a **red-sided** chit on it, so we **flip** the chit on the *pibling* card, **9**, to be **black-sided**, the *parent* card, **21**, to be **black-sided**, and the *grandparent* card, **17**, to be **red-sided**. We will repeat the fix violations step with the *grandparent* card as the new *flipped* card.
+
+{% include figure image_path="/assets/images/rbtree11.png" alt="need caption" caption="need caption" %}
+
+Since the *parent* of the *flipped* card, **35**, has a *black-sided* chit, there are no violations and we can continue.
+
 ## Exercises
 
 ## Evaluation

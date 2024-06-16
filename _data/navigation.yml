@@ -109,7 +109,7 @@ tree:
     children:
       - title: "2-3 Trees"
         url: /tree/23insertion/
-      - title: "<s>Red-Black Trees</s>"
+      - title: "Red-Black Trees"
         url: /tree/rbinsertion/
       - title: "Splay Trees"
         url: /tree/splay/
