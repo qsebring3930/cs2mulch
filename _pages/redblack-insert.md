@@ -64,7 +64,7 @@ If the *parent* of the *flipped* card has a black-sided chit on it, there are no
 
 2. If the *pibling* of the *flipped* card has a **red-sided** chit on it, **flip** the chit on the *pibling* card, the *parent* card, and the *grandparent* card of the *flipped* card. Repeat the **Fix Violations** step and treat the *grandparent* card as the new *flipped* card.
 
-3. If the *pibling* of the *flipped* card has a **black-sided** chit on it or there is no *pibling* of the *flipped** card, and
+3. If the *pibling* of the *flipped* card has a **black-sided** chit on it or there is no *pibling* of the *flipped* card, and
 
     1. If the *flipped* card and the parent of the *flipped* card are both right children or both left children, go to the *Zig* portion.
 
