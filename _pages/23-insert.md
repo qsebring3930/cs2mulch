@@ -53,9 +53,9 @@ below to find where to place it in the tree.
 
 ### Insert
 
-1. The *current* node has **one** card, we will call it the *node* card. Compare the *flipped* card with the *node* card. If the *flipped* card is less than the *node* card, place the *flipped* card on the left side of the *node* card. Otherwise, place the *flipped* card on the right side of the *node* card.
+1. If the *current* node has **one** card, we will call it the *node* card. Compare the *flipped* card with the *node* card. If the *flipped* card is less than the *node* card, place the *flipped* card on the left side of the *node* card. Otherwise, place the *flipped* card on the right side of the *node* card.
 
-2. The *current* node has **two** cards, we will call them the *left-node* card and the *right-node* card. If the *flipped* card is **less than** the *left-node* card, place the *flipped* card on the left side of the *left-node* card. If the *flipped* card is **greater than** the *right-node* card, place the *flipped* card on the right side of the *right-node* card. Otherwise, place the *flipped* card on the left side of the *right-node* card. Continue to the *split* portion.
+2. If the *current* node has **two** cards, we will call them the *left-node* card and the *right-node* card. If the *flipped* card is **less than** the *left-node* card, place the *flipped* card on the left side of the *left-node* card. If the *flipped* card is **greater than** the *right-node* card, place the *flipped* card on the right side of the *right-node* card. Otherwise, place the *flipped* card on the left side of the *right-node* card. Continue to the *split* portion.
 
 ### Split
 

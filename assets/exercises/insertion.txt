@@ -1,0 +1,23 @@
+&22
+&{}/cs2mulch/assets/images/xinsertion1.png{}If 13 is the first number in a tree where is it placed?{}The root.
+&{}/cs2mulch/assets/images/xinsertion1.png{}If 17 is inserted into the tree where is it placed?{}The upper right of 13.
+&{}/cs2mulch/assets/images/xinsertion1.png{}If 9 is inserted into the tree where is it placed?{}The upper left of 13.
+&{}/cs2mulch/assets/images/xinsertion1.png{}If we compare 35 to the root of the tree, where do we look?{}The upper right corner.
+&{}/cs2mulch/assets/images/xinsertion1.png{}If we compare 11 to the root of the tree, where do we look?{}The upper left corner.
+&{}/cs2mulch/assets/images/xinsertion1.png{}If we are inserting 42, what do we do after we look in the upper right corner of the root?{}Place the number in this spot.
+&{}/cs2mulch/assets/images/xinsertion1.png{}If we are inserting 24 into the tree, what is the first step?{}Compare 24 to the root.
+&{}/cs2mulch/assets/images/xinsertion2.png{}If we are inserting 29 into the tree, what do we do after we look in the upper right corner of the root?{}Compare 29 to the number in the upper right.
+&{}/cs2mulch/assets/images/xinsertion2.png{}If 3 is inserted into the tree where is it placed?{}The upper left of 5.
+&{}/cs2mulch/assets/images/xinsertion2.png{}If 57 is inserted into the tree where is it placed?{}The upper right of 17.
+&{}/cs2mulch/assets/images/xinsertion2.png{}If we compare 44 to the root of the tree, where do we look?{}The upper right corner.
+&{}/cs2mulch/assets/images/xinsertion2.png{}If we compare 8 to the root of the tree, where do we look?{}The upper left corner.
+&{}/cs2mulch/assets/images/xinsertion2.png{}If we are inserting 19 into the tree, what do we do after we look in the upper right corner of the root?{}Compare 19 to the number in the upper right.
+&{}/cs2mulch/assets/images/xinsertion3.png{}If we are inserting 37 into the tree, how many comparisons would we make before placing?{}3 comparisons.
+&{}/cs2mulch/assets/images/xinsertion3.png{}If we compare 41 to 60 in the tree, where do we look?{}The upper left corner.
+&{}/cs2mulch/assets/images/xinsertion3.png{}If we compare 17 to 25 in the tree, where do we look?{}The upper left corner.
+&{}/cs2mulch/assets/images/xinsertion3.png{}If we are inserting 10 into the tree, what do we do after we look in the upper left corner of 25?{}Compare 10 to the number in the upper left.
+&{}/cs2mulch/assets/images/xinsertion3.png{}If we are inserting 54 into the tree, can we place it to the upper right of the root?{}No, there is already a number in this spot.
+&{}/cs2mulch/assets/images/xinsertion3.png{}If 49 is inserted into the tree where is it placed?{}The upper left of 60.
+&{}/cs2mulch/assets/images/xinsertion3.png{}If 27 is inserted into the tree where is it placed?{}The upper left of 30.
+&{}/cs2mulch/assets/images/xinsertion4.png{}If 60 was just inserted into this tree, is this a valid Binary Search Tree?{}No, 60 is greater than the root so it should not be in the upper left corner.
+&{}/cs2mulch/assets/images/xinsertion5.png{}Where instead should 10 be in a valid Binary Search Tree?{}The upper left of 39.
