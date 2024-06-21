@@ -1,0 +1,6 @@
+&5
+&{}/cs2mulch/assets/images/einsertion1.png{}Which number was not correctly inserted into the tree?{}55.{}68.{}29.{}64.{}64.
+&{}/cs2mulch/assets/images/einsertion2.png{}Which numbers are compared when inserting 63 into the tree?{}55, 60, 64.{}55, 60.{}55, 21, 29.{}55, 21, 29, 25.{}55, 60, 64.
+&{}/cs2mulch/assets/images/einsertion3.png{}If 28, 34, and 36 are inserted into the tree, what are the children of 30?{}28, 34.{}34, 36.{}34.{}36.{}34.
+&{}/cs2mulch/assets/images/einsertion4.png{}What number can be inserted to the upper left of 30?{}28.{}24.{}29.{}None.{}None.
+&{}/cs2mulch/assets/images/einsertion5.png{}If 40 and then 45 are inserted into the tree, where are they placed?{}The upper right of 35, the upper left of 40.{}The upper right of 35, the upper right of 40.{}The upper right of 25, the upper right of 35.{}The upper left of 60, the upper right of 35.{}The upper right of 35, the upper right of 40.
