@@ -2,6 +2,7 @@
 title: Cuckoo Hashing
 permalink: /hash/cuckoo/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "hash"
 ---

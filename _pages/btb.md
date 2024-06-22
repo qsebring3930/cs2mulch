@@ -2,6 +2,7 @@
 title: Before The Birds
 permalink: /tree/btb/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---

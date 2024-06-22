@@ -2,6 +2,7 @@
 title: Separate Chaining Insertion
 permalink: /hash/separate/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "hash"
 ---

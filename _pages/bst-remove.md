@@ -2,6 +2,7 @@
 title: Binary Search Tree Removal Algorithm
 permalink: /tree/remove/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---

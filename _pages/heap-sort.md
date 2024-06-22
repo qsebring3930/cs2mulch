@@ -2,6 +2,7 @@
 title: Heap Sorting Algorithm
 permalink: /tree/hsort/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---

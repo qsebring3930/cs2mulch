@@ -2,6 +2,7 @@
 title: MergeSort Algorithm
 permalink: /tree/mergesort/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---

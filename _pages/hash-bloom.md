@@ -2,6 +2,7 @@
 title: Bloom Filter
 permalink: /hash/bloom/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "hash"
 ---

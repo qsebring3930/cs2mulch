@@ -2,6 +2,7 @@
 title: Binary Search Tree Insertion Algorithm
 permalink: /tree/insertion/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---

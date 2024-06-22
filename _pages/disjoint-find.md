@@ -2,6 +2,7 @@
 title: Disjoint Finding Algorithm
 permalink: /hash/disjointfind/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "hash"
 ---

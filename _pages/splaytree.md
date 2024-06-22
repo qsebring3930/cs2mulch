@@ -2,6 +2,7 @@
 title: Splay Tree Algorithm
 permalink: /tree/splay/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---

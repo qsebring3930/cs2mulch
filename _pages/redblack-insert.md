@@ -2,6 +2,7 @@
 title: Red Black Tree Insertion Algorithm
 permalink: /tree/rbinsertion/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---

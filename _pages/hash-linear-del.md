@@ -2,6 +2,7 @@
 title: Linear Probing Deletion
 permalink: /hash/linear-del/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "hash"
 ---

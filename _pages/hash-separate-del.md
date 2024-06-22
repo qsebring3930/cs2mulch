@@ -2,6 +2,7 @@
 title: Separate Chaining Deletion
 permalink: /hash/separate-del/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "hash"
 ---

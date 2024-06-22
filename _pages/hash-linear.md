@@ -2,6 +2,7 @@
 title: Linear Probing Insertion
 permalink: /hash/linear/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "hash"
 ---

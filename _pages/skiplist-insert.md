@@ -2,6 +2,7 @@
 title: Skip List Insertion Algorithm
 permalink: /tree/slinsertion/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---

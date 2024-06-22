@@ -2,6 +2,7 @@
 title: Binary Search Tree Rotation Algorithm
 permalink: /tree/rotation/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---

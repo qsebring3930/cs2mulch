@@ -2,6 +2,7 @@
 title: Tree Lexicon
 permalink: /tree/lexicon/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---
