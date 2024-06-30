@@ -9,6 +9,9 @@ sidebar:
 
 ## Goals
 
+Students will understand elements of the removal algorithm
+for skip lists.
+
 ## Video
 
 ## Materials
