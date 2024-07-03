@@ -127,3 +127,5 @@ the following cards back to take its place, as shown below.
 after removal of the 25 card at the root." %}
 
 ## Exercises
+
+## Evaluation

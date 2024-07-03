@@ -1,0 +1,6 @@
+&5
+&{}/cs2mulch/assets/images/eremove1.png{}If we remove 26 from this tree, what are the cases for the repairs?{}From the middle-one corner, from the middle-two corners.{}From the middle-two corners, from the middle-two corners.{}From the middle-two corners, a leaf.{}A leaf, from the middle-two corners.{}From the middle-two corners, a leaf.
+&{}/cs2mulch/assets/images/eremove2.png{}What numbers can be removed from this tree without any repairs?{}10, 29, 40.{}10, 23, 45.{}10, 23, 40, 45.{}29, 40, 45.{}10, 23, 40, 45.
+&{}/cs2mulch/assets/images/eremove3.png{}If we remove 49 from this tree, what are all of the possible replacements?{}13, 26, 45.{}13, 7, 4.{}62, 68.{}62, 53.{}62, 53.
+&{}/cs2mulch/assets/images/eremove4.png{}If we remove the root of this tree twice, what is the new root of the tree?{}68.{}45.{}7.{}53.{}68.
+&{}/cs2mulch/assets/images/eremove5.png{}What numbers can be removed from this tree with only one repair?{}29, 53.{}23, 29, 53.{}7, 23, 29.{}7, 29, 53.{}7, 29, 53.
