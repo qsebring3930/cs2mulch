@@ -65,11 +65,7 @@ When inserting a new card we will always start with **level 1** as the *insert* 
 
 1. If the *flipped* card is **less than** the *compare* card, look to the highest level card to the left of the *compare* card.
 
-    1. If a card is *found* where you are looking, and
-
-        1. If the *current* level is **greater than level 1**, **repeat the *Where to Place* step again** with the *found* card becoming the *compare* card and the level of the *found* card becoming the *current* level next time around.
-
-        2. If the *current* level is **level 1**, place the *flipped* card to the left of the *compare* card at the *insert* level, place face-down cards below the *flipped* cards until they reach **level 1**.
+    1. If a card is *found* where you are looking, **repeat the *Where to Place* step again** with the *found* card becoming the *compare* card and the level of the *found* card becoming the *current* level next time around.
 
     2. If there is *no card* where you are looking, place the *flipped* card to the left of the *compare* card at the *insert* level, place face-down cards below the *flipped* cards until they reach **level 1**.
 
