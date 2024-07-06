@@ -127,9 +127,9 @@ tree:
 
   - title: Skip Lists
     children:
-      - title: "<s>Insert</s>"
+      - title: "Insert"
         url: /tree/slinsertion/
-      - title: "<s>Remove</s>"
+      - title: "Remove"
         url: /tree/slremove/
 
   - title: Games

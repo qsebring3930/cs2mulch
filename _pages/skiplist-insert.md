@@ -75,7 +75,7 @@ When inserting a new card we will always start with **level 1** as the *insert* 
 
 The first card flipped up is **29**. Place this in front of you be the first card in **level 1**.
 
-{% include figure image_path="/assets/images/skipinsert1.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/skipinsert1.png" alt="29 inserted into list at level 1." caption="29 inserted into list at level 1." %}
 
 ### Add 46
 
@@ -83,7 +83,7 @@ The next card flipped up is **46**. Since there are cards in our *insert* level,
 
 The flipped chit is black so we will go to the *Where to Place* portion.
 
-{% include figure image_path="/assets/images/skipinsert2.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/skipinsert2.png" alt="Sequence of flipped chits to determine level." caption="Sequence of flipped chits to determine level." %}
 
 The highest level left-most card in the list, **29**, will be our *compare* card. The highest level, **level 1**, will be our *current* level. Since the *flipped* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
 
@@ -91,7 +91,7 @@ There is no card to the right and our *current* level is **level 1**, so we will
 
 The *insert* level is **level 1** so there is no need to place any face-down cards below the *flipped* card.
 
-{% include figure image_path="/assets/images/skipinsert3.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/skipinsert3.png" alt="46 inserted into list at level 1." caption="46 inserted into list at level 1." %}
 
 ### Add 43
 
@@ -99,7 +99,7 @@ The next card flipped up is **43**. Since there are cards in our *insert* level,
 
 The flipped chit is black so we will go to the *Where to Place* portion.
 
-{% include figure image_path="/assets/images/skipinsert4.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/skipinsert4.png" alt="Sequence of flipped chits to determine level." caption="Sequence of flipped chits to determine level." %}
 
 The highest level left-most card in the list, **29**, will be our *compare* card. The highest level, **level 1**, will be our *current* level. Since the *flipped* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
 
@@ -107,7 +107,7 @@ We find the **46** to the right. The *flipped* card is **less than** the *found*
 
 The *insert* level is **level 1** so there is no need to place any face-down cards below the *flipped* card.
 
-{% include figure image_path="/assets/images/skipinsert4-1.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/skipinsert4-1.png" alt="43 inserted into list at level 1." caption="43 inserted into list at level 1." %}
 
 ### Add 15
 
@@ -115,7 +115,7 @@ The next card flipped up is **15**. Since there are cards in our *insert* level,
 
 The flipped chit is red so we will **repeat the *Which Level to Insert* step again** with **level 2** as our *insert* level. There are no cards at this level so we will go to the *Where to Place* portion.
 
-{% include figure image_path="/assets/images/skipinsert5.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/skipinsert5.png" alt="Sequence of flipped chits to determine level." caption="Sequence of flipped chits to determine level." %}
 
 The highest level left-most card in the list, **29**, will be our *compare* card. The highest level, **level 1**, will be our *current* level. Since the *flipped* card is **less than** the *compare* card we will look to the highest level card to the left of the *compare* card.
 
@@ -123,7 +123,7 @@ There is no card here so we will place the *flipped* card to the left of the *co
 
 The *insert* level is **level 2** so we will place **one** face-down card below the *flipped* card to reach **level 1**.
 
-{% include figure image_path="/assets/images/skipinsert6.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/skipinsert6.png" alt="15 inserted into list at level 2." caption="15 inserted into list at level 2." %}
 
 ### Add 12
 
@@ -131,7 +131,7 @@ The next card flipped up is **12**. Since there are cards in our *insert* level,
 
 The flipped chit is black so we will go to the *Where to Place* portion.
 
-{% include figure image_path="/assets/images/skipinsert7.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/skipinsert7.png" alt="Sequence of flipped chits to determine level." caption="Sequence of flipped chits to determine level." %}
 
 The highest level left-most card in the list, **15**, will be our *compare* card. The highest level, **level 2**, will be our *current* level. Since the *flipped* card is **less than** the *compare* card we will look to the highest level card to the left of the *compare* card.
 
@@ -139,7 +139,7 @@ There is no card here so we will place the *flipped* card to the left of the *co
 
 The *insert* level is **level 1** so there is no need to place any face-down cards below the *flipped* card.
 
-{% include figure image_path="/assets/images/skipinsert8.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/skipinsert8.png" alt="12 inserted into list at level 1." caption="12 inserted into list at level 1." %}
 
 ### Add 18
 
@@ -149,7 +149,7 @@ The flipped chit is red so we will **repeat the *Which Level to Insert* step aga
 
 The flipped chit is red so we will **repeat the *Which Level to Insert* step again** with **level 3** as our *insert* level. There are no cards at this level so we will go to the *Where to Place* portion.
 
-{% include figure image_path="/assets/images/skipinsert9.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/skipinsert9.png" alt="Sequence of flipped chits to determine level." caption="Sequence of flipped chits to determine level." %}
 
 The highest level left-most card in the list, **15**, will be our *compare* card. The highest level, **level 2**, will be our *current* level. Since the *flipped* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
 
@@ -161,7 +161,7 @@ We find the **29** to the right. The *flipped* card is **less than** the *found*
 
 The *insert* level is **level 3** so we will place **two** face-down cards below the *flipped* card to reach **level 1**.
 
-{% include figure image_path="/assets/images/skipinsert10.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/skipinsert10.png" alt="18 inserted into list at level 3." caption="18 inserted into list at level 3." %}
 
 ### Add 55
 
@@ -173,7 +173,7 @@ The flipped chit is red so we will **repeat the *Which Level to Insert* step aga
 
 The flipped chit is black so we will go to the *Where to Place* portion.
 
-{% include figure image_path="/assets/images/skipinsert11.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/skipinsert11.png" alt="Sequence of flipped chits to determine level." caption="Sequence of flipped chits to determine level." %}
 
 The highest level left-most card in the list, **18**, will be our *compare* card. The highest level, **level 3**, will be our *current* level. Since the *flipped* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
 
@@ -199,7 +199,7 @@ There is no card to the right and our *current* level is **level 1**, so we will
 
 The *insert* level is **level 3** so we will place **two** face-down cards below the *flipped* card to reach **level 1**.
 
-{% include figure image_path="/assets/images/skipinsert12.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/skipinsert12.png" alt="55 inserted into list at level 3." caption="55 inserted into list at level 3." %}
 
 ### Add 36
 
@@ -209,7 +209,7 @@ The flipped chit is red so we will **repeat the *Which Level to Insert* step aga
 
 The flipped chit is black so we will go to the *Where to Place* portion.
 
-{% include figure image_path="/assets/images/skipinsert13.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/skipinsert13.png" alt="Sequence of flipped chits to determine level." caption="Sequence of flipped chits to determine level." %}
 
 The highest level left-most card in the list, **18**, will be our *compare* card. The highest level, **level 3**, will be our *current* level. Since the *flipped* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
 
@@ -229,7 +229,7 @@ We find the **43** to the right. The *flipped* card is **less than** the *found*
 
 The *insert* level is **level 2** so we will place **one** face-down card below the *flipped* card to reach **level 1**.
 
-{% include figure image_path="/assets/images/skipinsert14.png" alt="this is a placeholder image" caption="Sample tree created by insertion algorithm deck." %}
+{% include figure image_path="/assets/images/skipinsert14.png" alt="36 inserted into list at level 2." caption="36 inserted into list at level 2." %}
 
 ## Exercises
 
