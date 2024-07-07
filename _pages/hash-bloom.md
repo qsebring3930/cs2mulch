@@ -27,9 +27,9 @@ row, ordered from 0 on the left to 7 on the right.
 
 {% include figure image_path="/assets/images/numbercards.png" alt="this is a placeholder image" caption="Number cards from the Menagerie deck." %}
 
-Shuffle the animal cards from the deck and deal each student 8 cards.
+Shuffle the animal cards from the deck and deal each student 6 cards.
 
-Each student will shuffle their 8 cards, and place them
+Each student will shuffle their 6 cards, and place them
 in a face-down pile to their left.
 
 Give each student a pile of chits.
@@ -104,7 +104,7 @@ When we hash the **Walrus**, The first number with a **gold** background is **6*
 
 #### Lookup Ladybug
 
-When we hash the **Ladybug**, The first number with a **gold** background is **4** and the second number with a **white** background is **0**. There is a chit on the number card 6 but not on the number card 0 so the **Ladybug** is not in our bloom filter.
+When we hash the **Ladybug**, The first number with a **gold** background is **4** and the second number with a **white** background is **0**. There is a chit on the number card 4 but not on the number card 0 so the **Ladybug** is not in our bloom filter.
 
 {% include figure image_path="/assets/images/bloom8.png" alt="Checking Ladybug hash against Bloom Filter." caption="Checking Ladybug hash against Bloom Filter." %}
 

@@ -48,7 +48,7 @@ hash:
     children:
       - title: "Cuckoo Hashing"
         url: /hash/cuckoo/
-      - title: "<s>Bloom Filter</s>"
+      - title: "Bloom Filter"
         url: /hash/bloom/
 
   - title: "Disjoint Sets"
