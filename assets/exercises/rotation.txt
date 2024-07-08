@@ -1,4 +1,4 @@
-&5
+&20
 &{}/cs2mulch/assets/images/xrotate1.png{}If we do a left rotation of this tree, what number is the new root of the tree?{}31.
 &{}/cs2mulch/assets/images/xrotate1.png{}If we do a right rotation of this tree, what is the pivot number?{}19.
 &{}/cs2mulch/assets/images/xrotate1.png{}If we do a left rotation of this tree, what child does the root become?{}Left child.
