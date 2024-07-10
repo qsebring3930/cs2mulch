@@ -14,6 +14,8 @@ for skip lists.
 
 ## Video
 
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/AnM-9C4B-1s?si=V2fCQxLtanqpQKyD' frameborder='0' allowfullscreen></iframe></div>
+
 ## Materials
 
 One deck of [Acorn]({{site.baseurl}}/tree) cards.
@@ -61,7 +63,7 @@ When inserting a new card we will always start with **level 1** as the *insert* 
 
     1. If the *flipped* card is **greater than** the *found* card, **repeat the *Where to Place* step again** with the *found* card becoming the *compare* card next time around.
 
-    2. If there is *no card* where you are looking or if the *flipped* card is **less than** the *found* card, and
+    2. If the *flipped* card is **less than** the *found* card, and
 
         1. If the *current* level is **greater than level 1**, **repeat the *Where to Place* step again** with the level below the *current* level becoming the *current* level next time around.
 
@@ -87,7 +89,7 @@ The highest level *head* card will be our *compare* card. The highest level, **l
 
 We find the **29** to the right. The *flipped* card is **greater than** the *found* card, so we will **repeat the *Where to Place* step again** with the *found* card becoming the *compare* card next time around. Since the *flipped* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
 
-There is no card to the right and our *current* level is **level 1**, so we will place the *flipped* card to the right of the *compare* card, **29**, at the *insert* level.
+We find the *tail* to the right. The *flipped* card is **less than** the *found* card and the *current* level is **level 1** so we will place the *flipped* card to the right of the *compare* card, **29**, at the *insert* level.
 
 The *insert* level is **level 1** so there is no need to place any face-down cards below the *flipped* card, there are already *head* and *tail* cards at this level so we can continue.
 
@@ -159,7 +161,7 @@ The highest level *head* card will be our *compare* card. The highest level, **l
 
 We find the **15** to the right. The *flipped* card is **greater than** the *found* card, so we will **repeat the *Where to Place* step again** with the *found* card becoming the *compare* card next time around. Since the *flipped* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
 
-There is no card to the right and our *current* level is **greater than level 1**, so we will **repeat the *Where to Place* step again** with the level below the *current* level, **level 1**, becoming the *current* level next time around.
+We find the *tail* to the right. The *flipped* card is **less than** the *found* card and the *current* level is **greater than level 1**, so we will **repeat the *Where to Place* step again** with the level below the *current* level, **level 1**, becoming the *current* level next time around.
 
 We find the **29** to the right. The *flipped* card is **less than** the *found* card and the *current* level is **level 1** so we will place the *flipped* card to the right of the *compare* card, at the *insert* level.
 
@@ -183,9 +185,9 @@ The highest level *head* card will be our *compare* card. The highest level, **l
 
 We find the **18** to the right. The *flipped* card is **greater than** the *found* card, so we will **repeat the *Where to Place* step again** with the *found* card becoming the *compare* card next time around. Since the *flipped* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
 
-There is no card to the right and our *current* level is **greater than level 1**, so we will **repeat the *Where to Place* step again** with the level below the *current* level, **level 2**, becoming the *current* level next time around.
+We find the *tail* to the right. The *flipped* card is **less than** the *found* card and the *current* level is **greater than level 1**, so we will **repeat the *Where to Place* step again** with the level below the *current* level, **level 2**, becoming the *current* level next time around.
 
-There is no card to the right and our *current* level is **greater than level 1**, so we will **repeat the *Where to Place* step again** with the level below the *current* level, **level 1**, becoming the *current* level next time around.
+We find the *tail* to the right. The *flipped* card is **less than** the *found* card and the *current* level is **greater than level 1**, so we will **repeat the *Where to Place* step again** with the level below the *current* level, **level 1**, becoming the *current* level next time around.
 
 We find the **29** to the right. The *flipped* card is **greater than** the *found* card, so we will **repeat the *Where to Place* step again** with the *found* card becoming the *compare* card next time around. Since the *flipped* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
 
@@ -193,7 +195,7 @@ We find the **43** to the right. The *flipped* card is **greater than** the *fou
 
 We find the **46** to the right. The *flipped* card is **greater than** the *found* card, so we will **repeat the *Where to Place* step again** with the *found* card becoming the *compare* card next time around. Since the *flipped* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
 
-There is no card to the right and our *current* level is **level 1**, so we will place the *flipped* card to the right of the *compare* card, **46**, at the *insert* level.
+We find the *tail* to the right. The *flipped* card is **less than** the *found* card and the *current* level is **level 1**, so we will place the *flipped* card to the right of the *compare* card, **46**, at the *insert* level.
 
 The *insert* level is **level 3** so we will place **two** face-down cards below the *flipped* card to reach **level 1**, there are already *head* and *tail* cards at this level so we can continue.
 

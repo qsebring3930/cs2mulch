@@ -14,6 +14,8 @@ for skip lists.
 
 ## Video
 
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/RBwCJcykLgA?si=pKrdtPAwNfcS3fVo' frameborder='0' allowfullscreen></iframe></div>
+
 ## Materials
 
 One deck of [Acorn]({{site.baseurl}}/tree) cards.
@@ -38,7 +40,7 @@ The removal algorithm for skip lists follows the same basic procedures found in 
 
     1. If the *remove* card is **greater than** the *found* card, **repeat the *Where to Remove* step again** with the *found* card becoming the *compare* card next time around.
 
-    2. If there is *no card* where you are looking or if the *remove* card is **less than** the *found* card, and
+    2. If the *remove* card is **less than** the *found* card, and
 
         1. If the *current* level is **greater than level 1**, **repeat the *Where to Remove* step again** with the level below the *current* level becoming the *current* level next time around.
 
@@ -58,7 +60,7 @@ The highest level *head* card in the list will be our *compare* card. The highes
 
 We find the **16** to the right. The *remove* card is **greater than** the *found* card, so we will **repeat the *Where to Remove* step again** with the *found* card becoming the *compare* card next time around. Since the *remove* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
 
-There is no card to the right and our *current* level is **greater than level 1**, so we will **repeat the *Where to Remove* step again** with the level below the *current* level, **level 2**, becoming the *current* level next time around. Since the *remove* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
+We find the *tail* to the right. The *remove* card is **less than** the *found* card and our *current* level is **greater than level 1**, so we will **repeat the *Where to Remove* step again** with the level below the *current* level, **level 2**, becoming the *current* level next time around. Since the *remove* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
 
 We find the **34** to the right. The *remove* card is the *found* card, so we will remove the *found* card from the list and shift the cards following the *remove* card to fill the hole. There are still cards at the *current* level so we can continue.
 
@@ -80,11 +82,11 @@ The highest level *head* card in the list will be our *compare* card. The highes
 
 We find the **16** to the right. The *remove* card is **greater than** the *found* card, so we will **repeat the *Where to Remove* step again** with the *found* card becoming the *compare* card next time around. Since the *remove* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
 
-There is no card to the right and our *current* level is **greater than level 1**, so we will **repeat the *Where to Remove* step again** with the level below the *current* level, **level 2**, becoming the *current* level next time around. Since the *remove* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
+We find the *tail* to the right. The *remove* card is **less than** the *found* card and our *current* level is **greater than level 1**, so we will **repeat the *Where to Remove* step again** with the level below the *current* level, **level 2**, becoming the *current* level next time around. Since the *remove* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
 
 We find the **40** to the right. The *remove* card is **greater than** the *found* card, so we will **repeat the *Where to Remove* step again** with the *found* card becoming the *compare* card next time around. Since the *remove* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
 
-There is no card to the right and our *current* level is **greater than level 1**, so we will **repeat the *Where to Remove* step again** with the level below the *current* level, **level 1**, becoming the *current* level next time around. Since the *remove* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
+We find the *tail* to the right. The *remove* card is **less than** the *found* card and our *current* level is **greater than level 1**, so we will **repeat the *Where to Remove* step again** with the level below the *current* level, **level 1**, becoming the *current* level next time around. Since the *remove* card is **greater than** the *compare* card we will look to the card to the right of the *compare* card at the *current* level.
 
 We find the **49** to the right. The *remove* card is the *found* card, so we will remove the *found* card from the list and shift the cards following the *remove* card to fill the hole. There are still cards at the *current* level so we can continue.
 
