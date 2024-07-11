@@ -2,6 +2,7 @@
 title: Insertion Sort Algorithm
 permalink: /tree/insertionsort/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---

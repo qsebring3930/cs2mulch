@@ -2,6 +2,7 @@
 title: Huffman Coding Algorithm
 permalink: /tree/huffman/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---

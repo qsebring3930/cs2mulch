@@ -1,0 +1,6 @@
+&5
+&{}/cs2mulch/assets/images/e23tree1.png{}If 32 was inserted into this tree, how many leaves would the tree have?{}4.{}6.{}7.{}5.{}6.
+&{}/cs2mulch/assets/images/e23tree2.png{}Which number inserted into this tree would end up in the root node?{}37.{}50.{}56.{}16.{}56.
+&{}/cs2mulch/assets/images/e23tree3.png{}If 16 was inserted into this tree, what would the four temporary children nodes be of the first split be?{}(4), (15), (29), and (46, 56).{}(4), (16), (29), and (46, 56).{}(4), (29), (31), and (46).{}(4), (25), (31), and (46, 56).{}(4), (16), (29), and (46, 56).
+&{}/cs2mulch/assets/images/e23tree4.png{}If 31 was inserted into this tree, how would the 4 temporary children of the first split be assigned to the children of the second split?{}6 and 15 to upper-left node, 29 and 36 to upper-right node.{}6 to upper-left node, 15 and 29 to upper-center node, and 31 to upper-right node.{}6 to upper-left node, 15 to upper-center node, 29 and 36 to upper-right node.{}6 and 15 to upper-left node, 29 and 31 to upper-right node.{}6 and 15 to upper-left node, 29 and 36 to upper-right node.
+&{}/cs2mulch/assets/images/e23tree5.png{}How many numbers could be inserted into this tree before a split occurs?{}5.{}6.{}2.{}4.{}4.

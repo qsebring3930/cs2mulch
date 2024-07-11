@@ -2,6 +2,7 @@
 title: Binary Search Tree Rotation Algorithm
 permalink: /tree/rotation/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---
@@ -13,6 +14,7 @@ for binary search trees.
 
 ## Video
 
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/OEo1GE6U2vg?si=R0DbpDRmcno0WsEv' frameborder='0' allowfullscreen></iframe></div>
 
 ## Materials
 

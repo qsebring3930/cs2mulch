@@ -2,6 +2,7 @@
 title: Kruskal's Algorithm
 permalink: /hash/disjointkruskal/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "hash"
 ---

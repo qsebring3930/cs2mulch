@@ -50,7 +50,7 @@ hash:
     children:
       - title: "Cuckoo Hashing"
         url: /hash/cuckoo/
-      - title: "<s>Bloom Filter</s>"
+      - title: "Bloom Filter"
         url: /hash/bloom/
 
   - title: "Disjoint Sets"
@@ -79,7 +79,7 @@ tree:
       - title: "Print-N-Play"
         url: /assets/pnp/pnp_Acorn.pdf
       - title: "Image Zip"
-        url: /assets/pnp/AcornDeck.zip
+        url: /assets/pnp/Acorns_Chits.zip
       - title: "Tree Lexicon"
         url: /tree/lexicon/
 
@@ -129,9 +129,9 @@ tree:
 
   - title: Skip Lists
     children:
-      - title: "<s>Insert</s>"
+      - title: "Insert"
         url: /tree/slinsertion/
-      - title: "<s>Remove</s>"
+      - title: "Remove"
         url: /tree/slremove/
 
   - title: Games

@@ -1,10 +1,20 @@
-&9
+&19
 &{}/cs2mulch/assets/images/x23tree0.png{}If 55 was inserted into this tree, what would the next step be?{}Split the node.
-&{}/cs2mulch/assets/images/x23tree0.png{}If 23 was inserted into this tree, what node would it end up in?{}The parent node.
-&{}/cs2mulch/assets/images/x23tree0.png{}If 5 was inserted into this tree, what node would it end up in?{}The upper-left child node.
+&{}/cs2mulch/assets/images/x23tree0.png{}If 23 was inserted into this tree, what node would it end up in?{}The root/parent node.
+&{}/cs2mulch/assets/images/x23tree0.png{}If 5 was inserted into this tree, what node would it end up in?{}The upper-left child node of the root node.
 &{}/cs2mulch/assets/images/x23tree1.png{}If 47 was inserted into this tree, what node would it end up in?{}The parent node.
-&{}/cs2mulch/assets/images/x23tree1.png{}If 39 was inserted into this tree, what node would it end up in?{}The upper-center child node.
-&{}/cs2mulch/assets/images/x23tree1.png{}If 68 was inserted into this tree, what node would it end up in?{}The upper-right child node.
-&{}/cs2mulch/assets/images/x23tree1.png{}If 50 was inserted into this tree, what would the next step be?{}Split the node.
+&{}/cs2mulch/assets/images/x23tree1.png{}If 39 was inserted into this tree, what node would it end up in?{}The upper-center child node of the root node.
+&{}/cs2mulch/assets/images/x23tree1.png{}If 68 was inserted into this tree, what node would it end up in?{}The upper-right child node of the root node.
+&{}/cs2mulch/assets/images/x23tree1.png{}If 48 was inserted into this tree, what would the next step be?{}Split the node.
+&{}/cs2mulch/assets/images/x23tree1.png{}If 36 was inserted into this tree, how many children would the parent node have during the split?{}3 children.
 &{}/cs2mulch/assets/images/x23tree2.png{}If 57 was inserted into this tree, how many splits would take place?{}2 splits.
 &{}/cs2mulch/assets/images/x23tree2.png{}If 50 was inserted into this tree, what would the next step be?{}Split the node.
+&{}/cs2mulch/assets/images/x23tree2.png{}If 44 was inserted into this tree, how many children would the parent node have during the split?{}4 children.
+&{}/cs2mulch/assets/images/x23tree2.png{}If 56 was inserted into this tree, what node would it end up in?{}The upper-right child node of the root node.
+&{}/cs2mulch/assets/images/x23tree3.png{}If 60 was inserted into this tree, what node would it end up in?{}The upper-right child node of the root node.
+&{}/cs2mulch/assets/images/x23tree3.png{}If 24 was inserted into this tree, how many splits would take place?{}None.
+&{}/cs2mulch/assets/images/x23tree3.png{}If 30 was inserted into this tree, what would the next step be?{}Split the node.
+&{}/cs2mulch/assets/images/x23tree3.png{}If 58 was inserted into this tree, how many splits would take place?{}1 split.
+&{}/cs2mulch/assets/images/x23tree4.png{}If 22 was inserted into this tree, what node would it end up in?{}The upper-center child node of the root node.
+&{}/cs2mulch/assets/images/x23tree4.png{}If 27 was inserted into this tree, how many splits would take place?{}2 splits.
+&{}/cs2mulch/assets/images/x23tree4.png{}If 38 was inserted into this tree, how many children would the parent node have?{}2 children.

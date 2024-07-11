@@ -2,6 +2,7 @@
 title: Bubble Sort Algorithm
 permalink: /tree/bubblesort/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---

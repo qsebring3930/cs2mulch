@@ -3,6 +3,7 @@ layout: splash
 title: About Us
 permalink: /about/
 toc: false
+toc_sticky: true
 
 ---
 

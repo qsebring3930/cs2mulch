@@ -1,0 +1,21 @@
+&20
+&{}/cs2mulch/assets/images/xrotate1.png{}If we do a left rotation of this tree, what number is the new root of the tree?{}31.
+&{}/cs2mulch/assets/images/xrotate1.png{}If we do a right rotation of this tree, what is the pivot number?{}19.
+&{}/cs2mulch/assets/images/xrotate1.png{}If we do a left rotation of this tree, what child does the root become?{}Left child.
+&{}/cs2mulch/assets/images/xrotate1.png{}If we do a right rotation of this tree, what is the side of rotation child of the pivot number?{}24.
+&{}/cs2mulch/assets/images/xrotate1.png{}If we do a left rotation of this tree, what will be the new children of the root?{}19.
+&{}/cs2mulch/assets/images/xrotate2.png{}If we do a right rotation of this tree, what number is the new root of the tree?{}5.
+&{}/cs2mulch/assets/images/xrotate2.png{}If we do a left rotation of this tree, what is the pivot number?{}42.
+&{}/cs2mulch/assets/images/xrotate2.png{}If we do a right rotation of this tree, what child does the root become?{}Right child.
+&{}/cs2mulch/assets/images/xrotate2.png{}If we do a left rotation of this tree, what is the side of rotation child of the pivot number?{}24.
+&{}/cs2mulch/assets/images/xrotate2.png{}If we do a right rotation of this tree, what will be the new children of the root?{}8 and 42.
+&{}/cs2mulch/assets/images/xrotate3.png{}If we do a left rotation of this tree, what number is the new root of the tree?{}35.
+&{}/cs2mulch/assets/images/xrotate3.png{}If we do a right rotation of this tree, what is the pivot number?{}12.
+&{}/cs2mulch/assets/images/xrotate3.png{}If we do a left rotation of this tree, what child does the root become?{}Left child.
+&{}/cs2mulch/assets/images/xrotate3.png{}If we do a right rotation of this tree, what is the side of rotation child of the pivot number?{}22.
+&{}/cs2mulch/assets/images/xrotate3.png{}If we do a left rotation of this tree, what will be the new children of the root?{}12.
+&{}/cs2mulch/assets/images/xrotate4.png{}If we do a right rotation of this tree, what number is the new root of the tree?{}5.
+&{}/cs2mulch/assets/images/xrotate4.png{}If we do a left rotation of this tree, what is the pivot number?{}51.
+&{}/cs2mulch/assets/images/xrotate4.png{}If we do a right rotation of this tree, what child does the root become?{}Right child.
+&{}/cs2mulch/assets/images/xrotate4.png{}If we do a left rotation of this tree, what is the side of rotation child of the pivot number?{}47.
+&{}/cs2mulch/assets/images/xrotate4.png{}If we do a right rotation of this tree, what will be the new children of the root?{}51.

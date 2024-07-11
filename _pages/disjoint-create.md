@@ -2,6 +2,7 @@
 title: Disjoint Creation Algorithm
 permalink: /hash/disjointcreate/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "hash"
 ---

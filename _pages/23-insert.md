@@ -2,6 +2,7 @@
 title: 2-3 Tree Insertion Algorithm
 permalink: /tree/23insertion/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---

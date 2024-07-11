@@ -1,0 +1,6 @@
+&5
+&{}/cs2mulch/assets/images/erotate1.png{}If we perform 3 left rotations on this tree, what is the new root?{}5.{}35.{}47.{}51.{}5.
+&{}/cs2mulch/assets/images/erotate2.png{}How many right rotations can we perform on this tree?{}2.{}3.{}4.{}1.{}2.
+&{}/cs2mulch/assets/images/erotate3.png{}Using rotations, what is the maximum possible height of this tree?{}3.{}2.{}4.{}5.{}5.
+&{}/cs2mulch/assets/images/erotate4.png{}If we perform a left rotation, then a right rotation, what is the root of the tree?{}26.{}40.{}30.{}34.{}30.
+&{}/cs2mulch/assets/images/erotate5.png{}If we perform 2 right rotations on this tree, what are the children of the new root?{}34 and 51.{}23 and 35.{}34 and 35.{}40 and 61.{}23 and 35.

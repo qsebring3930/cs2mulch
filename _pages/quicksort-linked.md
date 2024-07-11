@@ -2,6 +2,7 @@
 title: Quicksort Algorithm
 permalink: /tree/quicksort-linked/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---

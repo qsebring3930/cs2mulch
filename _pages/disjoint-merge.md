@@ -2,6 +2,7 @@
 title: Disjoint Merging Algorithm
 permalink: /hash/disjointmerge/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "hash"
 ---

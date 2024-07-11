@@ -2,6 +2,7 @@
 title: Binary Search Tree Removal Algorithm
 permalink: /tree/remove/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---
@@ -126,3 +127,5 @@ the following cards back to take its place, as shown below.
 after removal of the 25 card at the root." %}
 
 ## Exercises
+
+## Evaluation

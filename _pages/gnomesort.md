@@ -2,6 +2,7 @@
 title: Gnome Sort Algorithm
 permalink: /tree/gnomesort/
 toc: true
+toc_sticky: true
 sidebar:
   nav: "tree"
 ---

@@ -1,0 +1,21 @@
+&20
+&{}/cs2mulch/assets/images/xremove1.png{}If 10 is removed from the tree, where does 18 end up?{}The left child of the root.
+&{}/cs2mulch/assets/images/xremove1.png{}If 41 is removed from the tree, what is the next step?{}Look in the upper-right corner for the possible replacement.
+&{}/cs2mulch/assets/images/xremove1.png{}If 41 is removed from the tree, what number replaces it?{}51.
+&{}/cs2mulch/assets/images/xremove1.png{}If 41 is removed from the tree, how many repairs must be done?{}One.
+&{}/cs2mulch/assets/images/xremove1.png{}What happens if you remove 18 from the tree?{}Nothing, only 18 is removed.
+&{}/cs2mulch/assets/images/xremove2.png{}If 31 is removed from the tree, where does 29 end up?{}The left child of the root.
+&{}/cs2mulch/assets/images/xremove2.png{}If 29 is removed from the tree, what is the next step?{}Shift the branch in the upper-left corner down to replace 29.
+&{}/cs2mulch/assets/images/xremove2.png{}If 41 is removed from the tree, what number replaces it?{}51.
+&{}/cs2mulch/assets/images/xremove2.png{}If 25 is removed from the tree, how many repairs must be done?{}None.
+&{}/cs2mulch/assets/images/xremove2.png{}What happens if you remove 10 from the tree?{}The branch of the tree is shifted back.
+&{}/cs2mulch/assets/images/xremove3.png{}If 41 is removed from the tree, where does 63 end up?{}The right child of the root.
+&{}/cs2mulch/assets/images/xremove3.png{}If 25 is removed from the tree, what is the next step?{}Look in the upper-right corner for the possible replacement.
+&{}/cs2mulch/assets/images/xremove3.png{}If 10 is removed from the tree, what number replaces it?{}None.
+&{}/cs2mulch/assets/images/xremove3.png{}If 41 is removed from the tree, how many repairs must be done?{}Two.
+&{}/cs2mulch/assets/images/xremove3.png{}What happens if you remove 31 from the tree?{}The next highest card replaces 31.
+&{}/cs2mulch/assets/images/xremove4.png{}If 63 is removed from the tree, where does 69 end up?{}69 takes 63's spot in the tree.
+&{}/cs2mulch/assets/images/xremove4.png{}If 40 is removed from the tree, what is the next step?{}Look in the upper-right corner for the possible replacement.
+&{}/cs2mulch/assets/images/xremove4.png{}If 13 is removed from the tree, what number replaces it?{}18.
+&{}/cs2mulch/assets/images/xremove4.png{}If 29 is removed from the tree, how many repairs must be done?{}One.
+&{}/cs2mulch/assets/images/xremove4.png{}What happens if you remove 18 from the tree?{}The branch of the tree is shifted back.
