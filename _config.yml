@@ -291,9 +291,11 @@ defaults:
       comments: # true
       share: true
       related: true
+      sticky: true
     # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
+      sticky: true

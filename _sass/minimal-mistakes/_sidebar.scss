@@ -63,7 +63,7 @@
 
   img {
     width: 100%;
-    
+
     &.emoji {
       width: 20px;
       height: 20px;
@@ -89,6 +89,7 @@
       position: sticky;
       top: 2em;
       float: right;
+      padding-top: 10px;
     }
   }
 
@@ -315,4 +316,3 @@
     margin-right: initial;
   }
 }
-

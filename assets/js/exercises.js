@@ -30,22 +30,27 @@ function populate() { // Appending the necessary elements for the exercises, eva
 
       exercises_header = document.getElementById("exercises");
 
+      exercise_container = document.createElement("DIV");
+      exercise_container.setAttribute("style", "display: flex; flex-direction: column; height: 400px;");
+
+
       exercise_image = document.createElement("IMG");
       exercise_image.setAttribute("id", "exercise_image")
       exercise_image.setAttribute("src", "/cs2mulch/assets/images/gsort10.png");
       exercise_image.setAttribute("alt", "exercise image");
-      exercise_image.setAttribute("style", "max-height: 400px");
-      exercises_header.after(exercise_image);
+      exercise_image.setAttribute("style", "flex: 1; object-fit: contain; min-height: 0");
 
+      exercise_container.appendChild(exercise_image);
 
       question_bumper = document.createElement("DIV");
       question_bumper.setAttribute("class", "bumper");
       question_bumper.setAttribute("id","question_bumper");
       exercise_question = document.createElement("TEXT");
-      exercise_question.setAttribute("style", "font-family:Fredoka One");
+      exercise_question.setAttribute("style", "font-family:Fredoka One;");
       exercise_question.setAttribute("id","exercise_question");
       question_bumper.appendChild(exercise_question);
-      exercise_image.after(question_bumper);
+      exercise_container.appendChild(question_bumper);
+      //exercise_image_bumper.after(question_bumper);
 
       exercise_answer_bumper = document.createElement("DIV");
       exercise_answer_bumper.setAttribute("class", "bumper");
@@ -53,15 +58,19 @@ function populate() { // Appending the necessary elements for the exercises, eva
       exercise_answer = document.createElement("TEXT");
       exercise_answer.setAttribute("class", "answer");
       exercise_answer.setAttribute("id", "exercise_answer");
+      exercise_answer.setAttribute("style", "float: left;");
       exercise_answer_bumper.appendChild(exercise_answer);
-      question_bumper.after(exercise_answer_bumper);
+      exercise_container.appendChild(exercise_answer_bumper);
+      exercises_header.after(exercise_container);
+      //question_bumper.after(exercise_answer_bumper);
 
       reveal_button = document.createElement("BUTTON");
       reveal_button.innerHTML = "Reveal Answer";
       reveal_button.setAttribute("onclick", "revealAnswer()");
       reveal_button.setAttribute("id", "reveal_button");
       reveal_button.setAttribute("style", "border-radius:12px; font-family:Fredoka One; background-color: #277214; color: white; border-color: black");
-      exercise_answer_bumper.after(reveal_button);
+      exercise_container.after(reveal_button);
+      //exercise_answer_bumper.after(reveal_button);
 
       new_exercise_button = document.createElement("BUTTON");
       new_exercise_button.innerHTML = "Next Exercise";
@@ -95,24 +104,24 @@ function populate() { // Appending the necessary elements for the exercises, eva
       evaluation_title_bumper.appendChild(score);
       evaluation_header.after(evaluation_title_bumper);
 
-      evaluation_image_bumper = document.createElement("DIV");
-      evaluation_image_bumper.setAttribute("class", "bumper");
+      evaluation_container = document.createElement("DIV");
+      evaluation_container.setAttribute("style", "display: flex; flex-direction: column; height: 600px;");
+
       evaluation_image = document.createElement("IMG");
       evaluation_image.setAttribute("id", "evaluation_image");
       evaluation_image.setAttribute("src", "/cs2mulch/assets/images/gsort10.png");
       evaluation_image.setAttribute("alt", "evaluation image");
-      evaluation_image.setAttribute("style", "max-height: 400px");
-      evaluation_image_bumper.appendChild(evaluation_image);
-      evaluation_title_bumper.after(evaluation_image_bumper);
+      evaluation_image.setAttribute("style", "flex: 1; object-fit: contain; min-height: 0");
+      evaluation_container.appendChild(evaluation_image);
 
       evaluation_question_bumper = document.createElement("DIV");
       evaluation_question_bumper.setAttribute("class", "bumper");
       evaluation_question_bumper.setAttribute("id","evaluation_question_bumper");
       evaluation_question = document.createElement("TEXT");
       evaluation_question.setAttribute("id","evaluation_question");
-      evaluation_question.setAttribute("style","font-family:Fredoka One");
+      evaluation_question.setAttribute("style","font-family:Fredoka One;");
       evaluation_question_bumper.appendChild(evaluation_question);
-      evaluation_image_bumper.after(evaluation_question_bumper);
+      evaluation_container.appendChild(evaluation_question_bumper);
 
       checkbox_form = document.createElement("FORM");
       checkbox_form.setAttribute("id", "evaluation_form");
@@ -134,8 +143,8 @@ function populate() { // Appending the necessary elements for the exercises, eva
         temp_bumper.appendChild(label_temp_choice);
         checkbox_form.appendChild(temp_bumper);
       }
-
-      evaluation_question_bumper.after(checkbox_form);
+      evaluation_container.appendChild(checkbox_form);
+      evaluation_title_bumper.after(evaluation_container);
 
       eval_buttons_bumper = document.createElement("DIV");
       eval_buttons_bumper.setAttribute("class", "bumper");
@@ -150,7 +159,7 @@ function populate() { // Appending the necessary elements for the exercises, eva
       new_eval_button.setAttribute("id", "new_evaluation_button");
       new_eval_button.setAttribute("style", "border-radius:12px; font-family:Fredoka One; background-color: #277214; color: white; border-color: black; float: right");
       eval_buttons_bumper.appendChild(new_eval_button);
-      checkbox_form.after(eval_buttons_bumper);
+      evaluation_container.after(eval_buttons_bumper);
 
       notif_bumper = document.createElement("DIV");
       notif_bumper.setAttribute("class", "bumper");
