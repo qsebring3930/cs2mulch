@@ -1,0 +1,20 @@
+&1
+&{}/cs2mulch/assets/images/xrbtree1.png{}If we insert 12 into this tree, what color chit is placed on it?{}A red-sided chit.
+&{}/cs2mulch/assets/images/xrbtree1.png{}If we insert 42 into this tree, would there be any violations?{}Yes, the parent of 42 would have a red-sided chit.
+&{}/cs2mulch/assets/images/xrbtree1.png{}If we insert 18 into this tree, what would be the first step in fixing violations?{}Flip the chit on 4, 56, and 15.
+&{}/cs2mulch/assets/images/xrbtree2.png{}Are there any violations in this tree?{}Yes, 27 and its parent 3 both have a red-sided chit.
+&{}/cs2mulch/assets/images/xrbtree2.png{}If we just inserted 27 into this tree, what is the first step in fixing violations?{}Flip the chit on 3, 65, and 40.
+&{}/cs2mulch/assets/images/xrbtree2.png{}After we fix 27's violations by flipping the proper chits, what is the next step?{}Fix the violations of 40.
+&{}/cs2mulch/assets/images/xrbtree3.png{}If we just inserted 9 into this tree, what is the first step in fixing violations?{}Flip the chit on 20 and 27.
+&{}/cs2mulch/assets/images/xrbtree3.png{}After we fix 9's violations by flipping the proper chits, what is the next step?{}We perform a right rotation on the parent of 9.
+&{}/cs2mulch/assets/images/xrbtree3.png{}If we insert 35 into this tree, would there be any violations?{}No, the parent of 35 would have a black-sided chit.
+&{}/cs2mulch/assets/images/xrbtree4.png{}Are there any violations in this tree?{}There are no violations.
+&{}/cs2mulch/assets/images/xrbtree4.png{}If we insert 44 into this tree, would there be any violations?{}No, the parent of 44 would have a black-sided chit.
+&{}/cs2mulch/assets/images/xrbtree4.png{}If we insert 38 into this tree, would there be any violations?{}Yes, the parent of 38 would have a red-sided chit.
+&{}/cs2mulch/assets/images/xrbtree4.png{}If we insert 14 into this tree, what would be the first step in fixing violations?{}Flip the chit on 20, 27, and 36.
+&{}/cs2mulch/assets/images/xrbtree5.png{}Are there any violations in this tree?{}Yes, the root has a red-sided chit.
+&{}/cs2mulch/assets/images/xrbtree5.png{}How do we fix the violations in this tree?{}We flip the chit on the root, 36.
+&{}/cs2mulch/assets/images/xrbtree5.png{}Can we insert another number into this tree?{}No, violations must be completely fixed first.
+&{}/cs2mulch/assets/images/xrbtree6.png{}Are there any violations in this tree?{}There are no violations.
+&{}/cs2mulch/assets/images/xrbtree6.png{}If we insert 29 into this tree, would there be any violations?{}No, the parent of 29 would have a black-sided chit.
+&{}/cs2mulch/assets/images/xrbtree6.png{}If we insert 49 into this tree, what rotations would be necessary to fix violations?{} A right rotation, then a left rotation of the flipped card.
