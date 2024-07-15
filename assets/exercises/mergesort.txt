@@ -1,0 +1,18 @@
+&17
+&{}/cs2mulch/assets/images/xmerge1.png{}When merging these two subcollections, which card becomes the first card in the merged collection?{}12.
+&{}/cs2mulch/assets/images/xmerge1.png{}After 12 becomes the first card in the merged collection, what is the next step?{}We move the remaining card 64 to the right-hand side of 12.
+&{}/cs2mulch/assets/images/xmerge1.png{}After we merge these two subcollections, what is the next step?{}Move on to the next subcollection.
+&{}/cs2mulch/assets/images/xmerge2.png{}When merging these two subcollections, which card becomes the first card in the merged collection?{}19.
+&{}/cs2mulch/assets/images/xmerge2.png{}After 19 becomes the first card in the merged collection, what is the next step?{}We flip up the next card in 19's subcollection to become the new front.
+&{}/cs2mulch/assets/images/xmerge2.png{}When merging these two subcollections, which card becomes the second card in the merged collection?{}20, since there is no new front card after 19 that could be less than 20 and greater than 19.
+&{}/cs2mulch/assets/images/xmerge3.png{}If we just merged two subcollections, what is the next step?{}Flip down the merged collection.
+&{}/cs2mulch/assets/images/xmerge3.png{}Is this merged subcollection properly sorted?{}Yes.
+&{}/cs2mulch/assets/images/xmerge4.png{}When merging these two subcollections, which card becomes the first card in the merged collection?{}28.
+&{}/cs2mulch/assets/images/xmerge4.png{}After 12 becomes the first card in the merged collection, what is the next step?{}We move the remaining card 36 to the right-hand side of 28.
+&{}/cs2mulch/assets/images/xmerge4.png{}After we merge these two subcollections, what is the next step?{}Move on to the next subcollection.
+&{}/cs2mulch/assets/images/xmerge5.png{}If we just flipped down our merged collection, what is the next step?{}Since there is more than 1 card in the next subcollection, we divide it in half.
+&{}/cs2mulch/assets/images/xmerge5.png{}Based on the orientation of the face-down cards, what is our next subcollection?{}The right-most subcollection with 2 cards.
+&{}/cs2mulch/assets/images/xmerge6.png{}What is the first step in merging the two right-most subcollections?{}Flip the left-most card of each subcollection face up.
+&{}/cs2mulch/assets/images/xmerge7.png{}When merging these two subcollections, which card becomes the next card in the merged collection?{}7.
+&{}/cs2mulch/assets/images/xmerge7.png{}After 7 becomes the first card in the merged collection, what is the next step?{}We flip up the next card in 7's subcollection to become the new front.
+&{}/cs2mulch/assets/images/xmerge7.png{}After we merge these two subcollections, what is the next step?{}Flip all cards face up.
