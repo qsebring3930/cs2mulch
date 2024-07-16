@@ -1,0 +1,21 @@
+&20
+&{}/cs2mulch/assets/images/xheapinsert1.png{}If 27 was just inserted into the heap, how many swaps occur?{}None.
+&{}/cs2mulch/assets/images/xheapinsert1.png{}Is this a valid heap?{}Yes, all leafs take up the left-most spaces and all children are greater than their parents.
+&{}/cs2mulch/assets/images/xheapinsert1.png{}If we insert 18 into the heap, how many swaps occur?{}None.
+&{}/cs2mulch/assets/images/xheapinsert1.png{}If we insert 16 into the heap, where is it placed?{}The right child of 14.
+&{}/cs2mulch/assets/images/xheapinsert2.png{}If 12 was just inserted into the heap, how many swaps occur?{}One.
+&{}/cs2mulch/assets/images/xheapinsert2.png{}Is this a valid heap?{}No, not all children are greater than their parents.
+&{}/cs2mulch/assets/images/xheapinsert3.png{}If 26 was just inserted into the heap, how many swaps occur?{}None.
+&{}/cs2mulch/assets/images/xheapinsert3.png{}If we insert 6 into the heap, how many swaps occur?{}Two.
+&{}/cs2mulch/assets/images/xheapinsert3.png{}If we insert 34 into the heap, where is it placed?{}The left child of 34.
+&{}/cs2mulch/assets/images/xheapinsert4.png{}Is this a valid heap?{}No, not all children are greater than their parents.
+&{}/cs2mulch/assets/images/xheapinsert4.png{}If 9 was just inserted into the heap, how many swaps occur?{}Two.
+&{}/cs2mulch/assets/images/xheapinsert5.png{}Is this a valid heap?{}Yes, all leafs take up the left-most spaces and all children are greater than their parents.
+&{}/cs2mulch/assets/images/xheapinsert5.png{}If 65 was just inserted into the heap, how many swaps occur?{}None.
+&{}/cs2mulch/assets/images/xheapinsert5.png{}If we insert 28 into the heap, how many swaps occur?{}One.
+&{}/cs2mulch/assets/images/xheapinsert5.png{}If we insert 11 into the heap, how many swaps occur?{}Three.
+&{}/cs2mulch/assets/images/xheapinsert5.png{}If we insert 39 into the heap, where is it placed?{}The left child of 41.
+&{}/cs2mulch/assets/images/xheapinsert6.png{}Is this a valid heap?{}No, not all children are greater than their parents.
+&{}/cs2mulch/assets/images/xheapinsert6.png{}If 2 was just inserted into the heap, how many swaps occur?{}Three.
+&{}/cs2mulch/assets/images/xheapinsert7.png{}Is this a valid heap?{}No, not all children are greater than their parents.
+&{}/cs2mulch/assets/images/xheapinsert8.png{}Is this a valid heap?{}No, there is a leaf that isn't in the free left-most space.
