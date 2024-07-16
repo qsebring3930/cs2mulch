@@ -1,0 +1,15 @@
+&14
+&{}/cs2mulch/assets/images/xbloom1.png{}If the Vulture [3,3] is hashed into this list, what numbered cards have chits placed on them?{}3.
+&{}/cs2mulch/assets/images/xbloom1.png{}Is it likely the list contains the Lemur [2,1]?{}The list does not contain the Lemur.
+&{}/cs2mulch/assets/images/xbloom2.png{}If the Lampsucker [4,7] is hashed into this list, what numbered cards have chits placed on them?{}4 and 7.
+&{}/cs2mulch/assets/images/xbloom2.png{}Is it likely the list contains the Mammoth [3,5]?{}The list does not contain the Mammoth.
+&{}/cs2mulch/assets/images/xbloom3.png{}If the Siaming [2,2] is hashed into this list, what numbered cards have chits placed on them?{}None.
+&{}/cs2mulch/assets/images/xbloom3.png{}Is it likely the list contains the Reindeer [7,2]?{}The list does not contain the Reindeer.
+&{}/cs2mulch/assets/images/xbloom4.png{}If the Whale [0,5] is hashed into this list, what numbered cards have chits placed on them?{}None.
+&{}/cs2mulch/assets/images/xbloom4.png{}Is it likely the list contains the Porcupine [1,3]?{}Yes.
+&{}/cs2mulch/assets/images/xbloom5.png{}If the Tarsier [3,6] is hashed into this list, what numbered cards have chits placed on them?{}None.
+&{}/cs2mulch/assets/images/xbloom5.png{}Is it likely the list contains the Crocodile [1,2]?{}Yes.
+&{}/cs2mulch/assets/images/xbloom6.png{}If the Cassowary [0,0] is hashed into this list, what numbered cards have chits placed on them?{}0.
+&{}/cs2mulch/assets/images/xbloom6.png{}Is it likely the list contains the Capybara [0,1]?{}The list does not contain the Capybara.
+&{}/cs2mulch/assets/images/xbloom7.png{}If the Civet [6,2] is hashed into this list, what numbered cards have chits placed on them?{}6 and 2.
+&{}/cs2mulch/assets/images/xbloom7.png{}Is it likely the list contains the Tern [3,7]?{}Yes.
