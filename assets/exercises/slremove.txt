@@ -1,0 +1,21 @@
+&20
+&{}/cs2mulch/assets/images/xskipremove1.png{}If 36 is being removed from the list, what is the first found card?{}36.
+&{}/cs2mulch/assets/images/xskipremove1.png{}If 04 is removed from the list are any head or tail cards removed from the list?{}No.
+&{}/cs2mulch/assets/images/xskipremove1.png{}If 48 is being removed from the list, is it greater than the first found card?{}Yes.
+&{}/cs2mulch/assets/images/xskipremove1.png{}If 48 is being removed from the list, what is the next step after comparing it to the first found card?{}Repeat the Where to Remove step again with the found card, 36, becoming the compare card.
+&{}/cs2mulch/assets/images/xskipremove2.png{}If 36 is being removed from the list, what is the second found card?{}The tail card.
+&{}/cs2mulch/assets/images/xskipremove2.png{}If 22 is removed from the list are any head or tail cards removed from the list?{}Yes.
+&{}/cs2mulch/assets/images/xskipremove2.png{}If 7 is being removed from the list, is it greater than the first found card?{}No.
+&{}/cs2mulch/assets/images/xskipremove2.png{}If 55 is being removed from the list, what is the next step after comparing it to the first found card?{}Repeat the Where to Remove step again with the found card, 36, becoming the compare card.
+&{}/cs2mulch/assets/images/xskipremove3.png{}If 29 is being removed from the list, what is the first found card?{}34.
+&{}/cs2mulch/assets/images/xskipremove3.png{}If 34 is removed from the list are any head or tail cards removed from the list?{}Yes.
+&{}/cs2mulch/assets/images/xskipremove3.png{}If 43 is being removed from the list, is it greater than the first found card?{}Yes.
+&{}/cs2mulch/assets/images/xskipremove3.png{}If 68 is being removed from the list, what is the next step after comparing it to the first found card?{}Repeat the Where to Remove step again with the found card, 36, becoming the compare card.
+&{}/cs2mulch/assets/images/xskipremove4.png{}If 5 is being removed from the list, what is the second found card?{}5.
+&{}/cs2mulch/assets/images/xskipremove4.png{}If 66 is removed from the list are any head or tail cards removed from the list?{}No.
+&{}/cs2mulch/assets/images/xskipremove4.png{}If 60 is being removed from the list, is it greater than the first found card?{}Yes.
+&{}/cs2mulch/assets/images/xskipremove4.png{}If 21 is being removed from the list, what is the next step after comparing it to the found card?{}Repeat the Where to Remove step again with level 2 as the current level.
+&{}/cs2mulch/assets/images/xskipremove5.png{}If 15 is being removed from the list, what is the first found card?{}15.
+&{}/cs2mulch/assets/images/xskipremove5.png{}If 25 is removed from the list are any head or tail cards removed from the list?{}No.
+&{}/cs2mulch/assets/images/xskipremove5.png{}If 34 is being removed from the list, is it greater than the first found card?{}Yes.
+&{}/cs2mulch/assets/images/xskipremove5.png{}If 15 is being removed from the list, what is the next step after comparing it to the first found card?{}Remove the found card.

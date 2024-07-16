@@ -14,8 +14,8 @@
 &{}/cs2mulch/assets/images/xskipinsert4.png{}If 55 is inserted at level 1, how many face-down cards are placed below it?{}None.
 &{}/cs2mulch/assets/images/xskipinsert4.png{}If 52 is inserted at level 3, are any head or tail cards added to the list?{}No.
 &{}/cs2mulch/assets/images/xskipinsert4.png{}If 4 is being inserted into the list, what is the second found card?{}39.
-&{}/cs2mulch/assets/images/xskipinsert4.png{}If 16 is being inserted into the list, what is the next step after comparing it to the found card?{}Repeat the Where to Place step again, with level 2 as the current level.
+&{}/cs2mulch/assets/images/xskipinsert4.png{}If 16 is being inserted into the list, what is the next step after comparing it to the first found card?{}Repeat the Where to Place step again, with level 2 as the current level.
 &{}/cs2mulch/assets/images/xskipinsert5.png{}If 39 is inserted at level 1, how many face-down cards are placed below it?{}None.
 &{}/cs2mulch/assets/images/xskipinsert5.png{}If 24 is inserted at level 3, are any head or tail cards added to the list?{}Yes.
 &{}/cs2mulch/assets/images/xskipinsert5.png{}If 13 is being inserted into the list, what is the last found card?{}17.
-&{}/cs2mulch/assets/images/xskipinsert5.png{}If 68 is being inserted into the list, what is the next step after comparing it to the found card?{}Repeat the Where to Place step again with the found card, 21, becoming the compare card.
+&{}/cs2mulch/assets/images/xskipinsert5.png{}If 68 is being inserted into the list, what is the next step after comparing it to the first found card?{}Repeat the Where to Place step again with the found card, 21, becoming the compare card.
