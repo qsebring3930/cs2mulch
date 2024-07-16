@@ -1,0 +1,13 @@
+&12
+&{}/cs2mulch/assets/images/xheapsort1.png{}What is the first card in the sorted collection?{}17.
+&{}/cs2mulch/assets/images/xheapsort1.png{}What is the second card in the sorted collection?{}42.
+&{}/cs2mulch/assets/images/xheapsort2.png{}What is the first card in the sorted collection?{}30.
+&{}/cs2mulch/assets/images/xheapsort2.png{}After we add the first card to our sorted collection what is the new root of the heap?{}42.
+&{}/cs2mulch/assets/images/xheapsort2.png{}What is the last card in the sorted collection?{}69.
+&{}/cs2mulch/assets/images/xheapsort3.png{}What is the first card in the sorted collection?{}17.
+&{}/cs2mulch/assets/images/xheapsort3.png{}What is the third card in the sorted collection?{}28.
+&{}/cs2mulch/assets/images/xheapsort3.png{}After we add the third card to our sorted collection what is the new root of the heap?{}30.
+&{}/cs2mulch/assets/images/xheapsort4.png{}What is the second card in the sorted collection?{}7.
+&{}/cs2mulch/assets/images/xheapsort3.png{}After we add the sixth card to our sorted collection what is the new root of the heap?{}49.
+&{}/cs2mulch/assets/images/xheapsort5.png{}What is the last card in our sorted collection?{}60.
+&{}/cs2mulch/assets/images/xheapsort3.png{}After we add the third card to our sorted collection what is the new root of the heap?{}29.
