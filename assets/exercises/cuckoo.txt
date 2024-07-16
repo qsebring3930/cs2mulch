@@ -1,0 +1,21 @@
+&20
+&{}/cs2mulch/assets/images/xcuckoo1.png{}If the Civet [5,7] is hashed into this list, where is it placed?{}Below the number card 5.
+&{}/cs2mulch/assets/images/xcuckoo1.png{}If the Viperfish [0,4] is hashed into this list, how many replacements occur?{}One.
+&{}/cs2mulch/assets/images/xcuckoo1.png{}If the Cassowary [0,2] replaces the Tapir, where is the Tapir placed?{}Above the number card 1.
+&{}/cs2mulch/assets/images/xcuckoo2.png{}If the Fly [1,1] is hashed into this list, where is it placed?{}Below the number card 1.
+&{}/cs2mulch/assets/images/xcuckoo2.png{}If the Crocodile [1,2] is hashed into this list, how many replacements occur?{}None.
+&{}/cs2mulch/assets/images/xcuckoo2.png{}If the Pangolin [4,4] replaces the Sheep, where is the Sheep placed?{}Above the number card 1.
+&{}/cs2mulch/assets/images/xcuckoo3.png{}If the Tarsier [3,6] is hashed into this list, where is it placed?{}Below the number card 3.
+&{}/cs2mulch/assets/images/xcuckoo3.png{}If the Tiger [1,7] is hashed into this list, how many replacements occur?{}None.
+&{}/cs2mulch/assets/images/xcuckoo3.png{}If the Siaming [2,2] replaces the Newt, where is the Newt placed?{}Above the number card 0.
+&{}/cs2mulch/assets/images/xcuckoo4.png{}If the Pelican [2,4] is hashed into this list, where is it placed?{}Below the number card 2.
+&{}/cs2mulch/assets/images/xcuckoo4.png{}If the Lumpsucker [4,7] is hashed into this list, how many replacements occur?{}Three.
+&{}/cs2mulch/assets/images/xcuckoo4.png{}If the Rhinocerous [5,6] replaces the Leopard, where is the Leopard placed?{}Above the number card 3.
+&{}/cs2mulch/assets/images/xcuckoo5.png{}If the Lemur [2,1] is hashed into this list, where is it placed?{}Below the number card 2.
+&{}/cs2mulch/assets/images/xcuckoo5.png{}If the Newt [2,0] is hashed into this list, how many replacements occur?{}Three.
+&{}/cs2mulch/assets/images/xcuckoo5.png{}If the Whale [0,5] replaces the Herring, where is the Herring placed?{}Above the number card 7.
+&{}/cs2mulch/assets/images/xcuckoo6.png{}If the Quelea [4,3] is hashed into this list, where is it placed?{}Below the number card 4.
+&{}/cs2mulch/assets/images/xcuckoo6.png{}If the Boar [4,2] is hashed into this list, how many replacements occur?{}Five.
+&{}/cs2mulch/assets/images/xcuckoo6.png{}If the Baboon [5,5] replaces the Rhinocerous, where is the Rhinocerous placed?{}Above the number card 6.
+&{}/cs2mulch/assets/images/xcuckoo7.png{}If the Civet [6,2] is hashed into this list, where is it placed?{}Below the number card 6.
+&{}/cs2mulch/assets/images/xcuckoo7.png{}If the Kangaroo [3,0] is hashed into this list, how many replacements occur?{}One.
