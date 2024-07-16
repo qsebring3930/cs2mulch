@@ -1,0 +1,16 @@
+&15
+&{}/cs2mulch/assets/images/xhuffman1.png{}What are the two removed cards in this collection?{}0 and 12.
+&{}/cs2mulch/assets/images/xhuffman1.png{}What is the left child of the new subtree?{}0.
+&{}/cs2mulch/assets/images/xhuffman1.png{}After we create a new subtree with the least-valued cards, where is its new place in the list?{}The left-most card in the list.
+&{}/cs2mulch/assets/images/xhuffman2.png{}After we create a new subtree with the least-valued cards, where is its new place in the list?{}The left-most card in the list.
+&{}/cs2mulch/assets/images/xhuffman2.png{}What are the two removed cards in this collection?{}The face-down card with a value of 12 and 19.
+&{}/cs2mulch/assets/images/xhuffman2.png{}What is the right child of the new subtree?{}19.
+&{}/cs2mulch/assets/images/xhuffman2.png{}After we create a new subtree with the least-valued cards, where is its new place in the list?{}Between 47 and 68.
+&{}/cs2mulch/assets/images/xhuffman3.png{}What are the two removed cards in this collection?{}30 and 31.
+&{}/cs2mulch/assets/images/xhuffman3.png{}What is the left child of the new subtree?{}30.
+&{}/cs2mulch/assets/images/xhuffman2.png{}After we create a new subtree with the least-valued cards, where is its new place in the list?{}The right-most card in the list.
+&{}/cs2mulch/assets/images/xhuffman4.png{}What are the two removed cards in this collection?{}39 and the face-down card with a value of 42.
+&{}/cs2mulch/assets/images/xhuffman4.png{}What is the right child of the new subtree?{}The face-down card with a value of 42.
+&{}/cs2mulch/assets/images/xhuffman5.png{}What is the leaf corresponding to the chit P?{}14.
+&{}/cs2mulch/assets/images/xhuffman5.png{}What is the assigned binary value for C?{}10.
+&{}/cs2mulch/assets/images/xhuffman5.png{}What is the assigned binary value for R?{}01000.
