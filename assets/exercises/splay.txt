@@ -1,0 +1,22 @@
+&21
+&{}/cs2mulch/assets/images/xsplay1.png{}If 36 was just inserted into this tree what splays takes place?{}A Zig.
+&{}/cs2mulch/assets/images/xsplay1.png{}If we insert 62 into this tree, what splays would move it to the root?{}A Zig.
+&{}/cs2mulch/assets/images/xsplay1.png{}If we perform a Zig operation after inserting 36, what rotations are necessary?{}A right rotation.
+&{}/cs2mulch/assets/images/xsplay2.png{}If 20 was just inserted into this tree what splays takes place?{}A Zig-Zig.
+&{}/cs2mulch/assets/images/xsplay2.png{}If we insert 38 into this tree, what splays would move it to the root?{}A Zig-Zag.
+&{}/cs2mulch/assets/images/xsplay2.png{}If we perform a Zig-Zag operation after inserting 45, what rotations are necessary?{}A left rotation then a right rotation.
+&{}/cs2mulch/assets/images/xsplay3.png{}If 37 was just inserted into this tree what splays takes place?{}A Zig-Zag.
+&{}/cs2mulch/assets/images/xsplay3.png{}If we insert 31 into this tree, what splays would move it to the root?{}A Zig-Zig, then a Zig.
+&{}/cs2mulch/assets/images/xsplay3.png{}If we perform a Zig-Zig operation after inserting 49, what rotations are necessary?{}Two left rotations.
+&{}/cs2mulch/assets/images/xsplay4.png{}If 65 was just inserted into this tree, would one splay take it to the root?{}No, it would require two splays.
+&{}/cs2mulch/assets/images/xsplay4.png{}If 65 was just inserted into this tree what splays takes place?{}A Zig-Zig, then a Zig.
+&{}/cs2mulch/assets/images/xsplay4.png{}If we insert 42 into this tree, what splays would move it to the root?{}A Zig-Zag, then a Zig.
+&{}/cs2mulch/assets/images/xsplay4.png{}If we perform a Zig-Zag operation after inserting 30, what rotations are necessary?{}A right rotation then a left rotation.
+&{}/cs2mulch/assets/images/xsplay5.png{}If 37 was just inserted into this tree, would one splay take it to the root?{}Yes, just one Zig-Zag.
+&{}/cs2mulch/assets/images/xsplay5.png{}If 5 was just inserted into this tree what splays takes place?{}A Zig.
+&{}/cs2mulch/assets/images/xsplay5.png{}If we insert 2 into this tree, what splays would move it to the root?{}A Zig-Zig.
+&{}/cs2mulch/assets/images/xsplay5.png{}If we perform a Zig-Zag operation after inserting 37, what rotations are necessary?{}A right rotation then a left rotation.
+&{}/cs2mulch/assets/images/xsplay6.png{}If 26 was just inserted into this tree, would one splay take it to the root?{}No, it would require two splays.
+&{}/cs2mulch/assets/images/xsplay6.png{}If 26 was just inserted into this tree what splays takes place?{}A Zig-Zig, then a Zig.
+&{}/cs2mulch/assets/images/xsplay6.png{}If we insert 8 into this tree, what splays would move it to the root?{}A Zig-Zag, then a Zig.
+&{}/cs2mulch/assets/images/xsplay6.png{}If we perform a Zig-Zag operation after inserting 8, what rotations are necessary?{}A right rotation then a left rotation.

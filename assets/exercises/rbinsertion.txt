@@ -1,4 +1,4 @@
-&1
+&19
 &{}/cs2mulch/assets/images/xrbtree1.png{}If we insert 12 into this tree, what color chit is placed on it?{}A red-sided chit.
 &{}/cs2mulch/assets/images/xrbtree1.png{}If we insert 42 into this tree, would there be any violations?{}Yes, the parent of 42 would have a red-sided chit.
 &{}/cs2mulch/assets/images/xrbtree1.png{}If we insert 18 into this tree, what would be the first step in fixing violations?{}Flip the chit on 4, 56, and 15.

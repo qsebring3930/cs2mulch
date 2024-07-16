@@ -59,25 +59,23 @@ as the *current* card.
 
 1. If the *flipped* card is a child of the *root* card, go to the *Zig* portion.
 
-2. If the *flipped* card's parent is a child of the *root* card, and
+2. If the *flipped* card and the parent of the *flipped* card are both right children or both left children, go to the *Zig-Zig* portion.
 
-    1. If the *flipped* card and the parent of the *flipped* card are both right children or both left children, go to the *Zig-Zig* portion.
+3. If the *flipped* card and the parent of the *flipped* card are opposite children (i.e one is a left child, one is a right child), go to the *Zig-Zag* portion.
 
-    2. If the *flipped* card and the parent of the *flipped* card are opposite children (i.e one is a left child, one is a right child), go to the *Zig-Zag* portion.
+#### Zig
 
-### Zig
+1. If the *flipped* card is a left child, go to the *rotate* portion and perform a right rotation with the *flipped* card as the *current* card.
 
-1. If the *flipped* card is the left child of the *root* card, go to the *rotate* portion and perform a right rotation with the *flipped* card as the *current* card.
+2. If the *flipped* card is a right child, go to the *rotate* portion and perform a left rotation with the *flipped* card as the *current* card.
 
-2. If the *flipped* card is the right child of the *root* card, go to the *rotate* portion and perform a left rotation with the *flipped* card as the *current* card.
-
-### Zig-Zig
+#### Zig-Zig
 
 1. If the *flipped* card and the *parent* card of the *flipped* card are both left children, go the *rotate* portion and perform a right rotation with the *parent* card as the *current* card, then perform a right rotation with the *flipped* card as the *current* card.
 
 2. If the *flipped* card and the *parent* card of the *flipped* card are both right children, go the *rotate* portion and perform a left rotation with the *parent* card as the *current* card, then perform a left rotation with the *flipped* card as the *current* card.
 
-### Zig-Zag
+#### Zig-Zag
 
 1. If the *flipped* card is a left child, go the *rotate* portion and perform a right rotation with the *flipped* card as the *current* card, then perform a left rotation with the *flipped* card as the *current* card.
 
