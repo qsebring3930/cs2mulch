@@ -1,0 +1,16 @@
+&15
+&{}/cs2mulch/assets/images/xlinear1.png{}If the Jellyfish [2,6] is hashed into this table, what number card is it placed under?{}The 4 number card.
+&{}/cs2mulch/assets/images/xlinear1.png{}When hashing the Gazelle [1,4] into this table what is the card in the second unavailable spot?{}The Pelican.
+&{}/cs2mulch/assets/images/xlinear2.png{}If the Crocodile [1,2] is hashed into this table, what number card is it placed under?{}The 1 number card.
+&{}/cs2mulch/assets/images/xlinear2.png{}When hashing the Bison [6,3] into this table what is the card in the third unavailable spot?{}The Whale.
+&{}/cs2mulch/assets/images/xlinear3.png{}If the Okapi [3,4] is hashed into this table, what number card is it placed under?{}The 4 number card.
+&{}/cs2mulch/assets/images/xlinear3.png{}When hashing the Hippopotamus [7,5] into this table what is the card in the fifth unavailable spot?{}The Kiwi.
+&{}/cs2mulch/assets/images/xlinear4.png{}If the Tern [3,7] is hashed into this table, what number card is it placed under?{}The 6 number card.
+&{}/cs2mulch/assets/images/xlinear4.png{}When hashing the Vulture [3,3] into this table what is the card in the first unavailable spot?{}The Kangaroo.
+&{}/cs2mulch/assets/images/xlinear5.png{}If the Snake [1,6] is hashed into this table, what number card is it placed under?{}The 2 number card.
+&{}/cs2mulch/assets/images/xlinear5.png{}When hashing the Dog [5,4] into this table what is the card in the second unavailable spot?{}The Bison.
+&{}/cs2mulch/assets/images/xlinear6.png{}If the Crane [5,1] is hashed into this table, what number card is it placed under?{}The 2 number card.
+&{}/cs2mulch/assets/images/xlinear6.png{}When hashing the Hyena [7,1] into this table what is the card in the third unavailable spot?{}The Gazelle.
+&{}/cs2mulch/assets/images/xlinear7.png{}If the Badger [6,5] is hashed into this table, what number card is it placed under?{}The 6 number card.
+&{}/cs2mulch/assets/images/xlinear7.png{}How many more cards can be hashed into this table?{}7.
+&{}/cs2mulch/assets/images/xlinear8.png{}Can the Quail [6,0] be hashed into this table?{}No, there are no number cards left.

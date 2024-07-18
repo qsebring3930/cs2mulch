@@ -1,0 +1,15 @@
+&14
+&{}/cs2mulch/assets/images/xlineardel1.png{}What numbered card is flipped if we remove the Capybara?{}The 2 number card.
+&{}/cs2mulch/assets/images/xlineardel1.png{}How many cards are found before finding the Shrimp?{}4.
+&{}/cs2mulch/assets/images/xlineardel2.png{}What numbered card is flipped if we remove the Donkey?{}The 6 number card.
+&{}/cs2mulch/assets/images/xlineardel2.png{}How many cards are found before finding the Cassowary?{}1.
+&{}/cs2mulch/assets/images/xlineardel3.png{}What numbered card is flipped if we remove the Civet?{}The 5 number card.
+&{}/cs2mulch/assets/images/xlineardel3.png{}How many cards are found before finding the Wolf?{}0.
+&{}/cs2mulch/assets/images/xlineardel5.png{}What numbered card is flipped if we remove the Fly?{}The 1 number card.
+&{}/cs2mulch/assets/images/xlineardel5.png{}How many cards are found before finding the Gazelle?{}4.
+&{}/cs2mulch/assets/images/xlineardel6.png{}What numbered card is flipped if we remove the Gazelle?{}The 0 number card.
+&{}/cs2mulch/assets/images/xlineardel6.png{}How many cards are found before finding the Quail?{}0.
+&{}/cs2mulch/assets/images/xlineardel7.png{}What numbered card is flipped if we remove the Barracuda?{}The 2 number card.
+&{}/cs2mulch/assets/images/xlineardel7.png{}How many cards are found before finding the Siaming?{}3.
+&{}/cs2mulch/assets/images/xlineardel8.png{}What numbered card is flipped if we remove the Lyrebird?{}The 4 number card.
+&{}/cs2mulch/assets/images/xlineardel8.png{}How many cards are found before finding the Fly?{}1.
