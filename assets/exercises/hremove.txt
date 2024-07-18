@@ -1,0 +1,19 @@
+&20
+&{}/cs2mulch/assets/images/xheapremove1.png{}If we are removing from this heap, what is the selected card?{}44.
+&{}/cs2mulch/assets/images/xheapremove1.png{}After swapping the selected card with the root, which card does it swap places with?{}24.
+&{}/cs2mulch/assets/images/xheapremove1.png{}After swapping the selected card with the root, how many swaps occur?{}One.
+&{}/cs2mulch/assets/images/xheapremove2.png{}If we are removing from this heap, what is the selected card?{}65.
+&{}/cs2mulch/assets/images/xheapremove2.png{}After swapping the selected card with the root, which card does it swap places with?{}41.
+&{}/cs2mulch/assets/images/xheapremove2.png{}After swapping the selected card with the root, how many swaps occur?{}One.
+&{}/cs2mulch/assets/images/xheapremove3.png{}If we are removing from this heap, what is the selected card?{}68.
+&{}/cs2mulch/assets/images/xheapremove3.png{}After swapping the selected card with the root, which card does it swap places with?{}23.
+&{}/cs2mulch/assets/images/xheapremove3.png{}After swapping the selected card with the root, how many swaps occur?{}Two.
+&{}/cs2mulch/assets/images/xheapremove4.png{}If we are removing from this heap, what is the selected card?{}38.
+&{}/cs2mulch/assets/images/xheapremove4.png{}After swapping the selected card with the root, which card does it swap places with?{}15.
+&{}/cs2mulch/assets/images/xheapremove4.png{}After swapping the selected card with the root, how many swaps occur?{}Two.
+&{}/cs2mulch/assets/images/xheapremove5.png{}If we are removing from this heap, what is the selected card?{}53.
+&{}/cs2mulch/assets/images/xheapremove5.png{}After swapping the selected card with the root, which card does it swap places with?{}29.
+&{}/cs2mulch/assets/images/xheapremove5.png{}After swapping the selected card with the root, how many swaps occur?{}Two.
+&{}/cs2mulch/assets/images/xheapremove6.png{}If we are removing from this heap, what is the selected card?{}55.
+&{}/cs2mulch/assets/images/xheapremove6.png{}After swapping the selected card with the root, which card does it swap places with?{}41.
+&{}/cs2mulch/assets/images/xheapremove6.png{}After swapping the selected card with the root, how many swaps occur?{}Two.

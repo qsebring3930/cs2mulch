@@ -55,8 +55,7 @@ Once the *selected* card has swapped with the *root* card, repeat the step
 below until you have found the final location of the *selected* card in the tree.
 
 1. If the *selected* card is a *leaf*, then stop.
-2. If the *selected* card is **greater than** any of its *child* cards,
-swap the *selected* card with the *smallest* child card and repeat the **Swap If Higher** steps.
+2. If the *selected* card is **greater than** any of its *child* cards and the *smallest* child is not the old *root* card, swap the *selected* card with the *smallest* child card and repeat the **Swap If Higher** steps. Otherwise, swap the *selected* card with the *smallest* child card that is not the old *root* card and repeat the **Swap If Higher** steps.
 
 ## Example
 
