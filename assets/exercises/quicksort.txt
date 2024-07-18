@@ -1,0 +1,18 @@
+&17
+&{}/cs2mulch/assets/images/xquicksort1.png{}Is the current card greater than or less than the pivot card?{}Less than.
+&{}/cs2mulch/assets/images/xquicksort1.png{}What is the next step after comparing the current card to the pivot card?{}Shift the current card up and flip it face-down.
+&{}/cs2mulch/assets/images/xquicksort1.png{}After shifting the current card up, what is the next step?{}Flip the face-down card to the right of the current card face-up to become the new current card.
+&{}/cs2mulch/assets/images/xquicksort2.png{}Is the current card greater than or less than the pivot card?{}Less than.
+&{}/cs2mulch/assets/images/xquicksort2.png{}What is the next step after comparing the current card to the pivot card?{}Shift the current card up and flip it face-down.
+&{}/cs2mulch/assets/images/xquicksort2.png{}After shifting the current card up, what is the next step?{}Flip the face-down card to the right of the current card face-up to become the new current card.
+&{}/cs2mulch/assets/images/xquicksort3.png{}Is the current card greater than or less than the pivot card?{}Less than.
+&{}/cs2mulch/assets/images/xquicksort3.png{}What is the next step after comparing the current card to the pivot card?{}Shift the current card up and flip it face-down.
+&{}/cs2mulch/assets/images/xquicksort3.png{}After shifting the current card up, what is the next step?{}Flip the face-down card to the right of the current card face-up to become the new current card.
+&{}/cs2mulch/assets/images/xquicksort4.png{}Is the current card greater than or less than the pivot card?{}Less than.
+&{}/cs2mulch/assets/images/xquicksort4.png{}What is the next step after comparing the current card to the pivot card?{}Shift the current card up and flip it face-down.
+&{}/cs2mulch/assets/images/xquicksort4.png{}After shifting the current card up, what is the next step?{}Swap 43 with the card directly to the right of the shifted up cards.
+&{}/cs2mulch/assets/images/xquicksort5.png{}What card is flipped up as the pivot card?{}The right-most card in the face-down subcollection.
+&{}/cs2mulch/assets/images/xquicksort5.png{}What card is flipped up as the current card?{}The left-most card in the face-down subcollection.
+&{}/cs2mulch/assets/images/xquicksort6.png{}Is the current card greater than or less than the pivot card?{}Less than.
+&{}/cs2mulch/assets/images/xquicksort6.png{}What is the next step after comparing the current card to the pivot card?{}Shift the current card up and flip it face-down.
+&{}/cs2mulch/assets/images/xquicksort6.png{}After shifting the current card up, what is the next step?{}Flip the face-down card to the right of the current card face-up to become the new current card.
