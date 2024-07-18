@@ -1,0 +1,13 @@
+&12
+&{}/cs2mulch/assets/images/xseparatedel1.png{}If we remove the Ladybug, what numbered card do we look under?{}The 4 number card.
+&{}/cs2mulch/assets/images/xseparatedel1.png{}If we remove the Leopard, how many cards are shifted up?{}1.
+&{}/cs2mulch/assets/images/xseparatedel2.png{}If we remove the Dolphin, what numbered card do we look under?{}The 1 number card.
+&{}/cs2mulch/assets/images/xseparatedel2.png{}If we remove the Squid, how many cards are shifted up?{}0.
+&{}/cs2mulch/assets/images/xseparatedel3.png{}If we remove the Barracuda, what numbered card do we look under?{}The 2 number card.
+&{}/cs2mulch/assets/images/xseparatedel3.png{}If we remove the Hedgehog, how many cards are shifted up?{}2.
+&{}/cs2mulch/assets/images/xseparatedel4.png{}If we remove the Mammoth, what numbered card do we look under?{}The 3 number card.
+&{}/cs2mulch/assets/images/xseparatedel4.png{}If we remove the Lumpsucker, how many cards are shifted up?{}1.
+&{}/cs2mulch/assets/images/xseparatedel5.png{}If we remove the Bison, what numbered card do we look under?{}The 6 number card.
+&{}/cs2mulch/assets/images/xseparatedel5.png{}If we remove the Dolphin, how many cards are shifted up?{}2.
+&{}/cs2mulch/assets/images/xseparatedel6.png{}If we remove the Newt, what numbered card do we look under?{}The 2 number card.
+&{}/cs2mulch/assets/images/xseparatedel6.png{}If we remove the Shrimp, how many cards are shifted up?{}0.

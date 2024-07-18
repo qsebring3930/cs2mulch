@@ -1,0 +1,15 @@
+&14
+&{}/cs2mulch/assets/images/xseparate1.png{}If Meerkat [7,3] is hashed into this table, what number card is it placed under?{}The 7 number card.
+&{}/cs2mulch/assets/images/xseparate1.png{}If Boar [4,2] is hashed into this table, where is it placed under the number card?{}Under the Pangolin.
+&{}/cs2mulch/assets/images/xseparate2.png{}If Jackal [5,2] is hashed into this table, what number card is it placed under?{}The 5 number card.
+&{}/cs2mulch/assets/images/xseparate2.png{}If Dolphin [1,0] is hashed into this table, where is it placed under the number card?{}Directly under the number card.
+&{}/cs2mulch/assets/images/xseparate3.png{}If Aardvark [5,0] is hashed into this table, what number card is it placed under?{}The 5 number card.
+&{}/cs2mulch/assets/images/xseparate3.png{}If Jerboa [0,3] is hashed into this table, where is it placed under the number card?{}Under the Cassowary.
+&{}/cs2mulch/assets/images/xseparate4.png{}If Squid [0,6] is hashed into this table, what number card is it placed under?{}The 0 number card.
+&{}/cs2mulch/assets/images/xseparate4.png{}If Ladybug [4,0] is hashed into this table, where is it placed under the number card?{}Under the Sheep.
+&{}/cs2mulch/assets/images/xseparate5.png{}If Wolverine [2,5] is hashed into this table, what number card is it placed under?{}The 2 number card.
+&{}/cs2mulch/assets/images/xseparate5.png{}If Shrimp [7,7] is hashed into this table, where is it placed under the number card?{}Under the Hummingbird.
+&{}/cs2mulch/assets/images/xseparate6.png{}If Badger [6,5] is hashed into this table, what number card is it placed under?{}The 6 number card.
+&{}/cs2mulch/assets/images/xseparate6.png{}If Gecko [2,7] is hashed into this table, where is it placed under the number card?{}Under the Lemur.
+&{}/cs2mulch/assets/images/xseparate7.png{}Is this a valid table under the separate chaining algorithm?{}No, the Civet was inserted according to it's white number.
+&{}/cs2mulch/assets/images/xseparate7.png{}How can this table be corrected?{}Place the Civet under the Leopard.
