@@ -1,0 +1,16 @@
+&15
+&{}/cs2mulch/assets/images/xinsert1.png{}Are the two face-up cards in order or out of order?{}In order.
+&{}/cs2mulch/assets/images/xinsert1.png{}After comparing the two face-up cards, what is the next step?{}Flip both cards face-down.
+&{}/cs2mulch/assets/images/xinsert1.png{}If the two cards were just swapped, what is the next step?{}Flip the face-down card to the left of 18 face-up, Flip 22 face-down.
+&{}/cs2mulch/assets/images/xinsert2.png{}Are the two face-up cards in order or out of order?{}Out of order.
+&{}/cs2mulch/assets/images/xinsert2.png{}After comparing the two face-up cards, what is the next step?{}Swap the two cards.
+&{}/cs2mulch/assets/images/xinsert2.png{}After swapping these two cards, what is the next step?{}Flip the face-down card to the left of 57 face-up, Flip 61 face-down.
+&{}/cs2mulch/assets/images/xinsert3.png{}Are the two face-up cards in order or out of order?{}In order.
+&{}/cs2mulch/assets/images/xinsert3.png{}After comparing the two face-up cards, what is the next step?{}Flip both cards face-down.
+&{}/cs2mulch/assets/images/xinsert3.png{}If the two cards were just swapped, what is the next step?{}Flip the face-down card to the left of 4 face-up, Flip 37 face-down.
+&{}/cs2mulch/assets/images/xinsert4.png{}Are the two face-up cards in order or out of order?{}Out of order.
+&{}/cs2mulch/assets/images/xinsert4.png{}After comparing the two face-up cards, what is the next step?{}Swap the two cards.
+&{}/cs2mulch/assets/images/xinsert4.png{}After swapping these two cards, what is the next step?{}Flip the face-down card to the left of 11 face-up, Flip 58 face-down.
+&{}/cs2mulch/assets/images/xinsert5.png{}Are the two face-up cards in order or out of order?{}In order.
+&{}/cs2mulch/assets/images/xinsert5.png{}After comparing the two face-up cards, what is the next step?{}Flip both cards face-down.
+&{}/cs2mulch/assets/images/xinsert5.png{}If the two cards were just swapped, what is the next step?{}Flip both cards face-down.
