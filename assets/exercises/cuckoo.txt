@@ -1,7 +1,7 @@
 &20
 &{}/cs2mulch/assets/images/xcuckoo1.png{}If the Civet [5,7] is hashed into this list, where is it placed?{}Below the number card 5.
 &{}/cs2mulch/assets/images/xcuckoo1.png{}If the Viperfish [0,4] is hashed into this list, how many replacements occur?{}One.
-&{}/cs2mulch/assets/images/xcuckoo1.png{}If the Cassowary [0,2] replaces the Tapir, where is the Tapir placed?{}Above the number card 1.
+&{}/cs2mulch/assets/images/xcuckoo1.png{}If the Cassowary [0,0] replaces the Tapir, where is the Tapir placed?{}Above the number card 1.
 &{}/cs2mulch/assets/images/xcuckoo2.png{}If the Fly [1,1] is hashed into this list, where is it placed?{}Below the number card 1.
 &{}/cs2mulch/assets/images/xcuckoo2.png{}If the Crocodile [1,2] is hashed into this list, how many replacements occur?{}None.
 &{}/cs2mulch/assets/images/xcuckoo2.png{}If the Pangolin [4,4] replaces the Sheep, where is the Sheep placed?{}Above the number card 1.
